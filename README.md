@@ -1,4 +1,15 @@
-# Racial COVID-19 Vaccination Data Source
+# Economic Privilege, Neighborhood Characteristics, and Political Ideology are Associated with Racial Disparity in COVID-19 Vaccination
+
+
+## Abstract
+
+Vaccine uptake is critical to mitigating the impact of the COVID-19 pandemic in the United States (US), but structural inequities pose a serious threat to progress on this front. Although both availability of vaccines and vaccination rates have been accelerating in recent weeks, is there disparity in who is accessing the vaccine based on race? We combine data from state and federal agencies to estimate the relationship between various social determinants of health and racial disparity in COVID-19 vaccinations at the county-level. After controlling for vaccine hesitancy, our findings indicate that economic privilege (education and income), neighborhood characteristics (information technology in the home and vehicle rate), and political ideology are significantly associated with racial disparities in COVID 19 vaccination.We further contrast how these factors relate to the uptake of the COVID-19 vaccine as compared to the influenza vaccine, and  find that while there are several common factors related to both, there are key differences reflecting the unique societal context in which the pandemic has unfolded. 
+
+## Data Collection Process
+
+
+
+## Racial COVID-19 Vaccination Data Source
 
 | State          | # of Counties | # of Valid Counties | Link                                                                                                                                                          |
 |----------------|---------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -18,35 +29,89 @@
 | Virginia       | 133           | 111                 | https://www.vdh.virginia.gov/coronavirus/covid-19-vaccine-demographics/                                                                                       |
 | West Virginia  | 55            | 23                  | https://dhhr.wv.gov/COVID-19/Pages/default.aspx                                                                                                               |
 | Wisconsin      | 72            | 28                  | https://www.dhs.wisconsin.gov/covid-19/vaccine-data.htm#day                                                                                                   |
-| Sum            | 1296          | 759                 |                                                                                                                                                               |
+| Sum            | 1199          | 759                 |                                                                                                                                                               |
 
 
 
 
-# Descriptive Statistics
+## Descriptive Statistics
 
 We present descriptive statistics of the variables in our regression analysis. Each variable is at the county level, where the subscript `i` represents county `i`.									
+| variable                      | description                                                                                                                                                                                                           | source                                                                                                                                                                                                                                            | count | mean   | std    | min     | 25%    | 50%    | 75%    | max     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|--------|---------|--------|--------|--------|---------|
+| CVD                           | Covid vaccination disparity between white and black people in county i.                                                                                                                                               | Department of Health in each state                                                                                                                                                                                                                | 759   | 9.021  | 10.435 | -18.168 | 1.502  | 6.756  | 15.192 | 48.640  |
+| FVD                           | Flu vaccination disparity between white and black people in county i.                                                                                                                                                 | CMS Mapping Medical Disparity Tool (https://data.cms.gov/mapping-medicare-disparities)                                                                                                                                                            | 759   | 15.211 | 6.449  | -12.000 | 12.000 | 16.000 | 19.000 | 37.000  |
+| Median Income                 | Household median income in county i.                                                                                                                                                                                  | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 58.412 | 16.584 | 27.063  | 47.796 | 54.489 | 64.032 | 142.299 |
+| Median Income Disparity       | Household median income disparity between white and black people in county i.                                                                                                                                         | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 19.217 | 15.671 | -67.671 | 12.325 | 20.119 | 28.221 | 106.200 |
+| High School Graduation Rate   | Rate of high school or above education attainment in county i.                                                                                                                                                        | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 60.159 | 5.403  | 33.605  | 57.727 | 60.988 | 63.597 | 73.273  |
+| High School Disparity         | High school or above education attainment disparity between white and black people in county i.                                                                                                                       | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 4.470  | 8.789  | -32.600 | -0.500 | 4.200  | 9.000  | 41.000  |
+| Health Facilities Per Capita  | Number of potential health facilities which provide COVID-19 vaccine per person in county i.                                                                                                                          | VaxMap 2.0 (https://www.westhealth.org/resource/vaxmap-potential-covid-19-vaccine-locations/)                                                                                                                                                     | 759   | 0.024  | 0.012  | 0.000   | 0.017  | 0.021  | 0.026  | 0.098   |
+| COVID-19 Cases Per Capita     | Number of COVID-19 cases per person in county i by April 19th, 2021 (Junjie, do you compute this by yourself, or use jhu data directly? We need the definition aligned with JHU if this is adopted from JHU directly) | The Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (https://github.com/CSSEGISandData/COVID-19)                                                                                                                    | 759   | 9.260  | 2.650  | 2.092   | 7.486  | 9.286  | 10.924 | 24.131  |
+| Home IT Rate                  | Rate of computer and internet ownership in county i.                                                                                                                                                                  | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 82.652 | 7.070  | 55.600  | 78.700 | 83.400 | 87.600 | 97.000  |
+| Home IT Disparity             | Computer and internet ownership disparity between white and black people in county i.                                                                                                                                 | 2019 ACS 5-Year Estimates Subject Tables                                                                                                                                                                                                          | 759   | 7.543  | 10.496 | -21.700 | 1.250  | 7.100  | 13.050 | 73.700  |
+| Urban                         | Dummy variable which takes 1 if county i is located in the urban area.                                                                                                                                                | CMS Mapping Medical Disparity Tool (https://data.cms.gov/mapping-medicare-disparities)                                                                                                                                                            | 759   | 0.605  | 0.489  | 0.000   | 0.000  | 1.000  | 1.000  | 1.000   |
+| Rate of Vehicle Ownership     | Rate of households with vehicles in county i.                                                                                                                                                                         | CDC Social Vulnerability Index (https://www.atsdr.cdc.gov/placeandhealth/svi/index.html)                                                                                                                                                          | 759   | 92.914 | 4.952  | 23.000  | 91.800 | 93.700 | 95.200 | 98.600  |
+| Political Ideology            | Rate of people who voted republican in 2020 election in county i.                                                                                                                                                     | USA Today (https://www.usatoday.com/in-depth/graphics/2020/11/10/election-maps-2020-america-county-results-more-voters/6226197002/)                                                                                                               | 759   | 58.688 | 16.066 | 11.249  | 47.915 | 60.317 | 71.514 | 89.324  |
+| Segregation Index             | The degree to which black and white groups live separately from one another in county i.                                                                                                                              | 2021 County Health Rankings (https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/family-social-support/residential-segregation-blackwhite) | 759   | 44.941 | 16.163 | 0.041   | 33.305 | 45.875 | 56.490 | 86.159  |
+| Racial Bias                   | Weighted implicit racial bias in county i.                                                                                                                                                                            | Xu, K., Nosek, B., & Greenwald, A. (2014). Psychology data from the race implicit association test on the project implicit demo website. Journal of Open Psychology Data, 2(1).                                                                   | 759   | 39.989 | 1.877  | 31.156  | 39.192 | 40.176 | 40.884 | 44.453  |
+| Vaccine Hesitancy             | COVID-19 vaccine hesitancy in county i.                                                                                                                                                                               | Department of Health and Human Services, Office of the Assistant Secretary for Planning and Evaluation (https://aspe.hhs.gov/pdf-report/vaccine-hesitancy)                                                                                        | 759   | 17.673 | 3.792  | 7.000   | 15.000 | 18.000 | 19.500 | 27.000  |
+| Proportion of Black Residents | Proportion of black residents in county i.                                                                                                                                                                            | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | 759   | 12.367 | 13.124 | 0.541   | 3.042  | 7.429  | 16.784 | 76.973  |
+| Flu Vaccination Rate          | Rate of flu vaccination in county i.                                                                                                                                                                                  | CMS Mapping Medical Disparity Tool (https://data.cms.gov/mapping-medicare-disparities)                                                                                                                                                            | 759   | 47.610 | 7.549  | 19.000  | 43.000 | 49.000 | 53.000 | 65.000  |
+| FluVax_Disparity              | Flu vaccination disparity between white and black people in county i.                                                                                                                                                 | CMS Mapping Medical Disparity Tool (https://data.cms.gov/mapping-medicare-disparities)                                                                                                                                                            | 759   | 15.211 | 6.449  | -12.000 | 12.000 | 16.000 | 19.000 | 37.000  |
+| Above75 Rate                  | Elderly population (>=75) disparity between white and black people in county i.                                                                                                                                       | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | 759   | 7.671  | 1.848  | 3.515   | 6.457  | 7.683  | 8.753  | 17.853  |
+| Above75 Disparity             | Rate of elderly population (>=75) in county i.                                                                                                                                                                        | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | 759   | 3.638  | 2.310  | -4.910  | 2.215  | 3.515  | 5.074  | 12.933  |
 
-|                        | count | mean   | std    | min     | 25%    | 50%    | 75%    | max     |
-|------------------------|-------|--------|--------|---------|--------|--------|--------|---------|
-| Vax_DisparityY         | 759   | 9.021  | 10.435 | -18.168 | 1.502  | 6.756  | 15.192 | 48.640  |
-| FluVax_DisparityY      | 759   | 15.211 | 6.449  | -12.000 | 12.000 | 16.000 | 19.000 | 37.000  |
-| MedianIncome           | 759   | 58.412 | 16.584 | 27.063  | 47.796 | 54.489 | 64.032 | 142.299 |
-| MedianIncome_Disparity | 759   | 19.217 | 15.671 | -67.671 | 12.325 | 20.119 | 28.221 | 106.200 |
-| HighSchool_Rate        | 759   | 60.159 | 5.403  | 33.605  | 57.727 | 60.988 | 63.597 | 73.273  |
-| HighSchool_Disparity   | 759   | 4.470  | 8.789  | -32.600 | -0.500 | 4.200  | 9.000  | 41.000  |
-| FacNumRate             | 759   | 0.024  | 0.012  | 0.000   | 0.017  | 0.021  | 0.026  | 0.098   |
-| CaseRate               | 759   | 9.260  | 2.650  | 2.092   | 7.486  | 9.286  | 10.924 | 24.131  |
-| IT_Rate                | 759   | 82.652 | 7.070  | 55.600  | 78.700 | 83.400 | 87.600 | 97.000  |
-| IT_Disparity           | 759   | 7.543  | 10.496 | -21.700 | 1.250  | 7.100  | 13.050 | 73.700  |
-| urban                  | 759   | 0.605  | 0.489  | 0.000   | 0.000  | 1.000  | 1.000  | 1.000   |
-| vehicle                | 759   | 92.914 | 4.952  | 23.000  | 91.800 | 93.700 | 95.200 | 98.600  |
-| republican_rate        | 759   | 58.688 | 16.066 | 11.249  | 47.915 | 60.317 | 71.514 | 89.324  |
-| Segregation            | 759   | 44.941 | 16.163 | 0.041   | 33.305 | 45.875 | 56.490 | 86.159  |
-| racial_weighted_bias   | 759   | 39.989 | 1.877  | 31.156  | 39.192 | 40.176 | 40.884 | 44.453  |
-| hesitancy              | 759   | 17.673 | 3.792  | 7.000   | 15.000 | 18.000 | 19.500 | 27.000  |
-| Black_Prop             | 759   | 12.367 | 13.124 | 0.541   | 3.042  | 7.429  | 16.784 | 76.973  |
-| FluVax_Rate            | 759   | 47.610 | 7.549  | 19.000  | 43.000 | 49.000 | 53.000 | 65.000  |
-| FluVax_Disparity       | 759   | 15.211 | 6.449  | -12.000 | 12.000 | 16.000 | 19.000 | 37.000  |
-| Above75_Rate           | 759   | 7.671  | 1.848  | 3.515   | 6.457  | 7.683  | 8.753  | 17.853  |
-| Above75_Disparity      | 759   | 3.638  | 2.310  | -4.910  | 2.215  | 3.515  | 5.074  | 12.933  |
+
+## Regression Results
+
+|                        | (1)            | (2)            | (3)            | (4)       | (4)            | (5)            |
+|------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
+| VARIABLES              | CVD (March 27) | CVD (April 07) | **CVD (April 19)** | **FVD 2019**       | CVD (April 19) | CVD (April 19) |
+|                        |                |                |                |           |                |                |
+| MedianIncome           | -1.937**       | -2.320**       | -2.434**       | 1.145*    | -3.217***      | -2.240**       |
+|                        | (0.866)        | (0.995)        | (1.084)        | (0.589)   | (1.054)        | (0.929)        |
+| MedianIncome_Disparity | 0.703**        | 0.776*         | 0.984*         | 0.843**   | 0.625          | 1.109**        |
+|                        | (0.287)        | (0.394)        | (0.489)        | (0.312)   | (0.486)        | (0.497)        |
+| HighSchool_Rate        | 2.177***       | 2.639***       | 2.790***       | -0.243    | 2.891***       | 3.024***       |
+|                        | (0.510)        | (0.637)        | (0.729)        | (0.336)   | (0.638)        | (0.481)        |
+| HighSchool_Disparity   | 2.043***       | 2.562***       | 2.993***       | -0.116    | 2.861***       | 1.981***       |
+|                        | (0.420)        | (0.435)        | (0.474)        | (0.469)   | (0.458)        | (0.515)        |
+| FacNumRate             | 1.012*         | 1.147          | 1.451*         | -0.282    | 1.354**        | 1.304**        |
+|                        | (0.498)        | (0.655)        | (0.760)        | (0.350)   | (0.621)        | (0.581)        |
+| CaseRate               | 0.379          | 0.488          | 0.318          | 0.219     | 0.496          | 0.632**        |
+|                        | (0.405)        | (0.444)        | (0.488)        | (0.330)   | (0.310)        | (0.240)        |
+| IT_Rate                | 1.148***       | 1.266**        | 1.576***       | 0.113     | 1.610**        | 0.705          |
+|                        | (0.370)        | (0.441)        | (0.472)        | (0.382)   | (0.558)        | (0.584)        |
+| IT_Disparity           | -0.00401       | 0.118          | 0.216          | 0.0783    | 0.0242         | 0.633          |
+|                        | (0.539)        | (0.609)        | (0.756)        | (0.380)   | (0.700)        | (0.684)        |
+| urban                  | -0.591         | -0.285         | 0.168          | 0.182     | -0.280         | -0.445         |
+|                        | (0.482)        | (0.625)        | (0.789)        | (0.651)   | (0.730)        | (0.598)        |
+| vehicle                | 2.358**        | 2.962***       | 3.012**        | -0.119    | 2.551**        | 1.443          |
+|                        | (0.836)        | (0.967)        | (1.227)        | (0.654)   | (1.101)        | (1.084)        |
+| republican_rate        | -2.053***      | -2.601***      | -3.095***      | -1.764*** | -2.678***      | -2.216***      |
+|                        | (0.597)        | (0.658)        | (0.722)        | (0.410)   | (0.538)        | (0.478)        |
+| Segregation            | 0.264          | 0.531          | 0.599          | 0.813***  | 0.370          | 0.521          |
+|                        | (0.511)        | (0.594)        | (0.715)        | (0.257)   | (0.682)        | (0.751)        |
+| racial_weighted_bias   | 1.169**        | 1.145*         | 1.144          | 0.331     | 0.980*         | 0.429          |
+|                        | (0.509)        | (0.606)        | (0.705)        | (0.390)   | (0.524)        | (0.401)        |
+| hesitancy              | 1.231          | 1.290          | 1.335          | -0.388    | 1.754          | 0.790          |
+|                        | (1.380)        | (1.630)        | (1.776)        | (0.679)   | (1.599)        | (1.358)        |
+| Black_Prop             | -1.672         | -1.798         | -2.072         | 0.0393    | -1.820         | -1.338         |
+|                        | (1.043)        | (1.226)        | (1.290)        | (0.551)   | (1.092)        | (0.909)        |
+| FluVax_Rate            |                |                |                |           | 1.686**        | 0.839          |
+|                        |                |                |                |           | (0.621)        | (0.513)        |
+| FluVax_Disparity       |                |                |                |           | 1.351***       | 0.944*         |
+|                        |                |                |                |           | (0.443)        | (0.485)        |
+| Above75_Rate           |                |                |                |           |                | -1.751**       |
+|                        |                |                |                |           |                | (0.674)        |
+| Above75_Disparity      |                |                |                |           |                | 3.281***       |
+|                        |                |                |                |           |                | (0.493)        |
+| Constant               | 7.764***       | 7.475***       | 8.025***       | 12.95***  | 9.218***       | 9.849***       |
+|                        | (1.685)        | (1.022)        | (1.125)        | (0.803)   | (0.957)        | (0.912)        |
+|                        |                |                |                |           |                |                |
+| Observations           | 759            | 759            | 759            | 759       | 759            | 759            |
+| R-squared              | 0.813          | 0.818          | 0.823          | 0.453     | 0.839          | 0.863          |
+| SD                     | True           | True           | True           | True      | True           | True           |
+| R                      | True           | True           | True           | True      | True           | True           |
+| C                      | True           | True           | True           | True      | True           | True           |
+| W                      | True           | True           | True           | True      | True           | True           |
