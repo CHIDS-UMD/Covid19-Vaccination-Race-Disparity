@@ -7,9 +7,36 @@ Vaccine uptake is critical to mitigating the impact of the COVID-19 pandemic in 
 
 ## Data Collection Process
 
+The preprocessing of the raw data collected on April 19.
+
+![](_img/process.png)
 
 
-## Racial COVID-19 Vaccination Data Source
+## Counties with COVID-19 Vaccination Disparity
+The counties with valid COVID-19 Vaccination Disparity (CVD).
+Totally, there are 1199 counties.
+![](_img/map.png)
+
+
+## COVID-19 Vaccination Disparity and Flu Vaccination Disparity Distribution Graph
+
+![](_img/dist.png)
+
+## COVID-19 Vaccination Disparity (CVD) and Flu Vaccination Disparity (FVD)
+
+![](_img/bar.png)
+
+
+## Scatter Matrix 
+![](_img/scatter.png)
+
+## Regression Coefficient Graph
+
+![](_img/coef.png)
+
+## Data Source
+
+### 1. Racial COVID-19 Vaccination Data Source
 
 | State          | # of Counties | # of Valid Counties | Link                                                                                                                                                          |
 |----------------|---------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,7 +61,7 @@ Vaccine uptake is critical to mitigating the impact of the COVID-19 pandemic in 
 
 
 
-## Descriptive Statistics
+### 2. Descriptive Statistics
 
 We present descriptive statistics of the variables in our regression analysis. Each variable is at the county level, where the subscript `i` represents county `i`.									
 | variable                      | description                                                                                                                                                                                                           | source                                                                                                                                                                                                                                            | count | mean   | std    | min     | 25%    | 50%    | 75%    | max     |
@@ -62,8 +89,9 @@ We present descriptive statistics of the variables in our regression analysis. E
 | Above75 Disparity             | Rate of elderly population (>=75) in county i.                                                                                                                                                                        | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | 759   | 3.638  | 2.310  | -4.910  | 2.215  | 3.515  | 5.074  | 12.933  |
 
 
-## Regression Results
+## Detailed Regression Results and Robustness Checks
 
+### Regression Results
 
 Normalized OLS Regression results.
 
