@@ -1,0 +1,3143 @@
+Geographic Area Name,TCI
+"New York, New York",52.6
+"Kings, New York",34.5
+"Bronx, New York",29.5
+"San Francisco, California",31.7
+"Queens, New York",23.8
+"District of Columbia, District Of Columbia",23.3
+"Suffolk, Massachusetts",23.7
+"Hudson, New Jersey",19.1
+"Philadelphia, Pennsylvania",20.2
+"Arlington, Virginia",15.9
+"Richmond, New York",12.3
+"Alexandria city, Virginia",11.8
+"Falls Church city, Virginia",12.1
+"Multnomah, Oregon",12.3
+"Baltimore city, Maryland",17.0
+"St. Louis city, Missouri",8.4
+"Denver, Colorado",10.3
+"Richmond city, Virginia",9.0
+"Essex, New Jersey",10.0
+"Orleans Parish, Louisiana",9.1
+"Cook, Illinois",12.5
+"Westchester, New York",8.5
+"Alameda, California",8.9
+"Cuyahoga, Ohio",5.1
+"Montgomery, Maryland",8.6
+"Charlottesville city, Virginia",6.8
+"Salt Lake, Utah",6.2
+"Milwaukee, Wisconsin",5.9
+"Los Angeles, California",8.0
+"Delaware, Pennsylvania",8.5
+"Santa Clara, California",6.7
+"Fairfax city, Virginia",4.7
+"Washington, Oregon",5.3
+"Miami-Dade, Florida",7.1
+"Honolulu, Hawaii",5.9
+"Bergen, New Jersey",5.9
+"Union, New Jersey",6.0
+"San Mateo, California",6.5
+"Norfolk city, Virginia",5.3
+"King, Washington",6.0
+"Ramsey, Minnesota",6.8
+"Passaic, New Jersey",5.6
+"Prince George's, Maryland",6.4
+"Nassau, New York",5.5
+"Arapahoe, Colorado",5.7
+"DeKalb, Georgia",5.0
+"Bexar, Texas",3.4
+"Fairfax, Virginia",5.1
+"Fulton, Georgia",6.4
+"Hennepin, Minnesota",6.3
+"Champaign, Illinois",5.3
+"Middlesex, Massachusetts",6.8
+"Albany, New York",4.3
+"Harrisonburg city, Virginia",3.1
+"San Diego, California",5.1
+"Dallas, Texas",5.3
+"Weber, Utah",3.0
+"Camden, New Jersey",4.6
+"Allegheny, Pennsylvania",5.2
+"Boulder, Colorado",3.8
+"St. Louis, Missouri",3.1
+"St. Clair, Illinois",3.8
+"Rock Island, Illinois",3.6
+"Broward, Florida",3.5
+"Contra Costa, California",4.0
+"Providence, Rhode Island",3.9
+"Norfolk, Massachusetts",6.8
+"Clackamas, Oregon",3.4
+"Davis, Utah",2.5
+"Santa Cruz, California",4.1
+"Washtenaw, Michigan",3.1
+"Sacramento, California",4.1
+"Marion, Indiana",2.5
+"Hampton city, Virginia",2.6
+"Clark, Nevada",3.2
+"Marin, California",3.6
+"Williamsburg city, Virginia",3.2
+"Roanoke city, Virginia",2.9
+"Schenectady, New York",3.7
+"Newport News city, Virginia",2.8
+"Pitkin, Colorado",0.0
+"Marion, Oregon",3.4
+"Hartford, Connecticut",2.8
+"New Haven, Connecticut",3.1
+"Pinellas, Florida",2.4
+"Yolo, California",3.6
+"Mercer, New Jersey",3.9
+"Adams, Colorado",3.2
+"Montgomery, Pennsylvania",4.0
+"Hamilton, Ohio",3.5
+"Fairfield, Connecticut",4.0
+"Jefferson, Colorado",3.5
+"Bernalillo, New Mexico",2.9
+"Maricopa, Arizona",3.1
+"Hampden, Massachusetts",2.5
+"San Bernardino, California",3.1
+"Franklin, Ohio",3.1
+"Mecklenburg, North Carolina",2.7
+"New Castle, Delaware",2.5
+"Montgomery, Ohio",2.9
+"Baltimore, Maryland",5.0
+"Fredericksburg city, Virginia",3.0
+"Radford city, Virginia",2.8
+"Ingham, Michigan",2.8
+"Nueces, Texas",2.8
+"Douglas, Kansas",2.5
+"Santa Barbara, California",2.5
+"Erie, New York",3.8
+"Jefferson, Kentucky",2.9
+"Snohomish, Washington",2.5
+"Orange, California",2.7
+"Alachua, Florida",3.2
+"Tippecanoe, Indiana",3.3
+"Travis, Texas",3.1
+"Lane, Oregon",2.8
+"Story, Iowa",3.2
+"Spokane, Washington",3.8
+"Durham, North Carolina",2.7
+"Orange, Florida",3.6
+"Monterey, California",2.4
+"El Paso, Texas",2.8
+"Wayne, Michigan",3.1
+"Douglas, Nebraska",3.4
+"Tulare, California",2.5
+"Franklin, Washington",2.8
+"Webb, Texas",2.7
+"Middlesex, New Jersey",3.0
+"Nantucket, Massachusetts",4.0
+"Manassas city, Virginia",2.8
+"Solano, California",2.3
+"Harris, Texas",3.4
+"Portsmouth city, Virginia",2.8
+"Essex, Massachusetts",2.9
+"Atlantic, New Jersey",2.9
+"Suffolk, New York",1.7
+"Duval, Florida",2.3
+"Benton, Washington",2.6
+"Fayette, Kentucky",2.0
+"McLean, Illinois",2.8
+"Pima, Arizona",2.5
+"Kent, Michigan",2.7
+"Clarke, Georgia",2.5
+"Dane, Wisconsin",2.9
+"Utah, Utah",1.9
+"Davidson, Tennessee",2.2
+"Lynchburg city, Virginia",2.3
+"Clark, Washington",1.8
+"Ketchikan Gateway Borough, Alaska",1.5
+"Dukes, Massachusetts",2.5
+"Lehigh, Pennsylvania",2.1
+"Stanislaus, California",2.7
+"Monongalia, West Virginia",6.6
+"Orange, North Carolina",2.2
+"Anchorage Municipality, Alaska",2.6
+"Missoula, Montana",2.4
+"Jackson, Missouri",2.9
+"Monroe, New York",2.3
+"Campbell, Kentucky",2.4
+"Rensselaer, New York",2.2
+"Centre, Pennsylvania",3.3
+"Whatcom, Washington",3.0
+"Mono, California",1.9
+"Summit, Ohio",2.0
+"Clayton, Georgia",1.9
+"Johnson, Iowa",2.6
+"Petersburg city, Virginia",2.0
+"Chelan, Washington",2.2
+"Lancaster, Nebraska",1.9
+"Ventura, California",2.0
+"Wyandotte, Kansas",2.1
+"Sarasota, Florida",2.1
+"DuPage, Illinois",2.3
+"Sonoma, California",2.0
+"Leon, Florida",2.0
+"Onondaga, New York",2.9
+"Grand Forks, North Dakota",2.1
+"Napa, California",2.0
+"Palm Beach, Florida",1.7
+"Tompkins, New York",2.3
+"Newport, Rhode Island",2.4
+"Santa Fe, New Mexico",2.2
+"Manassas Park city, Virginia",2.3
+"Riverside, California",2.0
+"Polk, Iowa",1.9
+"Chatham, Georgia",2.0
+"Monmouth, New Jersey",2.4
+"Virginia Beach city, Virginia",1.8
+"Madison, Illinois",2.0
+"Pierce, Washington",2.0
+"Fresno, California",2.1
+"Washoe, Nevada",1.7
+"Hillsborough, Florida",2.2
+"Kenton, Kentucky",2.3
+"Chittenden, Vermont",1.8
+"Summit, Utah",1.9
+"Cass, North Dakota",1.9
+"East Baton Rouge Parish, Louisiana",1.9
+"Richland, South Carolina",1.0
+"Osceola, Florida",2.2
+"Lackawanna, Pennsylvania",1.9
+"Shelby, Tennessee",1.9
+"Buchanan, Missouri",1.8
+"Kern, California",1.9
+"Clay, Minnesota",1.7
+"Dubuque, Iowa",1.2
+"Kent, Rhode Island",1.9
+"Northampton, Pennsylvania",1.8
+"Montgomery, Virginia",2.7
+"Walla Walla, Washington",1.8
+"Lake, Illinois",2.2
+"Monroe, Indiana",2.0
+"Delaware, Indiana",1.5
+"St. Joseph, Indiana",1.8
+"Thurston, Washington",1.8
+"San Joaquin, California",1.8
+"Benton, Oregon",1.8
+"Bristol, Rhode Island",1.7
+"Larimer, Colorado",1.5
+"Lucas, Ohio",1.6
+"Kings, California",0.8
+"Broome, New York",1.8
+"Cabell, West Virginia",1.7
+"Kenosha, Wisconsin",2.0
+"Butte, California",1.7
+"Erie, Pennsylvania",1.8
+"Dakota, Minnesota",2.4
+"Woodbury, Iowa",1.3
+"Broomfield, Colorado",1.8
+"Macon, Illinois",1.7
+"Howard, Maryland",1.7
+"Sangamon, Illinois",1.6
+"Volusia, Florida",1.7
+"Racine, Wisconsin",1.8
+"Wake, North Carolina",1.8
+"Bay, Michigan",1.6
+"Gloucester, New Jersey",1.5
+"Skagit, Washington",1.7
+"Saline, Kansas",1.6
+"Peoria, Illinois",1.9
+"Caddo Parish, Louisiana",1.5
+"Eau Claire, Wisconsin",1.7
+"Eagle, Colorado",0.7
+"Vanderburgh, Indiana",1.6
+"Winnebago, Wisconsin",1.6
+"Jefferson Parish, Louisiana",1.6
+"Carson City, Nevada",0.3
+"Bannock, Idaho",1.5
+"Douglas, Washington",1.5
+"Morris, New Jersey",1.9
+"Kane, Illinois",1.8
+"Kitsap, Washington",1.8
+"Hampshire, Massachusetts",1.6
+"Kalamazoo, Michigan",1.3
+"Burlington, New Jersey",1.9
+"Sutter, California",1.5
+"Guilford, North Carolina",1.6
+"La Crosse, Wisconsin",1.7
+"Jackson, Oregon",1.3
+"Manatee, Florida",1.6
+"Lubbock, Texas",1.6
+"Juneau City and Borough, Alaska",1.4
+"Cumberland, Maine",1.4
+"Bucks, Pennsylvania",1.9
+"Yellowstone, Montana",1.5
+"Greene, Missouri",1.5
+"San Luis Obispo, California",0.9
+"Tulsa, Oklahoma",1.4
+"Burleigh, North Dakota",1.4
+"McDonough, Illinois",1.6
+"Brown, Wisconsin",1.5
+"Minnehaha, South Dakota",1.5
+"Washington, Arkansas",1.5
+"Charleston, South Carolina",1.4
+"Stark, Ohio",1.4
+"Summit, Colorado",1.1
+"Macomb, Michigan",1.5
+"Silver Bow, Montana",1.4
+"Kankakee, Illinois",1.5
+"Shawnee, Kansas",1.3
+"Oneida, New York",2.2
+"Boone, Missouri",1.3
+"Polk, Oregon",1.0
+"Seminole, Florida",2.0
+"Bristol city, Virginia",1.3
+"Linn, Iowa",1.3
+"Anoka, Minnesota",1.8
+"Henrico, Virginia",1.5
+"Potter, Texas",1.3
+"Merced, California",1.5
+"Winnebago, Illinois",1.4
+"Luzerne, Pennsylvania",1.4
+"Cache, Utah",1.4
+"Escambia, Florida",1.3
+"Berks, Pennsylvania",1.6
+"St. Louis, Minnesota",1.6
+"Douglas, Wisconsin",1.4
+"Dauphin, Pennsylvania",2.5
+"Oklahoma, Oklahoma",1.4
+"Anne Arundel, Maryland",2.1
+"Bristol, Massachusetts",2.1
+"Yuba, California",1.3
+"Klamath, Oregon",1.3
+"El Paso, Colorado",1.9
+"Lancaster, Pennsylvania",1.4
+"Benton, Minnesota",1.4
+"Island, Washington",1.1
+"Sheboygan, Wisconsin",1.5
+"Worcester, Massachusetts",1.2
+"Yakima, Washington",1.3
+"Tooele, Utah",0.9
+"Knox, Illinois",0.6
+"Webster, Iowa",0.9
+"Middlesex, Connecticut",1.2
+"Somerset, New Jersey",1.3
+"Strafford, New Hampshire",1.4
+"Cumberland, New Jersey",1.2
+"Lee, Florida",1.3
+"Chester, Pennsylvania",1.5
+"Pulaski, Arkansas",1.4
+"Plymouth, Massachusetts",1.6
+"Jefferson, Texas",1.3
+"Mesa, Colorado",1.2
+"Victoria, Texas",1.3
+"Salem city, Virginia",1.1
+"Charles, Maryland",1.3
+"Jefferson, Washington",1.3
+"Dougherty, Georgia",1.2
+"Ada, Idaho",1.2
+"Garfield, Colorado",0.1
+"Prince William, Virginia",1.2
+"Wood, West Virginia",1.3
+"Clallam, Washington",1.1
+"Forsyth, North Carolina",1.3
+"Rockland, New York",1.4
+"Pueblo, Colorado",1.2
+"Daviess, Kentucky",1.3
+"Mahoning, Ohio",1.2
+"Muscogee, Georgia",1.2
+"Niagara, New York",1.4
+"Scott, Iowa",2.3
+"Sitka City and Borough, Alaska",1.1
+"Lake, Ohio",1.1
+"Loudoun, Virginia",0.9
+"Bibb, Georgia",1.1
+"Knox, Tennessee",1.2
+"New Hanover, North Carolina",1.1
+"Sedgwick, Kansas",1.2
+"Maui, Hawaii",1.1
+"Douglas, Colorado",1.5
+"Midland, Texas",1.1
+"Allen, Indiana",1.2
+"Rutland, Vermont",1.2
+"Stearns, Minnesota",1.3
+"Coconino, Arizona",1.2
+"Del Norte, California",1.1
+"Cape May, New Jersey",1.2
+"Rock, Wisconsin",1.3
+"Humboldt, California",1.1
+"Ohio, West Virginia",1.1
+"Cumberland, North Carolina",1.5
+"Montgomery, Alabama",1.2
+"Outagamie, Wisconsin",1.3
+"Grand Traverse, Michigan",1.1
+"Yuma, Arizona",1.1
+"Dutchess, New York",1.5
+"Albemarle, Virginia",1.2
+"Kent, Delaware",0.9
+"Chesapeake city, Virginia",1.1
+"Oakland, Michigan",1.2
+"Placer, California",0.9
+"Deschutes, Oregon",1.0
+"Cowlitz, Washington",1.3
+"Cambria, Pennsylvania",1.2
+"Cameron, Texas",1.0
+"Laramie, Wyoming",1.1
+"Taylor, Texas",1.1
+"Fairbanks North Star Borough, Alaska",1.0
+"Platte, Missouri",1.1
+"Brevard, Florida",0.9
+"Clinton, Iowa",0.9
+"Frederick, Maryland",1.1
+"Lafayette Parish, Louisiana",1.1
+"Johnson, Kansas",0.8
+"Genesee, Michigan",1.2
+"Buncombe, North Carolina",1.0
+"Jackson, Illinois",1.0
+"Dakota, Nebraska",0.7
+"Wichita, Texas",1.0
+"Washington, Rhode Island",1.1
+"Hinds, Mississippi",0.9
+"Collier, Florida",0.9
+"Ector, Texas",1.0
+"Muscatine, Iowa",0.0
+"Box Elder, Utah",0.8
+"Cerro Gordo, Iowa",0.8
+"Richmond, Georgia",1.0
+"Bell, Texas",1.0
+"Clark, Indiana",1.0
+"Madison, Tennessee",1.0
+"Cobb, Georgia",0.7
+"Cayuga, New York",1.6
+"Elkhart, Indiana",0.9
+"Black Hawk, Iowa",1.2
+"Beaver, Pennsylvania",0.9
+"Saginaw, Michigan",1.1
+"St. Bernard Parish, Louisiana",0.8
+"Collin, Texas",1.2
+"New London, Connecticut",1.0
+"Blaine, Idaho",0.8
+"Doña Ana, New Mexico",0.9
+"Clay, Missouri",0.9
+"Cole, Missouri",1.0
+"Natrona, Wyoming",0.9
+"McLennan, Texas",0.9
+"Salem, New Jersey",1.0
+"Lake, California",0.9
+"James City, Virginia",0.9
+"Shasta, California",1.0
+"Allegany, Maryland",0.9
+"Hamilton, Tennessee",0.9
+"Boyd, Kentucky",1.0
+"Pasco, Florida",0.9
+"San Benito, California",1.0
+"DeKalb, Illinois",1.1
+"Hillsborough, New Hampshire",1.0
+"Yamhill, Oregon",0.8
+"Will, Illinois",1.0
+"Mobile, Alabama",0.9
+"Athens, Ohio",1.0
+"Brazos, Texas",0.8
+"Bonneville, Idaho",0.8
+"Denton, Texas",1.1
+"Worcester, Maryland",1.2
+"Washington, Tennessee",1.0
+"Pennington, South Dakota",0.8
+"Hopewell city, Virginia",0.8
+"Harrison, Mississippi",0.9
+"Waukesha, Wisconsin",0.8
+"Calhoun, Michigan",1.0
+"Pottawattamie, Iowa",0.8
+"Berkshire, Massachusetts",0.7
+"Henderson, Kentucky",1.3
+"Ocean, New Jersey",0.8
+"Westmoreland, Pennsylvania",0.7
+"Bay, Florida",0.8
+"Polk, Florida",0.7
+"Monroe, Florida",0.8
+"Terrebonne Parish, Louisiana",0.8
+"Mendocino, California",0.8
+"Marathon, Wisconsin",0.9
+"Chautauqua, New York",0.8
+"Indiana, Pennsylvania",0.9
+"Clatsop, Oregon",0.7
+"Vigo, Indiana",0.8
+"Lexington city, Virginia",0.8
+"Tom Green, Texas",0.8
+"Tarrant, Texas",0.8
+"Harford, Maryland",0.9
+"St. Mary's, Maryland",0.6
+"Hernando, Florida",0.7
+"Washington, Vermont",0.7
+"Gregg, Texas",0.7
+"McHenry, Illinois",1.0
+"Portage, Ohio",0.8
+"Kanawha, West Virginia",0.7
+"Lincoln, Oregon",0.7
+"Rio Arriba, New Mexico",0.5
+"Taos, New Mexico",0.4
+"Morton, North Dakota",0.7
+"Dorchester, Maryland",0.6
+"Lebanon, Pennsylvania",0.7
+"Lycoming, Pennsylvania",0.7
+"Boone, Kentucky",0.7
+"York, Pennsylvania",0.9
+"Warren, New Jersey",0.7
+"Tolland, Connecticut",0.5
+"Des Moines, Iowa",0.1
+"Ouachita Parish, Louisiana",0.8
+"Linn, Oregon",0.6
+"Miller, Arkansas",0.7
+"Putnam, New York",1.0
+"Cabarrus, North Carolina",0.7
+"Warren, New York",0.7
+"Hood River, Oregon",0.2
+"Weld, Colorado",0.8
+"Fond du Lac, Wisconsin",0.8
+"Josephine, Oregon",0.7
+"Muskegon, Michigan",0.7
+"Sebastian, Arkansas",0.8
+"Craighead, Arkansas",0.7
+"Crittenden, Arkansas",0.8
+"St. Clair, Michigan",0.8
+"Franklin, Massachusetts",0.7
+"Marquette, Michigan",0.6
+"Washington, Utah",0.7
+"Floyd, Indiana",0.7
+"Tuolumne, California",0.6
+"Union, Oregon",0.7
+"Marshall, Iowa",0.0
+"Bennington, Vermont",0.5
+"Adams, Illinois",0.7
+"Schuylkill, Pennsylvania",0.7
+"San Juan, Washington",0.8
+"Gwinnett, Georgia",0.5
+"Forrest, Mississippi",0.7
+"Randall, Texas",0.6
+"Buena Vista city, Virginia",0.6
+"Talbot, Maryland",0.6
+"Grant, Washington",0.6
+"Stafford, Virginia",0.6
+"Allen, Ohio",0.7
+"Covington city, Virginia",0.6
+"Pitt, North Carolina",0.6
+"El Dorado, California",0.6
+"Tillamook, Oregon",0.5
+"Grand, Colorado",0.2
+"Vermilion, Illinois",0.6
+"Barnstable, Massachusetts",0.7
+"Wicomico, Maryland",0.5
+"Saratoga, New York",0.6
+"Cleveland, Oklahoma",0.7
+"Nevada, California",0.5
+"Canyon, Idaho",0.5
+"Scott, Minnesota",0.8
+"Sussex, Delaware",0.5
+"Ashland, Wisconsin",0.6
+"Douglas, Oregon",0.5
+"Warren, Kentucky",0.6
+"Madera, California",0.6
+"Butler, Ohio",0.4
+"Fayette, Pennsylvania",0.5
+"Androscoggin, Maine",0.6
+"Warren, Pennsylvania",0.5
+"Penobscot, Maine",0.6
+"Windham, Vermont",0.5
+"Calvert, Maryland",0.6
+"Cumberland, Pennsylvania",0.8
+"Greenville, South Carolina",0.6
+"Columbia, Oregon",0.4
+"Lake, Florida",0.4
+"Marion, West Virginia",0.5
+"Richland, Ohio",0.5
+"McCracken, Kentucky",0.6
+"Gallatin, Montana",0.7
+"Okaloosa, Florida",0.9
+"Washington, Maryland",0.5
+"Somerset, Maryland",0.5
+"Smith, Texas",0.5
+"Lake, Colorado",0.5
+"Coryell, Texas",0.6
+"Washington, Minnesota",0.6
+"Steuben, New York",0.0
+"Ottawa, Michigan",0.6
+"Gunnison, Colorado",0.5
+"Bowie, Texas",0.6
+"Kootenai, Idaho",0.5
+"Addison, Vermont",0.4
+"Monroe, Pennsylvania",0.6
+"Hidalgo, Texas",0.5
+"Spotsylvania, Virginia",0.5
+"Coos, Oregon",0.4
+"Sullivan, Tennessee",0.5
+"Rutherford, Tennessee",0.5
+"Mason, Washington",0.4
+"Tehama, California",0.5
+"Madison, Alabama",0.5
+"Montgomery, Tennessee",0.4
+"Muskingum, Ohio",0.5
+"Nez Perce, Idaho",0.0
+"Nash, North Carolina",0.5
+"Edgecombe, North Carolina",0.6
+"Monroe, Illinois",0.3
+"Grand Isle, Vermont",0.0
+"Windsor, Vermont",0.4
+"Umatilla, Oregon",0.3
+"San Juan, New Mexico",0.5
+"Jackson, Michigan",0.5
+"Toole, Montana",0.7
+"Hawaii, Hawaii",0.4
+"Florence, South Carolina",0.5
+"Cecil, Maryland",0.5
+"Tazewell, Illinois",0.7
+"Lake, Indiana",0.6
+"Franklin, Vermont",0.4
+"Pacific, Washington",0.4
+"Roanoke, Virginia",0.5
+"Sandoval, New Mexico",0.5
+"Sumter, South Carolina",0.4
+"Tuscaloosa, Alabama",0.4
+"Ulster, New York",0.4
+"Venango, Pennsylvania",0.4
+"Berkeley, West Virginia",0.6
+"Grafton, New Hampshire",0.4
+"Clark, Ohio",0.5
+"Crawford, Pennsylvania",0.5
+"Siskiyou, California",0.3
+"St. Lucie, Florida",0.4
+"Malheur, Oregon",0.4
+"Calcasieu Parish, Louisiana",0.5
+"Garland, Arkansas",0.5
+"Bossier Parish, Louisiana",0.4
+"Lassen, California",0.4
+"Dallas, Iowa",0.4
+"Orange, New York",0.3
+"Livingston, New York",0.3
+"Nacogdoches, Texas",0.4
+"Valencia, New Mexico",0.5
+"Phillips, Montana",0.6
+"Rowan, North Carolina",0.5
+"Pierce, North Dakota",0.6
+"Gaston, North Carolina",0.5
+"Delaware, Ohio",0.4
+"Catawba, North Carolina",0.3
+"Wayne, North Carolina",0.4
+"Douglas, Nevada",0.4
+"St. Johns, Florida",0.3
+"Hidalgo, New Mexico",0.6
+"Monroe, Michigan",0.4
+"Angelina, Texas",0.4
+"Williamson, Texas",0.2
+"Washington, Pennsylvania",0.4
+"Baker, Oregon",0.3
+"Logan, Illinois",0.6
+"Eaton, Michigan",0.4
+"Lamoille, Vermont",0.2
+"Calumet, Wisconsin",0.4
+"Mahaska, Iowa",0.0
+"Amador, California",0.3
+"Alleghany, Virginia",0.4
+"Mercer, Pennsylvania",0.4
+"Onslow, North Carolina",0.4
+"Brewster, Texas",0.5
+"Eddy, New Mexico",0.0
+"York, Maine",0.4
+"Fulton, New York",0.0
+"Queen Anne's, Maryland",0.3
+"Porter, Indiana",0.4
+"Wayne, West Virginia",0.4
+"Hall, Georgia",0.4
+"Hunterdon, New Jersey",0.4
+"Lincoln, West Virginia",0.2
+"Russell, Alabama",0.3
+"Livingston, Illinois",0.5
+"Cochise, Arizona",0.0
+"Caledonia, Vermont",0.3
+"Washington, New York",0.4
+"Jessamine, Kentucky",0.0
+"Cheshire, New Hampshire",0.3
+"Belmont, Ohio",0.3
+"Kennebec, Maine",0.3
+"Hardy, West Virginia",0.2
+"Jefferson, West Virginia",0.3
+"Litchfield, Connecticut",0.3
+"Sussex, New Jersey",0.3
+"Pickens, South Carolina",0.3
+"Mineral, West Virginia",0.2
+"Sherburne, Minnesota",0.4
+"Jasper, Missouri",0.3
+"Marion, Florida",0.4
+"Galveston, Texas",0.4
+"Spartanburg, South Carolina",0.4
+"Ramsey, North Dakota",0.5
+"Grayson, Texas",0.3
+"York, Virginia",0.3
+"Plumas, California",0.2
+"LaPorte, Indiana",0.5
+"Etowah, Alabama",0.3
+"Logan, West Virginia",0.2
+"Colonial Heights city, Virginia",0.3
+"Polk, Minnesota",0.4
+"Carver, Minnesota",0.3
+"Los Alamos, New Mexico",0.3
+"Orange, Vermont",0.2
+"Tioga, Pennsylvania",0.3
+"Calhoun, Alabama",0.3
+"Bryan, Oklahoma",0.3
+"Guernsey, Ohio",0.3
+"Benton, Arkansas",0.3
+"Anderson, South Carolina",0.3
+"Boyle, Kentucky",0.0
+"Citrus, Florida",0.2
+"Merrimack, New Hampshire",0.3
+"Rockingham, New Hampshire",0.4
+"Lawrence, Ohio",0.2
+"Amherst, Virginia",0.3
+"Jefferson, Oregon",0.1
+"Calaveras, California",0.1
+"Horry, South Carolina",0.2
+"Martin, Florida",0.2
+"Caroline, Maryland",0.2
+"Glacier, Montana",0.3
+"Scott, Kentucky",0.0
+"Trinity, California",0.2
+"Lorain, Ohio",0.3
+"Valley, Montana",0.4
+"Sullivan, New York",0.0
+"Williamson, Tennessee",0.2
+"Matanuska-Susitna Borough, Alaska",0.2
+"Butler, Pennsylvania",0.3
+"Oconee, South Carolina",0.3
+"Lafourche Parish, Louisiana",0.3
+"Prowers, Colorado",0.3
+"Dodge, Minnesota",0.2
+"Jefferson, Missouri",0.2
+"Lexington, South Carolina",0.1
+"Union, Iowa",0.3
+"Johnson, Indiana",0.2
+"Wallowa, Oregon",0.0
+"Clarke, Iowa",0.3
+"Windham, Connecticut",0.3
+"Wabasha, Minnesota",0.1
+"San Miguel, New Mexico",0.2
+"Union, South Dakota",0.1
+"Leelanau, Michigan",0.1
+"Hampshire, West Virginia",0.1
+"Hill, Montana",0.3
+"Marion, Illinois",0.3
+"Winona, Minnesota",0.3
+"Pulaski, Virginia",0.2
+"Adams, Pennsylvania",0.3
+"Ozaukee, Wisconsin",0.2
+"Trumbull, Ohio",0.2
+"Boone, West Virginia",0.1
+"Henry, Illinois",0.3
+"Culpeper, Virginia",0.3
+"Grant, West Virginia",0.1
+"Preston, West Virginia",0.1
+"Fluvanna, Virginia",0.1
+"Crook, Oregon",0.1
+"Orleans, Vermont",0.1
+"Liberty, Texas",0.2
+"Curry, Oregon",0.1
+"Red Willow, Nebraska",0.3
+"Phelps, Nebraska",0.3
+"Las Animas, Colorado",0.3
+"Campbell, Virginia",0.1
+"Sullivan, Pennsylvania",0.1
+"Kent, Maryland",0.2
+"Roosevelt, Montana",0.3
+"Douglas, Georgia",0.1
+"Bradford, Pennsylvania",0.1
+"Adams, Nebraska",0.3
+"Carroll, Maryland",0.2
+"Clinton, Michigan",0.2
+"McKinley, New Mexico",0.1
+"St. Lawrence, New York",0.1
+"Olmsted, Minnesota",1.7
+"Greene, Ohio",0.2
+"Perry, Illinois",0.3
+"Yavapai, Arizona",0.2
+"Georgetown, South Carolina",0.1
+"Chesterfield, Virginia",0.2
+"Craven, North Carolina",0.2
+"Caroline, Virginia",0.1
+"Colfax, New Mexico",0.3
+"Houston, Minnesota",0.2
+"Leflore, Mississippi",0.3
+"Skamania, Washington",0.1
+"Montgomery, New York",0.1
+"Mingo, West Virginia",0.1
+"Clearfield, Pennsylvania",0.2
+"Effingham, Illinois",0.3
+"Mohave, Arizona",0.2
+"Harvey, Kansas",0.2
+"Fort Bend, Texas",0.2
+"Mariposa, California",0.1
+"Marshall, West Virginia",0.2
+"San Juan, Utah",0.1
+"Wilson, Tennessee",0.2
+"Harney, Oregon",0.0
+"Inyo, California",0.1
+"Humboldt, Nevada",0.2
+"Grant, Oregon",0.0
+"Osage, Oklahoma",0.2
+"Bullitt, Kentucky",0.1
+"Bayfield, Wisconsin",0.1
+"Morgan, Colorado",0.2
+"Dorchester, South Carolina",0.1
+"Staunton city, Virginia",0.2
+"Jackson, Mississippi",0.2
+"Ford, Kansas",0.2
+"Pendleton, West Virginia",0.0
+"Sarpy, Nebraska",0.2
+"St. Charles, Missouri",0.2
+"Goodhue, Minnesota",0.2
+"Grand, Utah",0.1
+"Pike, Pennsylvania",0.1
+"Kittitas, Washington",0.1
+"Falls, Texas",0.1
+"Warren, Ohio",0.1
+"Coles, Illinois",0.2
+"Kaufman, Texas",0.1
+"Johnson, Missouri",0.2
+"Hempstead, Arkansas",0.2
+"Val Verde, Texas",0.2
+"Williams, North Dakota",0.2
+"Lamar, Mississippi",0.1
+"Wood, Ohio",0.1
+"Mountrail, North Dakota",0.2
+"Surry, Virginia",0.1
+"Baldwin, Alabama",0.1
+"Henry, Iowa",0.2
+"Andrew, Missouri",0.1
+"Quitman, Mississippi",0.0
+"Otero, Colorado",0.2
+"Modoc, California",0.1
+"Becker, Minnesota",0.2
+"Bureau, Illinois",0.2
+"Sanpete, Utah",0.1
+"Yazoo, Mississippi",0.2
+"Pamlico, North Carolina",0.2
+"Darlington, South Carolina",0.1
+"Juab, Utah",0.1
+"Williams, Ohio",0.2
+"Wasco, Oregon",0.1
+"Alamance, North Carolina",0.1
+"Clinton, New York",0.1
+"Apache, Arizona",0.0
+"Terrell, Texas",0.0
+"Oswego, New York",0.1
+"Franklin, Idaho",0.1
+"Columbia, Wisconsin",0.2
+"Rockingham, Virginia",0.1
+"Lawrence, Arkansas",0.2
+"Pettis, Missouri",0.2
+"Luna, New Mexico",0.2
+"Ward, North Dakota",0.2
+"Hyde, North Carolina",0.2
+"Jones, Georgia",0.1
+"Medina, Ohio",0.1
+"Erie, Ohio",0.2
+"Currituck, North Carolina",0.1
+"Wasatch, Utah",0.0
+"Midland, Michigan",0.1
+"Lawrence, Pennsylvania",0.1
+"Sevier, Tennessee",0.1
+"Buckingham, Virginia",0.0
+"Cooke, Texas",0.2
+"Fayette, Indiana",0.1
+"Wyoming, New York",0.1
+"Lincoln, Montana",0.2
+"Carbon, Utah",0.1
+"Hot Spring, Arkansas",0.2
+"Brunswick, North Carolina",0.1
+"Clay, Florida",0.1
+"Alexander, North Carolina",0.0
+"Columbia, New York",0.2
+"Rockbridge, Virginia",0.1
+"Cherokee, Georgia",0.1
+"Oldham, Kentucky",0.1
+"Fillmore, Minnesota",0.1
+"Monroe, Wisconsin",0.2
+"Finney, Kansas",0.1
+"Pike, Mississippi",0.1
+"Lewis, Washington",0.2
+"Arenac, Michigan",0.1
+"Isle of Wight, Virginia",0.1
+"Blair, Pennsylvania",0.1
+"Wapello, Iowa",0.1
+"Iron, Missouri",0.0
+"Prince George, Virginia",0.1
+"Montgomery, Indiana",0.1
+"Lincoln, Mississippi",0.1
+"Cass, Michigan",0.2
+"Benewah, Idaho",0.0
+"Greene, Virginia",0.0
+"Lincoln, South Dakota",0.1
+"Clear Creek, Colorado",0.0
+"Davidson, North Carolina",0.0
+"Rockwall, Texas",0.1
+"Wayne, Georgia",0.1
+"Stevens, Washington",0.0
+"Bamberg, South Carolina",0.1
+"Asotin, Washington",0.0
+"Clark, Arkansas",0.1
+"Marion, South Carolina",0.1
+"Stephens, Georgia",0.1
+"Okanogan, Washington",0.0
+"Allegan, Michigan",0.1
+"Henry, Georgia",0.0
+"Summers, West Virginia",0.1
+"Hendricks, Indiana",0.1
+"Wayne, Pennsylvania",0.0
+"Park, Montana",0.0
+"Fulton, Kentucky",0.1
+"Williamsburg, South Carolina",0.1
+"Harrison, West Virginia",0.1
+"Newton, Missouri",0.1
+"Mower, Minnesota",0.1
+"Macoupin, Illinois",0.1
+"Butler, Missouri",0.1
+"Carter, Oklahoma",0.1
+"Huntingdon, Pennsylvania",0.1
+"Payette, Idaho",0.1
+"Suffolk city, Virginia",0.1
+"Reno, Kansas",0.1
+"Gasconade, Missouri",0.1
+"Berrien, Michigan",0.1
+"Wilson, North Carolina",0.0
+"Berkeley, South Carolina",0.1
+"Dillon, South Carolina",0.1
+"Nelson, Virginia",0.0
+"Madison, Virginia",0.0
+"Somerset, Pennsylvania",0.1
+"Rockdale, Georgia",0.0
+"Randolph, North Carolina",0.0
+"Copiah, Mississippi",0.1
+"Dinwiddie, Virginia",0.1
+"Mifflin, Pennsylvania",0.1
+"Hays, Texas",0.1
+"Lee, Iowa",0.1
+"Bonner, Idaho",0.1
+"Sevier, Utah",0.0
+"Iberia Parish, Louisiana",0.1
+"Caldwell, Texas",0.0
+"Jefferson, Ohio",0.1
+"Wayne, New York",0.0
+"Jasper, Indiana",0.1
+"Bastrop, Texas",0.0
+"Johnson, Texas",0.1
+"Bedford, Virginia",0.0
+"Winchester city, Virginia",0.1
+"Kendall, Illinois",0.1
+"Putnam, Florida",0.1
+"Hanover, Virginia",0.1
+"Todd, Minnesota",0.1
+"Morrow, Oregon",0.1
+"Licking, Ohio",0.1
+"Danville city, Virginia",0.1
+"Klickitat, Washington",0.1
+"Harrison, Texas",0.1
+"Carbon, Pennsylvania",0.1
+"Clinton, Illinois",0.1
+"Okeechobee, Florida",0.1
+"York, South Carolina",0.0
+"Garvin, Oklahoma",0.1
+"Montgomery, Texas",0.0
+"Wheeler, Oregon",0.0
+"Johnston, North Carolina",0.1
+"Essex, New York",0.1
+"Fayette, West Virginia",0.1
+"Mason, Kentucky",0.1
+"Franklin, Virginia",0.0
+"Elko, Nevada",0.1
+"Pearl River, Mississippi",0.1
+"Greenup, Kentucky",0.1
+"McClain, Oklahoma",0.1
+"Plaquemines Parish, Louisiana",0.0
+"Hawkins, Tennessee",0.1
+"Imperial, California",0.0
+"Sullivan, New Hampshire",0.1
+"Wilcox, Alabama",0.0
+"Richmond, North Carolina",0.1
+"Carter, Tennessee",0.0
+"Monroe, Georgia",0.0
+"Tioga, New York",0.0
+"Madison, Mississippi",0.0
+"Walker, Georgia",0.0
+"Jefferson, Pennsylvania",0.0
+"Jones, Mississippi",0.1
+"Warrick, Indiana",0.0
+"Flathead, Montana",0.1
+"Chippewa, Wisconsin",0.1
+"Fayette, Georgia",0.0
+"Chatham, North Carolina",0.0
+"Navajo, Arizona",0.0
+"Bingham, Idaho",0.0
+"Washington, Wisconsin",0.0
+"DeKalb, Indiana",0.1
+"Fayette, Texas",0.0
+"Lapeer, Michigan",0.1
+"Robertson, Tennessee",0.0
+"Franklin, Missouri",0.1
+"Greenbrier, West Virginia",0.0
+"Jefferson, Alabama",0.2
+"San Patricio, Texas",0.0
+"Oconee, Georgia",0.0
+"Warren, Iowa",0.0
+"Clarke, Alabama",0.0
+"Mecosta, Michigan",0.0
+"Armstrong, Pennsylvania",0.0
+"Washington, Virginia",0.0
+"Surry, North Carolina",0.0
+"Forsyth, Georgia",0.0
+"Pulaski, Illinois",0.0
+"Somerset, Maine",0.0
+"Nassau, Florida",0.0
+"Highlands, Florida",0.1
+"Clermont, Ohio",0.1
+"Columbia, Georgia",0.0
+"Dyer, Tennessee",0.0
+"Macon, Missouri",0.0
+"Lauderdale, Mississippi",0.1
+"LaSalle, Illinois",0.1
+"Allegany, New York",0.0
+"Wood, Texas",0.0
+"Washington, Illinois",0.0
+"Burnet, Texas",0.0
+"Tangipahoa Parish, Louisiana",0.0
+"Chemung, New York",0.0
+"Shiawassee, Michigan",0.0
+"Paulding, Georgia",0.0
+"Steele, Minnesota",0.0
+"Henderson, North Carolina",0.0
+"Sumner, Tennessee",0.0
+"Walton, Florida",0.0
+"Essex, Vermont",0.0
+"Christian, Kentucky",0.0
+"Moore, North Carolina",0.0
+"Iroquois, Illinois",0.0
+"Bibb, Alabama",0.0
+"Grays Harbor, Washington",0.0
+"Lee, Texas",0.0
+"Stokes, North Carolina",0.0
+"Kershaw, South Carolina",0.0
+"Doniphan, Kansas",0.0
+"Pinal, Arizona",0.0
+"Dallas, Alabama",0.0
+"Ontario, New York",0.0
+"Herkimer, New York",0.0
+"Torrance, New Mexico",0.0
+"Union, North Carolina",0.0
+"Sagadahoc, Maine",0.0
+"Putnam, West Virginia",0.0
+"Cheatham, Tennessee",0.0
+"Dare, North Carolina",0.0
+"Hampton, South Carolina",0.0
+"Cattaraugus, New York",0.0
+"Greene, Pennsylvania",0.0
+"Lee, Georgia",0.0
+"Park, Colorado",0.0
+"Charlotte, Florida",0.0
+"Greene, New York",0.0
+"Seneca, New York",0.0
+"Santa Rosa, Florida",0.0
+"St. Tammany Parish, Louisiana",0.0
+"Dickson, Tennessee",0.0
+"Maury, Tennessee",0.0
+"Creek, Oklahoma",0.0
+"Coweta, Georgia",0.0
+"DeSoto, Mississippi",0.0
+"Monroe, West Virginia",0.0
+"Martin, Kentucky",0.0
+"Delaware, New York",0.0
+"Van Buren, Michigan",0.0
+"Emery, Utah",0.0
+"La Paz, Arizona",0.0
+"Frederick, Virginia",0.0
+"Bartow, Georgia",0.0
+"Pike, Kentucky",0.0
+"Aiken, South Carolina",0.0
+"Chisago, Minnesota",0.0
+"Perry, Alabama",0.0
+"Pierce, Wisconsin",0.0
+"Whiteside, Illinois",0.0
+"Gilpin, Colorado",0.0
+"Warren, Missouri",0.0
+"Sauk, Wisconsin",0.0
+"Brown, Ohio",0.0
+"Wright, Minnesota",0.0
+"Columbiana, Ohio",0.0
+"Prince of Wales-Hyder Census Area, Alaska",0.0
+"Beaufort, North Carolina",0.0
+"Montgomery, Missouri",0.0
+"Chattahoochee, Georgia",0.0
+"Houston, Georgia",0.0
+"Carteret, North Carolina",0.0
+"Morgan, Utah",0.0
+"Callaway, Missouri",0.0
+"Botetourt, Virginia",0.0
+"Raleigh, West Virginia",0.0
+"Jo Daviess, Illinois",0.0
+"Rankin, Mississippi",0.0
+"Iredell, North Carolina",0.0
+"Scioto, Ohio",0.0
+"Adair, Missouri",0.0
+"Starr, Texas",0.0
+"Henderson, Illinois",0.0
+"Washington, Ohio",0.0
+"Garrett, Maryland",0.0
+"Dodge, Wisconsin",0.0
+"Franklin, Pennsylvania",0.0
+"Boone, Iowa",0.0
+"Wadena, Minnesota",0.0
+"Beaufort, South Carolina",0.0
+"Chambers, Texas",0.0
+"Miami, Ohio",0.0
+"Orange, Texas",0.0
+"Sumter, Florida",0.0
+"Hamilton, Indiana",0.0
+"Grant, Wisconsin",0.0
+"Aransas, Texas",0.0
+"Perry, Pennsylvania",0.0
+"St. Croix, Wisconsin",0.0
+"Fairfield, Ohio",0.0
+"Ashtabula, Ohio",0.0
+"Le Flore, Oklahoma",0.0
+"St. Charles Parish, Louisiana",0.0
+"Columbia, Pennsylvania",0.0
+"Whitman, Washington",0.0
+"Buffalo, Wisconsin",0.0
+"West Baton Rouge Parish, Louisiana",0.0
+"Lincoln, North Carolina",0.0
+"Lincoln, Nebraska",0.0
+"Lincoln, New Mexico",0.0
+"Lincoln, Nevada",0.0
+"Lincoln, Oklahoma",0.0
+"Lincoln, Tennessee",0.0
+"Lincoln, Washington",0.0
+"Lincoln, Wisconsin",0.0
+"Lincoln, Wyoming",0.0
+"Lincoln Parish, Louisiana",0.0
+"Linn, Kansas",0.0
+"Linn, Missouri",0.0
+"Lipscomb, Texas",0.0
+"Little River, Arkansas",0.0
+"Live Oak, Texas",0.0
+"Livingston, Kentucky",0.0
+"Livingston, Michigan",0.0
+"Livingston, Missouri",0.0
+"Livingston Parish, Louisiana",0.0
+"Llano, Texas",0.0
+"Logan, Arkansas",0.0
+"Logan, Colorado",0.0
+"Logan, Kansas",0.0
+"Logan, Kentucky",0.0
+"Logan, North Dakota",0.0
+"Logan, Nebraska",0.0
+"Logan, Ohio",0.0
+"Logan, Oklahoma",0.0
+"Long, Georgia",0.0
+"Lonoke, Arkansas",0.0
+"Loudon, Tennessee",0.0
+"Louisa, Iowa",0.0
+"Louisa, Virginia",0.0
+"Loup, Nebraska",0.0
+"Love, Oklahoma",0.0
+"Loving, Texas",0.0
+"Lowndes, Alabama",0.0
+"Lowndes, Georgia",0.0
+"Lowndes, Mississippi",0.0
+"Lucas, Iowa",0.0
+"Luce, Michigan",0.0
+"Lumpkin, Georgia",0.0
+"Lunenburg, Virginia",0.0
+"Lyman, South Dakota",0.0
+"Lynn, Texas",0.0
+"Lyon, Iowa",0.0
+"Lyon, Kansas",0.0
+"Lyon, Kentucky",0.0
+"Lyon, Minnesota",0.0
+"Lyon, Nevada",0.0
+"Mackinac, Michigan",0.0
+"Macon, Alabama",0.0
+"Macon, Georgia",0.0
+"Macon, North Carolina",0.0
+"Macon, Tennessee",0.0
+"Madison, Arkansas",0.0
+"Madison, Florida",0.0
+"Madison, Georgia",0.0
+"Madison, Iowa",0.0
+"Madison, Idaho",0.0
+"Madison, Indiana",0.0
+"Madison, Kentucky",0.0
+"Madison, Missouri",0.0
+"Madison, Montana",0.0
+"Madison, North Carolina",0.0
+"Madison, Nebraska",0.0
+"Madison, New York",0.0
+"Madison, Ohio",0.0
+"Madison, Texas",0.0
+"Madison Parish, Louisiana",0.0
+"Magoffin, Kentucky",0.0
+"Mahnomen, Minnesota",0.0
+"Major, Oklahoma",0.0
+"Manistee, Michigan",0.0
+"Manitowoc, Wisconsin",0.0
+"Marengo, Alabama",0.0
+"Maries, Missouri",0.0
+"Marinette, Wisconsin",0.0
+"Marion, Alabama",0.0
+"Marion, Arkansas",0.0
+"Marion, Georgia",0.0
+"Marion, Iowa",0.0
+"Marion, Kansas",0.0
+"Marion, Kentucky",0.0
+"Marion, Missouri",0.0
+"Marion, Mississippi",0.0
+"Marion, Ohio",0.0
+"Marion, Tennessee",0.0
+"Marion, Texas",0.0
+"Marlboro, South Carolina",0.0
+"Marquette, Wisconsin",0.0
+"Marshall, Alabama",0.0
+"Marshall, Illinois",0.0
+"Marshall, Indiana",0.0
+"Marshall, Kansas",0.0
+"Marshall, Kentucky",0.0
+"Marshall, Minnesota",0.0
+"Marshall, Mississippi",0.0
+"Marshall, Oklahoma",0.0
+"Marshall, South Dakota",0.0
+"Marshall, Tennessee",0.0
+"Martin, Indiana",0.0
+"Martin, Minnesota",0.0
+"Martin, North Carolina",0.0
+"Martin, Texas",0.0
+"Martinsville city, Virginia",0.0
+"Mason, Illinois",0.0
+"Mason, Michigan",0.0
+"Mason, Texas",0.0
+"Mason, West Virginia",0.0
+"Massac, Illinois",0.0
+"Matagorda, Texas",0.0
+"Mathews, Virginia",0.0
+"Maverick, Texas",0.0
+"Mayes, Oklahoma",0.0
+"McCone, Montana",0.0
+"McCook, South Dakota",0.0
+"McCormick, South Carolina",0.0
+"McCreary, Kentucky",0.0
+"McCulloch, Texas",0.0
+"McCurtain, Oklahoma",0.0
+"McDonald, Missouri",0.0
+"McDowell, North Carolina",0.0
+"McDowell, West Virginia",0.0
+"McDuffie, Georgia",0.0
+"McHenry, North Dakota",0.0
+"McIntosh, Georgia",0.0
+"McIntosh, North Dakota",0.0
+"McIntosh, Oklahoma",0.0
+"McKean, Pennsylvania",0.0
+"McKenzie, North Dakota",0.0
+"McLean, Kentucky",0.0
+"McLean, North Dakota",0.0
+"McLeod, Minnesota",0.0
+"McMinn, Tennessee",0.0
+"McMullen, Texas",0.0
+"McNairy, Tennessee",0.0
+"McPherson, Kansas",0.0
+"McPherson, Nebraska",0.0
+"McPherson, South Dakota",0.0
+"Meade, Kansas",0.0
+"Meade, Kentucky",0.0
+"Meade, South Dakota",0.0
+"Meagher, Montana",0.0
+"Mecklenburg, Virginia",0.0
+"Medina, Texas",0.0
+"Meeker, Minnesota",0.0
+"Meigs, Ohio",0.0
+"Meigs, Tennessee",0.0
+"Mellette, South Dakota",0.0
+"Menard, Illinois",0.0
+"Menard, Texas",0.0
+"Menifee, Kentucky",0.0
+"Menominee, Michigan",0.0
+"Menominee, Wisconsin",0.0
+"Mercer, Illinois",0.0
+"Mercer, Kentucky",0.0
+"Mercer, Missouri",0.0
+"Mercer, North Dakota",0.0
+"Mercer, Ohio",0.0
+"Mercer, West Virginia",0.0
+"Meriwether, Georgia",0.0
+"Merrick, Nebraska",0.0
+"Metcalfe, Kentucky",0.0
+"Miami, Indiana",0.0
+"Miami, Kansas",0.0
+"Middlesex, Virginia",0.0
+"Milam, Texas",0.0
+"Millard, Utah",0.0
+"Mille Lacs, Minnesota",0.0
+"Miller, Georgia",0.0
+"Miller, Missouri",0.0
+"Mills, Iowa",0.0
+"Mills, Texas",0.0
+"Mineral, Colorado",0.0
+"Mineral, Montana",0.0
+"Mineral, Nevada",0.0
+"Miner, South Dakota",0.0
+"Minidoka, Idaho",0.0
+"Missaukee, Michigan",0.0
+"Mississippi, Arkansas",0.0
+"Mississippi, Missouri",0.0
+"Mitchell, Georgia",0.0
+"Mitchell, Iowa",0.0
+"Mitchell, Kansas",0.0
+"Mitchell, North Carolina",0.0
+"Mitchell, Texas",0.0
+"Moffat, Colorado",0.0
+"Moniteau, Missouri",0.0
+"Monona, Iowa",0.0
+"Monroe, Alabama",0.0
+"Monroe, Arkansas",0.0
+"Monroe, Iowa",0.0
+"Monroe, Kentucky",0.0
+"Monroe, Missouri",0.0
+"Monroe, Mississippi",0.0
+"Monroe, Ohio",0.0
+"Monroe, Tennessee",0.0
+"Montague, Texas",0.0
+"Montcalm, Michigan",0.0
+"Montezuma, Colorado",0.0
+"Montgomery, Arkansas",0.0
+"Montgomery, Georgia",0.0
+"Montgomery, Iowa",0.0
+"Montgomery, Illinois",0.0
+"Montgomery, Kansas",0.0
+"Montgomery, Kentucky",0.0
+"Montgomery, Mississippi",0.0
+"Montgomery, North Carolina",0.0
+"Montmorency, Michigan",0.0
+"Montour, Pennsylvania",0.0
+"Montrose, Colorado",0.0
+"Moody, South Dakota",0.0
+"Moore, Tennessee",0.0
+"Moore, Texas",0.0
+"Mora, New Mexico",0.0
+"Morehouse Parish, Louisiana",0.0
+"Morgan, Alabama",0.0
+"Morgan, Georgia",0.0
+"Morgan, Illinois",0.0
+"Morgan, Indiana",0.0
+"Morgan, Kentucky",0.0
+"Morgan, Missouri",0.0
+"Morgan, Ohio",0.0
+"Morgan, Tennessee",0.0
+"Morgan, West Virginia",0.0
+"Morrill, Nebraska",0.0
+"Morris, Kansas",0.0
+"Morris, Texas",0.0
+"Morrison, Minnesota",0.0
+"Morrow, Ohio",0.0
+"Morton, Kansas",0.0
+"Motley, Texas",0.0
+"Moultrie, Illinois",0.0
+"Muhlenberg, Kentucky",0.0
+"Murray, Georgia",0.0
+"Murray, Minnesota",0.0
+"Murray, Oklahoma",0.0
+"Muskogee, Oklahoma",0.0
+"Musselshell, Montana",0.0
+"Nance, Nebraska",0.0
+"Natchitoches Parish, Louisiana",0.0
+"Navarro, Texas",0.0
+"Nelson, Kentucky",0.0
+"Nelson, North Dakota",0.0
+"Nemaha, Kansas",0.0
+"Nemaha, Nebraska",0.0
+"Neosho, Kansas",0.0
+"Neshoba, Mississippi",0.0
+"Ness, Kansas",0.0
+"Nevada, Arkansas",0.0
+"Newaygo, Michigan",0.0
+"Newberry, South Carolina",0.0
+"New Kent, Virginia",0.0
+"New Madrid, Missouri",0.0
+"Newton, Arkansas",0.0
+"Newton, Georgia",0.0
+"Newton, Indiana",0.0
+"Newton, Mississippi",0.0
+"Newton, Texas",0.0
+"Nicholas, Kentucky",0.0
+"Nicholas, West Virginia",0.0
+"Nicollet, Minnesota",0.0
+"Niobrara, Wyoming",0.0
+"Noble, Indiana",0.0
+"Noble, Ohio",0.0
+"Noble, Oklahoma",0.0
+"Nobles, Minnesota",0.0
+"Nodaway, Missouri",0.0
+"Nolan, Texas",0.0
+"Nome Census Area, Alaska",0.0
+"Norman, Minnesota",0.0
+"Northampton, North Carolina",0.0
+"Northampton, Virginia",0.0
+"North Slope Borough, Alaska",0.0
+"Northumberland, Pennsylvania",0.0
+"Northumberland, Virginia",0.0
+"Northwest Arctic Borough, Alaska",0.0
+"Norton city, Virginia",0.0
+"Norton, Kansas",0.0
+"Nottoway, Virginia",0.0
+"Nowata, Oklahoma",0.0
+"Noxubee, Mississippi",0.0
+"Nuckolls, Nebraska",0.0
+"Nye, Nevada",0.0
+"Obion, Tennessee",0.0
+"O'Brien, Iowa",0.0
+"Oceana, Michigan",0.0
+"Ochiltree, Texas",0.0
+"Oconto, Wisconsin",0.0
+"Ogemaw, Michigan",0.0
+"Oglala Lakota, South Dakota",0.0
+"Ogle, Illinois",0.0
+"Oglethorpe, Georgia",0.0
+"Ohio, Indiana",0.0
+"Ohio, Kentucky",0.0
+"Okfuskee, Oklahoma",0.0
+"Okmulgee, Oklahoma",0.0
+"Oktibbeha, Mississippi",0.0
+"Oldham, Texas",0.0
+"Oliver, North Dakota",0.0
+"Oneida, Idaho",0.0
+"Oneida, Wisconsin",0.0
+"Ontonagon, Michigan",0.0
+"Orangeburg, South Carolina",0.0
+"Orange, Indiana",0.0
+"Orange, Virginia",0.0
+"Oregon, Missouri",0.0
+"Orleans, New York",0.0
+"Osage, Kansas",0.0
+"Osage, Missouri",0.0
+"Osborne, Kansas",0.0
+"Osceola, Iowa",0.0
+"Osceola, Michigan",0.0
+"Oscoda, Michigan",0.0
+"Otero, New Mexico",0.0
+"Otoe, Nebraska",0.0
+"Otsego, Michigan",0.0
+"Otsego, New York",0.0
+"Ottawa, Kansas",0.0
+"Ottawa, Ohio",0.0
+"Ottawa, Oklahoma",0.0
+"Otter Tail, Minnesota",0.0
+"Ouachita, Arkansas",0.0
+"Ouray, Colorado",0.0
+"Overton, Tennessee",0.0
+"Owen, Indiana",0.0
+"Owen, Kentucky",0.0
+"Owsley, Kentucky",0.0
+"Owyhee, Idaho",0.0
+"Oxford, Maine",0.0
+"Ozark, Missouri",0.0
+"Page, Iowa",0.0
+"Page, Virginia",0.0
+"Palo Alto, Iowa",0.0
+"Palo Pinto, Texas",0.0
+"Panola, Mississippi",0.0
+"Panola, Texas",0.0
+"Park, Wyoming",0.0
+"Parke, Indiana",0.0
+"Parker, Texas",0.0
+"Parmer, Texas",0.0
+"Pasquotank, North Carolina",0.0
+"Patrick, Virginia",0.0
+"Paulding, Ohio",0.0
+"Pawnee, Kansas",0.0
+"Pawnee, Nebraska",0.0
+"Pawnee, Oklahoma",0.0
+"Payne, Oklahoma",0.0
+"Peach, Georgia",0.0
+"Pecos, Texas",0.0
+"Pembina, North Dakota",0.0
+"Pemiscot, Missouri",0.0
+"Pender, North Carolina",0.0
+"Pendleton, Kentucky",0.0
+"Pend Oreille, Washington",0.0
+"Pennington, Minnesota",0.0
+"Pepin, Wisconsin",0.0
+"Perkins, Nebraska",0.0
+"Perkins, South Dakota",0.0
+"Perquimans, North Carolina",0.0
+"Perry, Arkansas",0.0
+"Perry, Indiana",0.0
+"Perry, Kentucky",0.0
+"Perry, Missouri",0.0
+"Perry, Mississippi",0.0
+"Perry, Ohio",0.0
+"Perry, Tennessee",0.0
+"Pershing, Nevada",0.0
+"Person, North Carolina",0.0
+"Petersburg Borough, Alaska",0.0
+"Petroleum, Montana",0.0
+"Phelps, Missouri",0.0
+"Phillips, Arkansas",0.0
+"Phillips, Colorado",0.0
+"Phillips, Kansas",0.0
+"Piatt, Illinois",0.0
+"Pickaway, Ohio",0.0
+"Pickens, Alabama",0.0
+"Pickens, Georgia",0.0
+"Pickett, Tennessee",0.0
+"Pierce, Georgia",0.0
+"Pierce, Nebraska",0.0
+"Pike, Alabama",0.0
+"Pike, Arkansas",0.0
+"Pike, Georgia",0.0
+"Pike, Illinois",0.0
+"Pike, Indiana",0.0
+"Pike, Missouri",0.0
+"Pike, Ohio",0.0
+"Pine, Minnesota",0.0
+"Pipestone, Minnesota",0.0
+"Piscataquis, Maine",0.0
+"Pittsburg, Oklahoma",0.0
+"Pittsylvania, Virginia",0.0
+"Piute, Utah",0.0
+"Platte, Nebraska",0.0
+"Platte, Wyoming",0.0
+"Pleasants, West Virginia",0.0
+"Plymouth, Iowa",0.0
+"Pocahontas, Iowa",0.0
+"Pocahontas, West Virginia",0.0
+"Poinsett, Arkansas",0.0
+"Pointe Coupee Parish, Louisiana",0.0
+"Polk, Arkansas",0.0
+"Polk, Georgia",0.0
+"Polk, Missouri",0.0
+"Polk, North Carolina",0.0
+"Polk, Nebraska",0.0
+"Polk, Tennessee",0.0
+"Polk, Texas",0.0
+"Polk, Wisconsin",0.0
+"Pondera, Montana",0.0
+"Pontotoc, Mississippi",0.0
+"Pontotoc, Oklahoma",0.0
+"Pope, Arkansas",0.0
+"Pope, Illinois",0.0
+"Pope, Minnesota",0.0
+"Poquoson city, Virginia",0.0
+"Portage, Wisconsin",0.0
+"Posey, Indiana",0.0
+"Pottawatomie, Kansas",0.0
+"Pottawatomie, Oklahoma",0.0
+"Potter, Pennsylvania",0.0
+"Potter, South Dakota",0.0
+"Powder River, Montana",0.0
+"Powell, Kentucky",0.0
+"Powell, Montana",0.0
+"Power, Idaho",0.0
+"Poweshiek, Iowa",0.0
+"Powhatan, Virginia",0.0
+"Prairie, Arkansas",0.0
+"Prairie, Montana",0.0
+"Pratt, Kansas",0.0
+"Preble, Ohio",0.0
+"Prentiss, Mississippi",0.0
+"Presidio, Texas",0.0
+"Presque Isle, Michigan",0.0
+"Price, Wisconsin",0.0
+"Prince Edward, Virginia",0.0
+"Pulaski, Georgia",0.0
+"Pulaski, Indiana",0.0
+"Pulaski, Kentucky",0.0
+"Pulaski, Missouri",0.0
+"Pushmataha, Oklahoma",0.0
+"Putnam, Georgia",0.0
+"Putnam, Illinois",0.0
+"Putnam, Indiana",0.0
+"Putnam, Missouri",0.0
+"Putnam, Ohio",0.0
+"Putnam, Tennessee",0.0
+"Quay, New Mexico",0.0
+"Quitman, Georgia",0.0
+"Rabun, Georgia",0.0
+"Rains, Texas",0.0
+"Ralls, Missouri",0.0
+"Randolph, Alabama",0.0
+"Randolph, Arkansas",0.0
+"Randolph, Georgia",0.0
+"Randolph, Illinois",0.0
+"Randolph, Indiana",0.0
+"Randolph, Missouri",0.0
+"Randolph, West Virginia",0.0
+"Ransom, North Dakota",0.0
+"Rapides Parish, Louisiana",0.0
+"Rappahannock, Virginia",0.0
+"Ravalli, Montana",0.0
+"Rawlins, Kansas",0.0
+"Ray, Missouri",0.0
+"Reagan, Texas",0.0
+"Real, Texas",0.0
+"Red Lake, Minnesota",0.0
+"Red River, Texas",0.0
+"Red River Parish, Louisiana",0.0
+"Redwood, Minnesota",0.0
+"Reeves, Texas",0.0
+"Refugio, Texas",0.0
+"Renville, Minnesota",0.0
+"Renville, North Dakota",0.0
+"Republic, Kansas",0.0
+"Reynolds, Missouri",0.0
+"Rhea, Tennessee",0.0
+"Rice, Kansas",0.0
+"Rice, Minnesota",0.0
+"Richardson, Nebraska",0.0
+"Rich, Utah",0.0
+"Richland, Illinois",0.0
+"Richland, Montana",0.0
+"Richland, North Dakota",0.0
+"Richland, Wisconsin",0.0
+"Richland Parish, Louisiana",0.0
+"Richmond, Virginia",0.0
+"Riley, Kansas",0.0
+"Ringgold, Iowa",0.0
+"Rio Blanco, Colorado",0.0
+"Rio Grande, Colorado",0.0
+"Ripley, Indiana",0.0
+"Ripley, Missouri",0.0
+"Ritchie, West Virginia",0.0
+"Roane, Tennessee",0.0
+"Roane, West Virginia",0.0
+"Roberts, South Dakota",0.0
+"Roberts, Texas",0.0
+"Robertson, Kentucky",0.0
+"Robertson, Texas",0.0
+"Robeson, North Carolina",0.0
+"Rockcastle, Kentucky",0.0
+"Rock, Minnesota",0.0
+"Rock, Nebraska",0.0
+"Rockingham, North Carolina",0.0
+"Roger Mills, Oklahoma",0.0
+"Rogers, Oklahoma",0.0
+"Rolette, North Dakota",0.0
+"Rooks, Kansas",0.0
+"Roosevelt, New Mexico",0.0
+"Roscommon, Michigan",0.0
+"Roseau, Minnesota",0.0
+"Rosebud, Montana",0.0
+"Ross, Ohio",0.0
+"Routt, Colorado",0.0
+"Rowan, Kentucky",0.0
+"Runnels, Texas",0.0
+"Rush, Indiana",0.0
+"Rush, Kansas",0.0
+"Rusk, Texas",0.0
+"Rusk, Wisconsin",0.0
+"Russell, Kansas",0.0
+"Russell, Kentucky",0.0
+"Russell, Virginia",0.0
+"Rutherford, North Carolina",0.0
+"Sabine, Texas",0.0
+"Sabine Parish, Louisiana",0.0
+"Sac, Iowa",0.0
+"Saguache, Colorado",0.0
+"Saline, Arkansas",0.0
+"Saline, Illinois",0.0
+"Saline, Missouri",0.0
+"Saline, Nebraska",0.0
+"Saluda, South Carolina",0.0
+"Sampson, North Carolina",0.0
+"San Augustine, Texas",0.0
+"Sanborn, South Dakota",0.0
+"Sanders, Montana",0.0
+"Sandusky, Ohio",0.0
+"Sanilac, Michigan",0.0
+"San Jacinto, Texas",0.0
+"San Juan, Colorado",0.0
+"San Miguel, Colorado",0.0
+"San Saba, Texas",0.0
+"Santa Cruz, Arizona",0.0
+"Sargent, North Dakota",0.0
+"Saunders, Nebraska",0.0
+"Sawyer, Wisconsin",0.0
+"Schleicher, Texas",0.0
+"Schley, Georgia",0.0
+"Schoharie, New York",0.0
+"Schoolcraft, Michigan",0.0
+"Schuyler, Illinois",0.0
+"Schuyler, Missouri",0.0
+"Schuyler, New York",0.0
+"Scotland, Missouri",0.0
+"Scotland, North Carolina",0.0
+"Scott, Arkansas",0.0
+"Scott, Illinois",0.0
+"Scott, Indiana",0.0
+"Scott, Kansas",0.0
+"Scott, Missouri",0.0
+"Scott, Mississippi",0.0
+"Scott, Tennessee",0.0
+"Scott, Virginia",0.0
+"Scotts Bluff, Nebraska",0.0
+"Screven, Georgia",0.0
+"Scurry, Texas",0.0
+"Searcy, Arkansas",0.0
+"Sedgwick, Colorado",0.0
+"Seminole, Georgia",0.0
+"Seminole, Oklahoma",0.0
+"Seneca, Ohio",0.0
+"Sequatchie, Tennessee",0.0
+"Sequoyah, Oklahoma",0.0
+"Sevier, Arkansas",0.0
+"Seward, Kansas",0.0
+"Seward, Nebraska",0.0
+"Shackelford, Texas",0.0
+"Shannon, Missouri",0.0
+"Sharkey, Mississippi",0.0
+"Sharp, Arkansas",0.0
+"Shawano, Wisconsin",0.0
+"Shelby, Alabama",0.0
+"Shelby, Iowa",0.0
+"Shelby, Illinois",0.0
+"Shelby, Indiana",0.0
+"Shelby, Kentucky",0.0
+"Shelby, Missouri",0.0
+"Shelby, Ohio",0.0
+"Shelby, Texas",0.0
+"Shenandoah, Virginia",0.0
+"Sheridan, Kansas",0.0
+"Sheridan, Montana",0.0
+"Sheridan, North Dakota",0.0
+"Sheridan, Nebraska",0.0
+"Sheridan, Wyoming",0.0
+"Sherman, Kansas",0.0
+"Sherman, Nebraska",0.0
+"Sherman, Oregon",0.0
+"Sherman, Texas",0.0
+"Shoshone, Idaho",0.0
+"Sibley, Minnesota",0.0
+"Sierra, California",0.0
+"Sierra, New Mexico",0.0
+"Simpson, Kentucky",0.0
+"Simpson, Mississippi",0.0
+"Sioux, Iowa",0.0
+"Sioux, North Dakota",0.0
+"Sioux, Nebraska",0.0
+"Skagway Municipality, Alaska",0.0
+"Slope, North Dakota",0.0
+"Smith, Kansas",0.0
+"Smith, Mississippi",0.0
+"Smith, Tennessee",0.0
+"Smyth, Virginia",0.0
+"Snyder, Pennsylvania",0.0
+"Socorro, New Mexico",0.0
+"Somervell, Texas",0.0
+"Southampton, Virginia",0.0
+"Southeast Fairbanks Census Area, Alaska",0.0
+"Spalding, Georgia",0.0
+"Spencer, Indiana",0.0
+"Spencer, Kentucky",0.0
+"Spink, South Dakota",0.0
+"Stafford, Kansas",0.0
+"Stanley, South Dakota",0.0
+"Stanly, North Carolina",0.0
+"Stanton, Kansas",0.0
+"Stanton, Nebraska",0.0
+"Stark, Illinois",0.0
+"Stark, North Dakota",0.0
+"Starke, Indiana",0.0
+"St. Clair, Alabama",0.0
+"St. Clair, Missouri",0.0
+"Steele, North Dakota",0.0
+"Ste. Genevieve, Missouri",0.0
+"Stephens, Oklahoma",0.0
+"Stephens, Texas",0.0
+"Stephenson, Illinois",0.0
+"Sterling, Texas",0.0
+"Steuben, Indiana",0.0
+"Stevens, Kansas",0.0
+"Stevens, Minnesota",0.0
+"Stewart, Georgia",0.0
+"Stewart, Tennessee",0.0
+"St. Francis, Arkansas",0.0
+"St. Francois, Missouri",0.0
+"St. Helena Parish, Louisiana",0.0
+"Stillwater, Montana",0.0
+"St. James Parish, Louisiana",0.0
+"St. John the Baptist Parish, Louisiana",0.0
+"St. Joseph, Michigan",0.0
+"St. Landry Parish, Louisiana",0.0
+"St. Martin Parish, Louisiana",0.0
+"St. Mary Parish, Louisiana",0.0
+"Stoddard, Missouri",0.0
+"Stone, Arkansas",0.0
+"Stone, Missouri",0.0
+"Stone, Mississippi",0.0
+"Stonewall, Texas",0.0
+"Storey, Nevada",0.0
+"Stutsman, North Dakota",0.0
+"Sublette, Wyoming",0.0
+"Sullivan, Indiana",0.0
+"Sullivan, Missouri",0.0
+"Sully, South Dakota",0.0
+"Sumner, Kansas",0.0
+"Sumter, Alabama",0.0
+"Sumter, Georgia",0.0
+"Sunflower, Mississippi",0.0
+"Susquehanna, Pennsylvania",0.0
+"Sussex, Virginia",0.0
+"Sutton, Texas",0.0
+"Suwannee, Florida",0.0
+"Swain, North Carolina",0.0
+"Sweet Grass, Montana",0.0
+"Sweetwater, Wyoming",0.0
+"Swift, Minnesota",0.0
+"Swisher, Texas",0.0
+"Switzerland, Indiana",0.0
+"Talbot, Georgia",0.0
+"Taliaferro, Georgia",0.0
+"Talladega, Alabama",0.0
+"Tallahatchie, Mississippi",0.0
+"Tallapoosa, Alabama",0.0
+"Tama, Iowa",0.0
+"Taney, Missouri",0.0
+"Tate, Mississippi",0.0
+"Tattnall, Georgia",0.0
+"Taylor, Florida",0.0
+"Taylor, Georgia",0.0
+"Taylor, Iowa",0.0
+"Taylor, Kentucky",0.0
+"Taylor, Wisconsin",0.0
+"Taylor, West Virginia",0.0
+"Tazewell, Virginia",0.0
+"Telfair, Georgia",0.0
+"Teller, Colorado",0.0
+"Tensas Parish, Louisiana",0.0
+"Terrell, Georgia",0.0
+"Terry, Texas",0.0
+"Teton, Idaho",0.0
+"Teton, Montana",0.0
+"Teton, Wyoming",0.0
+"Texas, Missouri",0.0
+"Texas, Oklahoma",0.0
+"Thayer, Nebraska",0.0
+"Thomas, Georgia",0.0
+"Thomas, Kansas",0.0
+"Thomas, Nebraska",0.0
+"Throckmorton, Texas",0.0
+"Thurston, Nebraska",0.0
+"Tift, Georgia",0.0
+"Tillman, Oklahoma",0.0
+"Tippah, Mississippi",0.0
+"Tipton, Indiana",0.0
+"Tipton, Tennessee",0.0
+"Tishomingo, Mississippi",0.0
+"Titus, Texas",0.0
+"Todd, Kentucky",0.0
+"Todd, South Dakota",0.0
+"Toombs, Georgia",0.0
+"Towner, North Dakota",0.0
+"Towns, Georgia",0.0
+"Traill, North Dakota",0.0
+"Transylvania, North Carolina",0.0
+"Traverse, Minnesota",0.0
+"Treasure, Montana",0.0
+"Trego, Kansas",0.0
+"Trempealeau, Wisconsin",0.0
+"Treutlen, Georgia",0.0
+"Trigg, Kentucky",0.0
+"Trimble, Kentucky",0.0
+"Trinity, Texas",0.0
+"Tripp, South Dakota",0.0
+"Troup, Georgia",0.0
+"Trousdale, Tennessee",0.0
+"Tucker, West Virginia",0.0
+"Tunica, Mississippi",0.0
+"Turner, Georgia",0.0
+"Turner, South Dakota",0.0
+"Tuscarawas, Ohio",0.0
+"Tuscola, Michigan",0.0
+"Twiggs, Georgia",0.0
+"Twin Falls, Idaho",0.0
+"Tyler, Texas",0.0
+"Tyler, West Virginia",0.0
+"Tyrrell, North Carolina",0.0
+"Uinta, Wyoming",0.0
+"Uintah, Utah",0.0
+"Unicoi, Tennessee",0.0
+"Union, Arkansas",0.0
+"Union, Florida",0.0
+"Union, Georgia",0.0
+"Union, Illinois",0.0
+"Union, Indiana",0.0
+"Union, Kentucky",0.0
+"Union, Mississippi",0.0
+"Union, New Mexico",0.0
+"Union, Ohio",0.0
+"Union, Pennsylvania",0.0
+"Union, South Carolina",0.0
+"Union, Tennessee",0.0
+"Union Parish, Louisiana",0.0
+"Upshur, Texas",0.0
+"Upshur, West Virginia",0.0
+"Upson, Georgia",0.0
+"Upton, Texas",0.0
+"Uvalde, Texas",0.0
+"Valdez-Cordova Census Area, Alaska",0.0
+"Valley, Idaho",0.0
+"Valley, Nebraska",0.0
+"Van Buren, Arkansas",0.0
+"Van Buren, Iowa",0.0
+"Van Buren, Tennessee",0.0
+"Vance, North Carolina",0.0
+"Van Wert, Ohio",0.0
+"Van Zandt, Texas",0.0
+"Vermilion Parish, Louisiana",0.0
+"Vermillion, Indiana",0.0
+"Vernon, Missouri",0.0
+"Vernon, Wisconsin",0.0
+"Vernon Parish, Louisiana",0.0
+"Vilas, Wisconsin",0.0
+"Vinton, Ohio",0.0
+"Wabash, Illinois",0.0
+"Wabash, Indiana",0.0
+"Wabaunsee, Kansas",0.0
+"Wagoner, Oklahoma",0.0
+"Wahkiakum, Washington",0.0
+"Wakulla, Florida",0.0
+"Waldo, Maine",0.0
+"Walker, Alabama",0.0
+"Walker, Texas",0.0
+"Wallace, Kansas",0.0
+"Waller, Texas",0.0
+"Walsh, North Dakota",0.0
+"Walthall, Mississippi",0.0
+"Walton, Georgia",0.0
+"Walworth, South Dakota",0.0
+"Walworth, Wisconsin",0.0
+"Ward, Texas",0.0
+"Ware, Georgia",0.0
+"Warren, Georgia",0.0
+"Warren, Illinois",0.0
+"Warren, Indiana",0.0
+"Warren, Mississippi",0.0
+"Warren, North Carolina",0.0
+"Warren, Tennessee",0.0
+"Warren, Virginia",0.0
+"Waseca, Minnesota",0.0
+"Washakie, Wyoming",0.0
+"Washburn, Wisconsin",0.0
+"Washington, Alabama",0.0
+"Washington, Colorado",0.0
+"Washington, Florida",0.0
+"Washington, Georgia",0.0
+"Washington, Iowa",0.0
+"Washington, Idaho",0.0
+"Washington, Indiana",0.0
+"Washington, Kansas",0.0
+"Washington, Kentucky",0.0
+"Washington, Maine",0.0
+"Washington, Missouri",0.0
+"Washington, Mississippi",0.0
+"Washington, North Carolina",0.0
+"Washington, Nebraska",0.0
+"Washington, Oklahoma",0.0
+"Washington, Texas",0.0
+"Washington Parish, Louisiana",0.0
+"Washita, Oklahoma",0.0
+"Watauga, North Carolina",0.0
+"Watonwan, Minnesota",0.0
+"Waupaca, Wisconsin",0.0
+"Waushara, Wisconsin",0.0
+"Wayne, Iowa",0.0
+"Wayne, Illinois",0.0
+"Wayne, Indiana",0.0
+"Wayne, Kentucky",0.0
+"Wayne, Missouri",0.0
+"Wayne, Mississippi",0.0
+"Wayne, Nebraska",0.0
+"Wayne, Ohio",0.0
+"Wayne, Tennessee",0.0
+"Wayne, Utah",0.0
+"Waynesboro city, Virginia",0.0
+"Weakley, Tennessee",0.0
+"Webster, Georgia",0.0
+"Webster, Kentucky",0.0
+"Webster, Missouri",0.0
+"Webster, Mississippi",0.0
+"Webster, Nebraska",0.0
+"Webster, West Virginia",0.0
+"Webster Parish, Louisiana",0.0
+"Wells, Indiana",0.0
+"Wells, North Dakota",0.0
+"West Carroll Parish, Louisiana",0.0
+"West Feliciana Parish, Louisiana",0.0
+"Westmoreland, Virginia",0.0
+"Weston, Wyoming",0.0
+"Wetzel, West Virginia",0.0
+"Wexford, Michigan",0.0
+"Wharton, Texas",0.0
+"Wheatland, Montana",0.0
+"Wheeler, Georgia",0.0
+"Wheeler, Nebraska",0.0
+"Wheeler, Texas",0.0
+"White, Arkansas",0.0
+"White, Georgia",0.0
+"White, Illinois",0.0
+"White, Indiana",0.0
+"White, Tennessee",0.0
+"White Pine, Nevada",0.0
+"Whitfield, Georgia",0.0
+"Whitley, Indiana",0.0
+"Whitley, Kentucky",0.0
+"Wibaux, Montana",0.0
+"Wichita, Kansas",0.0
+"Wilbarger, Texas",0.0
+"Wilcox, Georgia",0.0
+"Wilkes, Georgia",0.0
+"Wilkes, North Carolina",0.0
+"Wilkin, Minnesota",0.0
+"Wilkinson, Georgia",0.0
+"Wilkinson, Mississippi",0.0
+"Willacy, Texas",0.0
+"Williamson, Illinois",0.0
+"Wilson, Kansas",0.0
+"Wilson, Texas",0.0
+"Winkler, Texas",0.0
+"Winnebago, Iowa",0.0
+"Winneshiek, Iowa",0.0
+"Winn Parish, Louisiana",0.0
+"Winston, Alabama",0.0
+"Winston, Mississippi",0.0
+"Wirt, West Virginia",0.0
+"Wise, Texas",0.0
+"Wise, Virginia",0.0
+"Wolfe, Kentucky",0.0
+"Wood, Wisconsin",0.0
+"Woodford, Illinois",0.0
+"Woodford, Kentucky",0.0
+"Woodruff, Arkansas",0.0
+"Woods, Oklahoma",0.0
+"Woodson, Kansas",0.0
+"Woodward, Oklahoma",0.0
+"Worth, Georgia",0.0
+"Worth, Iowa",0.0
+"Worth, Missouri",0.0
+"Wrangell City and Borough, Alaska",0.0
+"Wright, Iowa",0.0
+"Wright, Missouri",0.0
+"Wyandot, Ohio",0.0
+"Wyoming, Pennsylvania",0.0
+"Wyoming, West Virginia",0.0
+"Wythe, Virginia",0.0
+"Yadkin, North Carolina",0.0
+"Yakutat City and Borough, Alaska",0.0
+"Yalobusha, Mississippi",0.0
+"Yancey, North Carolina",0.0
+"Yankton, South Dakota",0.0
+"Yates, New York",0.0
+"Yell, Arkansas",0.0
+"Yellow Medicine, Minnesota",0.0
+"Yoakum, Texas",0.0
+"York, Nebraska",0.0
+"Young, Texas",0.0
+"Yukon-Koyukuk Census Area, Alaska",0.0
+"Yuma, Colorado",0.0
+"Zapata, Texas",0.0
+"Zavala, Texas",0.0
+"Abbeville, South Carolina",0.0
+"Ziebach, South Dakota",0.0
+"Acadia Parish, Louisiana",0.0
+"Accomack, Virginia",0.0
+"Adair, Iowa",0.0
+"Adair, Kentucky",0.0
+"Adair, Oklahoma",0.0
+"Adams, Iowa",0.0
+"Adams, Idaho",0.0
+"Adams, Indiana",0.0
+"Adams, Mississippi",0.0
+"Adams, North Dakota",0.0
+"Adams, Ohio",0.0
+"Adams, Washington",0.0
+"Adams, Wisconsin",0.0
+"Aitkin, Minnesota",0.0
+"Alamosa, Colorado",0.0
+"Albany, Wyoming",0.0
+"Alcona, Michigan",0.0
+"Alcorn, Mississippi",0.0
+"Aleutians East Borough, Alaska",0.0
+"Aleutians West Census Area, Alaska",0.0
+"Alexander, Illinois",0.0
+"Alfalfa, Oklahoma",0.0
+"Alger, Michigan",0.0
+"Allamakee, Iowa",0.0
+"Alleghany, North Carolina",0.0
+"Allen, Kansas",0.0
+"Allen, Kentucky",0.0
+"Allendale, South Carolina",0.0
+"Allen Parish, Louisiana",0.0
+"Alpena, Michigan",0.0
+"Alpine, California",0.0
+"Amelia, Virginia",0.0
+"Amite, Mississippi",0.0
+"Anderson, Kansas",0.0
+"Anderson, Kentucky",0.0
+"Anderson, Tennessee",0.0
+"Anderson, Texas",0.0
+"Andrews, Texas",0.0
+"Anson, North Carolina",0.0
+"Antelope, Nebraska",0.0
+"Antrim, Michigan",0.0
+"Appanoose, Iowa",0.0
+"Appling, Georgia",0.0
+"Appomattox, Virginia",0.0
+"Archer, Texas",0.0
+"Archuleta, Colorado",0.0
+"Arkansas, Arkansas",0.0
+"Armstrong, Texas",0.0
+"Aroostook, Maine",0.0
+"Arthur, Nebraska",0.0
+"Ascension Parish, Louisiana",0.0
+"Ashe, North Carolina",0.0
+"Ashland, Ohio",0.0
+"Ashley, Arkansas",0.0
+"Assumption Parish, Louisiana",0.0
+"Atascosa, Texas",0.0
+"Atchison, Kansas",0.0
+"Atchison, Missouri",0.0
+"Atkinson, Georgia",0.0
+"Atoka, Oklahoma",0.0
+"Attala, Mississippi",0.0
+"Audrain, Missouri",0.0
+"Audubon, Iowa",0.0
+"Auglaize, Ohio",0.0
+"Augusta, Virginia",0.0
+"Aurora, South Dakota",0.0
+"Austin, Texas",0.0
+"Autauga, Alabama",0.0
+"Avery, North Carolina",0.0
+"Avoyelles Parish, Louisiana",0.0
+"Baca, Colorado",0.0
+"Bacon, Georgia",0.0
+"Bailey, Texas",0.0
+"Baker, Florida",0.0
+"Baker, Georgia",0.0
+"Baldwin, Georgia",0.0
+"Ballard, Kentucky",0.0
+"Bandera, Texas",0.0
+"Banks, Georgia",0.0
+"Banner, Nebraska",0.0
+"Baraga, Michigan",0.0
+"Barber, Kansas",0.0
+"Barbour, Alabama",0.0
+"Barbour, West Virginia",0.0
+"Barnes, North Dakota",0.0
+"Barnwell, South Carolina",0.0
+"Barren, Kentucky",0.0
+"Barron, Wisconsin",0.0
+"Barrow, Georgia",0.0
+"Barry, Michigan",0.0
+"Barry, Missouri",0.0
+"Bartholomew, Indiana",0.0
+"Barton, Kansas",0.0
+"Barton, Missouri",0.0
+"Bates, Missouri",0.0
+"Bath, Kentucky",0.0
+"Bath, Virginia",0.0
+"Baxter, Arkansas",0.0
+"Baylor, Texas",0.0
+"Beadle, South Dakota",0.0
+"Bear Lake, Idaho",0.0
+"Beauregard Parish, Louisiana",0.0
+"Beaver, Oklahoma",0.0
+"Beaver, Utah",0.0
+"Beaverhead, Montana",0.0
+"Beckham, Oklahoma",0.0
+"Bedford, Pennsylvania",0.0
+"Bedford, Tennessee",0.0
+"Bee, Texas",0.0
+"Belknap, New Hampshire",0.0
+"Bell, Kentucky",0.0
+"Beltrami, Minnesota",0.0
+"Ben Hill, Georgia",0.0
+"Bennett, South Dakota",0.0
+"Benson, North Dakota",0.0
+"Bent, Colorado",0.0
+"Benton, Iowa",0.0
+"Benton, Indiana",0.0
+"Benton, Missouri",0.0
+"Benton, Mississippi",0.0
+"Benton, Tennessee",0.0
+"Benzie, Michigan",0.0
+"Berrien, Georgia",0.0
+"Bertie, North Carolina",0.0
+"Bethel Census Area, Alaska",0.0
+"Bienville Parish, Louisiana",0.0
+"Big Horn, Montana",0.0
+"Big Horn, Wyoming",0.0
+"Big Stone, Minnesota",0.0
+"Billings, North Dakota",0.0
+"Blackford, Indiana",0.0
+"Bladen, North Carolina",0.0
+"Blaine, Montana",0.0
+"Blaine, Nebraska",0.0
+"Blaine, Oklahoma",0.0
+"Blanco, Texas",0.0
+"Bland, Virginia",0.0
+"Bleckley, Georgia",0.0
+"Bledsoe, Tennessee",0.0
+"Blount, Alabama",0.0
+"Blount, Tennessee",0.0
+"Blue Earth, Minnesota",0.0
+"Boise, Idaho",0.0
+"Bolivar, Mississippi",0.0
+"Bollinger, Missouri",0.0
+"Bond, Illinois",0.0
+"Bon Homme, South Dakota",0.0
+"Boone, Arkansas",0.0
+"Boone, Illinois",0.0
+"Boone, Indiana",0.0
+"Boone, Nebraska",0.0
+"Borden, Texas",0.0
+"Bosque, Texas",0.0
+"Bottineau, North Dakota",0.0
+"Boundary, Idaho",0.0
+"Bourbon, Kansas",0.0
+"Bourbon, Kentucky",0.0
+"Bowman, North Dakota",0.0
+"Box Butte, Nebraska",0.0
+"Boyd, Nebraska",0.0
+"Bracken, Kentucky",0.0
+"Bradford, Florida",0.0
+"Bradley, Arkansas",0.0
+"Bradley, Tennessee",0.0
+"Branch, Michigan",0.0
+"Brantley, Georgia",0.0
+"Braxton, West Virginia",0.0
+"Brazoria, Texas",0.0
+"Breathitt, Kentucky",0.0
+"Breckinridge, Kentucky",0.0
+"Bremer, Iowa",0.0
+"Briscoe, Texas",0.0
+"Bristol Bay Borough, Alaska",0.0
+"Broadwater, Montana",0.0
+"Brooke, West Virginia",0.0
+"Brookings, South Dakota",0.0
+"Brooks, Georgia",0.0
+"Brooks, Texas",0.0
+"Brown, Illinois",0.0
+"Brown, Indiana",0.0
+"Brown, Kansas",0.0
+"Brown, Minnesota",0.0
+"Brown, Nebraska",0.0
+"Brown, South Dakota",0.0
+"Brown, Texas",0.0
+"Brule, South Dakota",0.0
+"Brunswick, Virginia",0.0
+"Bryan, Georgia",0.0
+"Buchanan, Iowa",0.0
+"Buchanan, Virginia",0.0
+"Buena Vista, Iowa",0.0
+"Buffalo, Nebraska",0.0
+"Buffalo, South Dakota",0.0
+"Bulloch, Georgia",0.0
+"Bullock, Alabama",0.0
+"Burke, Georgia",0.0
+"Burke, North Carolina",0.0
+"Burke, North Dakota",0.0
+"Burleson, Texas",0.0
+"Burnett, Wisconsin",0.0
+"Burt, Nebraska",0.0
+"Butler, Alabama",0.0
+"Butler, Iowa",0.0
+"Butler, Kansas",0.0
+"Butler, Kentucky",0.0
+"Butler, Nebraska",0.0
+"Butte, Idaho",0.0
+"Butte, South Dakota",0.0
+"Butts, Georgia",0.0
+"Caddo, Oklahoma",0.0
+"Caldwell, Kentucky",0.0
+"Caldwell, Missouri",0.0
+"Caldwell, North Carolina",0.0
+"Caldwell Parish, Louisiana",0.0
+"Calhoun, Arkansas",0.0
+"Calhoun, Florida",0.0
+"Calhoun, Georgia",0.0
+"Calhoun, Iowa",0.0
+"Calhoun, Illinois",0.0
+"Calhoun, Mississippi",0.0
+"Calhoun, South Carolina",0.0
+"Calhoun, Texas",0.0
+"Calhoun, West Virginia",0.0
+"Callahan, Texas",0.0
+"Calloway, Kentucky",0.0
+"Camas, Idaho",0.0
+"Camden, Georgia",0.0
+"Camden, Missouri",0.0
+"Camden, North Carolina",0.0
+"Cameron, Pennsylvania",0.0
+"Cameron Parish, Louisiana",0.0
+"Campbell, South Dakota",0.0
+"Campbell, Tennessee",0.0
+"Campbell, Wyoming",0.0
+"Camp, Texas",0.0
+"Canadian, Oklahoma",0.0
+"Candler, Georgia",0.0
+"Cannon, Tennessee",0.0
+"Cape Girardeau, Missouri",0.0
+"Carbon, Montana",0.0
+"Carbon, Wyoming",0.0
+"Caribou, Idaho",0.0
+"Carlisle, Kentucky",0.0
+"Carlton, Minnesota",0.0
+"Carroll, Arkansas",0.0
+"Carroll, Georgia",0.0
+"Carroll, Iowa",0.0
+"Carroll, Illinois",0.0
+"Carroll, Indiana",0.0
+"Carroll, Kentucky",0.0
+"Carroll, Missouri",0.0
+"Carroll, Mississippi",0.0
+"Carroll, New Hampshire",0.0
+"Carroll, Ohio",0.0
+"Carroll, Tennessee",0.0
+"Carroll, Virginia",0.0
+"Carson, Texas",0.0
+"Carter, Kentucky",0.0
+"Carter, Missouri",0.0
+"Carter, Montana",0.0
+"Cascade, Montana",0.0
+"Casey, Kentucky",0.0
+"Cass, Iowa",0.0
+"Cass, Illinois",0.0
+"Cass, Indiana",0.0
+"Cass, Minnesota",0.0
+"Cass, Missouri",0.0
+"Cass, Nebraska",0.0
+"Cass, Texas",0.0
+"Cassia, Idaho",0.0
+"Castro, Texas",0.0
+"Caswell, North Carolina",0.0
+"Catahoula Parish, Louisiana",0.0
+"Catoosa, Georgia",0.0
+"Catron, New Mexico",0.0
+"Cavalier, North Dakota",0.0
+"Cedar, Iowa",0.0
+"Cedar, Missouri",0.0
+"Cedar, Nebraska",0.0
+"Chaffee, Colorado",0.0
+"Chambers, Alabama",0.0
+"Champaign, Ohio",0.0
+"Chariton, Missouri",0.0
+"Charles City, Virginia",0.0
+"Charles Mix, South Dakota",0.0
+"Charlevoix, Michigan",0.0
+"Charlotte, Virginia",0.0
+"Charlton, Georgia",0.0
+"Chase, Kansas",0.0
+"Chase, Nebraska",0.0
+"Chattooga, Georgia",0.0
+"Chautauqua, Kansas",0.0
+"Chaves, New Mexico",0.0
+"Cheboygan, Michigan",0.0
+"Chenango, New York",0.0
+"Cherokee, Alabama",0.0
+"Cherokee, Iowa",0.0
+"Cherokee, Kansas",0.0
+"Cherokee, North Carolina",0.0
+"Cherokee, Oklahoma",0.0
+"Cherokee, South Carolina",0.0
+"Cherokee, Texas",0.0
+"Cherry, Nebraska",0.0
+"Chester, South Carolina",0.0
+"Chester, Tennessee",0.0
+"Chesterfield, South Carolina",0.0
+"Cheyenne, Colorado",0.0
+"Cheyenne, Kansas",0.0
+"Cheyenne, Nebraska",0.0
+"Chickasaw, Iowa",0.0
+"Chickasaw, Mississippi",0.0
+"Chicot, Arkansas",0.0
+"Childress, Texas",0.0
+"Chilton, Alabama",0.0
+"Chippewa, Michigan",0.0
+"Chippewa, Minnesota",0.0
+"Choctaw, Alabama",0.0
+"Choctaw, Mississippi",0.0
+"Choctaw, Oklahoma",0.0
+"Chouteau, Montana",0.0
+"Chowan, North Carolina",0.0
+"Christian, Illinois",0.0
+"Christian, Missouri",0.0
+"Churchill, Nevada",0.0
+"Cibola, New Mexico",0.0
+"Cimarron, Oklahoma",0.0
+"Claiborne, Mississippi",0.0
+"Claiborne, Tennessee",0.0
+"Claiborne Parish, Louisiana",0.0
+"Clare, Michigan",0.0
+"Clarendon, South Carolina",0.0
+"Clarion, Pennsylvania",0.0
+"Clark, Idaho",0.0
+"Clark, Illinois",0.0
+"Clark, Kansas",0.0
+"Clark, Kentucky",0.0
+"Clark, Missouri",0.0
+"Clark, South Dakota",0.0
+"Clark, Wisconsin",0.0
+"Clarke, Mississippi",0.0
+"Clarke, Virginia",0.0
+"Clay, Alabama",0.0
+"Clay, Arkansas",0.0
+"Clay, Georgia",0.0
+"Clay, Iowa",0.0
+"Clay, Illinois",0.0
+"Clay, Indiana",0.0
+"Clay, Kansas",0.0
+"Clay, Kentucky",0.0
+"Clay, Mississippi",0.0
+"Clay, North Carolina",0.0
+"Clay, Nebraska",0.0
+"Clay, South Dakota",0.0
+"Clay, Tennessee",0.0
+"Clay, Texas",0.0
+"Clay, West Virginia",0.0
+"Clayton, Iowa",0.0
+"Clearwater, Idaho",0.0
+"Clearwater, Minnesota",0.0
+"Cleburne, Alabama",0.0
+"Cleburne, Arkansas",0.0
+"Cleveland, Arkansas",0.0
+"Cleveland, North Carolina",0.0
+"Clinch, Georgia",0.0
+"Clinton, Indiana",0.0
+"Clinton, Kentucky",0.0
+"Clinton, Missouri",0.0
+"Clinton, Ohio",0.0
+"Clinton, Pennsylvania",0.0
+"Cloud, Kansas",0.0
+"Coahoma, Mississippi",0.0
+"Coal, Oklahoma",0.0
+"Cochran, Texas",0.0
+"Cocke, Tennessee",0.0
+"Codington, South Dakota",0.0
+"Coffee, Alabama",0.0
+"Coffee, Georgia",0.0
+"Coffee, Tennessee",0.0
+"Coffey, Kansas",0.0
+"Coke, Texas",0.0
+"Colbert, Alabama",0.0
+"Coleman, Texas",0.0
+"Colfax, Nebraska",0.0
+"Colleton, South Carolina",0.0
+"Collingsworth, Texas",0.0
+"Colorado, Texas",0.0
+"Colquitt, Georgia",0.0
+"Columbia, Arkansas",0.0
+"Columbia, Florida",0.0
+"Columbia, Washington",0.0
+"Columbus, North Carolina",0.0
+"Colusa, California",0.0
+"Comal, Texas",0.0
+"Comanche, Kansas",0.0
+"Comanche, Oklahoma",0.0
+"Comanche, Texas",0.0
+"Concho, Texas",0.0
+"Concordia Parish, Louisiana",0.0
+"Conecuh, Alabama",0.0
+"Conejos, Colorado",0.0
+"Converse, Wyoming",0.0
+"Conway, Arkansas",0.0
+"Cook, Georgia",0.0
+"Cook, Minnesota",0.0
+"Cooper, Missouri",0.0
+"Coosa, Alabama",0.0
+"Coos, New Hampshire",0.0
+"Corson, South Dakota",0.0
+"Cortland, New York",0.0
+"Coshocton, Ohio",0.0
+"Costilla, Colorado",0.0
+"Cottle, Texas",0.0
+"Cotton, Oklahoma",0.0
+"Cottonwood, Minnesota",0.0
+"Covington, Alabama",0.0
+"Covington, Mississippi",0.0
+"Cowley, Kansas",0.0
+"Craig, Oklahoma",0.0
+"Craig, Virginia",0.0
+"Crane, Texas",0.0
+"Crawford, Arkansas",0.0
+"Crawford, Georgia",0.0
+"Crawford, Iowa",0.0
+"Crawford, Illinois",0.0
+"Crawford, Indiana",0.0
+"Crawford, Kansas",0.0
+"Crawford, Michigan",0.0
+"Crawford, Missouri",0.0
+"Crawford, Ohio",0.0
+"Crawford, Wisconsin",0.0
+"Crenshaw, Alabama",0.0
+"Crisp, Georgia",0.0
+"Crittenden, Kentucky",0.0
+"Crockett, Tennessee",0.0
+"Crockett, Texas",0.0
+"Crook, Wyoming",0.0
+"Crosby, Texas",0.0
+"Cross, Arkansas",0.0
+"Crowley, Colorado",0.0
+"Crow Wing, Minnesota",0.0
+"Culberson, Texas",0.0
+"Cullman, Alabama",0.0
+"Cumberland, Illinois",0.0
+"Cumberland, Kentucky",0.0
+"Cumberland, Tennessee",0.0
+"Cumberland, Virginia",0.0
+"Cuming, Nebraska",0.0
+"Curry, New Mexico",0.0
+"Custer, Colorado",0.0
+"Custer, Idaho",0.0
+"Custer, Montana",0.0
+"Custer, Nebraska",0.0
+"Custer, Oklahoma",0.0
+"Custer, South Dakota",0.0
+"Dade, Georgia",0.0
+"Dade, Missouri",0.0
+"Daggett, Utah",0.0
+"Dale, Alabama",0.0
+"Dallam, Texas",0.0
+"Dallas, Arkansas",0.0
+"Dallas, Missouri",0.0
+"Daniels, Montana",0.0
+"Darke, Ohio",0.0
+"Davie, North Carolina",0.0
+"Daviess, Indiana",0.0
+"Daviess, Missouri",0.0
+"Davis, Iowa",0.0
+"Davison, South Dakota",0.0
+"Dawes, Nebraska",0.0
+"Dawson, Georgia",0.0
+"Dawson, Montana",0.0
+"Dawson, Nebraska",0.0
+"Dawson, Texas",0.0
+"Day, South Dakota",0.0
+"Deaf Smith, Texas",0.0
+"Dearborn, Indiana",0.0
+"De Baca, New Mexico",0.0
+"Decatur, Georgia",0.0
+"Decatur, Iowa",0.0
+"Decatur, Indiana",0.0
+"Decatur, Kansas",0.0
+"Decatur, Tennessee",0.0
+"Deer Lodge, Montana",0.0
+"Defiance, Ohio",0.0
+"DeKalb, Alabama",0.0
+"DeKalb, Missouri",0.0
+"DeKalb, Tennessee",0.0
+"Delaware, Iowa",0.0
+"Delaware, Oklahoma",0.0
+"Delta, Colorado",0.0
+"Delta, Michigan",0.0
+"Delta, Texas",0.0
+"Denali Borough, Alaska",0.0
+"Dent, Missouri",0.0
+"Desha, Arkansas",0.0
+"DeSoto, Florida",0.0
+"De Soto Parish, Louisiana",0.0
+"Deuel, Nebraska",0.0
+"Deuel, South Dakota",0.0
+"Dewey, Oklahoma",0.0
+"Dewey, South Dakota",0.0
+"De Witt, Illinois",0.0
+"DeWitt, Texas",0.0
+"Dickens, Texas",0.0
+"Dickenson, Virginia",0.0
+"Dickey, North Dakota",0.0
+"Dickinson, Iowa",0.0
+"Dickinson, Kansas",0.0
+"Dickinson, Michigan",0.0
+"Dillingham Census Area, Alaska",0.0
+"Dimmit, Texas",0.0
+"Divide, North Dakota",0.0
+"Dixie, Florida",0.0
+"Dixon, Nebraska",0.0
+"Doddridge, West Virginia",0.0
+"Dodge, Georgia",0.0
+"Dodge, Nebraska",0.0
+"Dolores, Colorado",0.0
+"Donley, Texas",0.0
+"Dooly, Georgia",0.0
+"Door, Wisconsin",0.0
+"Douglas, Illinois",0.0
+"Douglas, Minnesota",0.0
+"Douglas, Missouri",0.0
+"Douglas, South Dakota",0.0
+"Drew, Arkansas",0.0
+"Dubois, Indiana",0.0
+"Duchesne, Utah",0.0
+"Dundy, Nebraska",0.0
+"Dunklin, Missouri",0.0
+"Dunn, North Dakota",0.0
+"Dunn, Wisconsin",0.0
+"Duplin, North Carolina",0.0
+"Duval, Texas",0.0
+"Early, Georgia",0.0
+"East Carroll Parish, Louisiana",0.0
+"East Feliciana Parish, Louisiana",0.0
+"Eastland, Texas",0.0
+"Echols, Georgia",0.0
+"Eddy, North Dakota",0.0
+"Edgar, Illinois",0.0
+"Edgefield, South Carolina",0.0
+"Edmonson, Kentucky",0.0
+"Edmunds, South Dakota",0.0
+"Edwards, Illinois",0.0
+"Edwards, Kansas",0.0
+"Edwards, Texas",0.0
+"Effingham, Georgia",0.0
+"Elbert, Colorado",0.0
+"Elbert, Georgia",0.0
+"Elk, Kansas",0.0
+"Elk, Pennsylvania",0.0
+"Elliott, Kentucky",0.0
+"Ellis, Kansas",0.0
+"Ellis, Oklahoma",0.0
+"Ellis, Texas",0.0
+"Ellsworth, Kansas",0.0
+"Elmore, Alabama",0.0
+"Elmore, Idaho",0.0
+"Emanuel, Georgia",0.0
+"Emmet, Iowa",0.0
+"Emmet, Michigan",0.0
+"Emmons, North Dakota",0.0
+"Emporia city, Virginia",0.0
+"Erath, Texas",0.0
+"Escambia, Alabama",0.0
+"Esmeralda, Nevada",0.0
+"Essex, Virginia",0.0
+"Estill, Kentucky",0.0
+"Eureka, Nevada",0.0
+"Evangeline Parish, Louisiana",0.0
+"Evans, Georgia",0.0
+"Fairfield, South Carolina",0.0
+"Fallon, Montana",0.0
+"Fall River, South Dakota",0.0
+"Fannin, Georgia",0.0
+"Fannin, Texas",0.0
+"Faribault, Minnesota",0.0
+"Faulk, South Dakota",0.0
+"Faulkner, Arkansas",0.0
+"Fauquier, Virginia",0.0
+"Fayette, Alabama",0.0
+"Fayette, Iowa",0.0
+"Fayette, Illinois",0.0
+"Fayette, Ohio",0.0
+"Fayette, Tennessee",0.0
+"Fentress, Tennessee",0.0
+"Fergus, Montana",0.0
+"Ferry, Washington",0.0
+"Fillmore, Nebraska",0.0
+"Fisher, Texas",0.0
+"Flagler, Florida",0.0
+"Fleming, Kentucky",0.0
+"Florence, Wisconsin",0.0
+"Floyd, Georgia",0.0
+"Floyd, Iowa",0.0
+"Floyd, Kentucky",0.0
+"Floyd, Texas",0.0
+"Floyd, Virginia",0.0
+"Foard, Texas",0.0
+"Ford, Illinois",0.0
+"Forest, Pennsylvania",0.0
+"Forest, Wisconsin",0.0
+"Foster, North Dakota",0.0
+"Fountain, Indiana",0.0
+"Franklin city, Virginia",0.0
+"Franklin, Alabama",0.0
+"Franklin, Arkansas",0.0
+"Franklin, Florida",0.0
+"Franklin, Georgia",0.0
+"Franklin, Iowa",0.0
+"Franklin, Illinois",0.0
+"Franklin, Indiana",0.0
+"Franklin, Kansas",0.0
+"Franklin, Kentucky",0.0
+"Franklin, Maine",0.0
+"Franklin, Mississippi",0.0
+"Franklin, North Carolina",0.0
+"Franklin, Nebraska",0.0
+"Franklin, New York",0.0
+"Franklin, Tennessee",0.0
+"Franklin, Texas",0.0
+"Franklin Parish, Louisiana",0.0
+"Freeborn, Minnesota",0.0
+"Freestone, Texas",0.0
+"Fremont, Colorado",0.0
+"Fremont, Iowa",0.0
+"Fremont, Idaho",0.0
+"Fremont, Wyoming",0.0
+"Frio, Texas",0.0
+"Frontier, Nebraska",0.0
+"Fulton, Arkansas",0.0
+"Fulton, Illinois",0.0
+"Fulton, Indiana",0.0
+"Fulton, Ohio",0.0
+"Fulton, Pennsylvania",0.0
+"Furnas, Nebraska",0.0
+"Gadsden, Florida",0.0
+"Gage, Nebraska",0.0
+"Gaines, Texas",0.0
+"Galax city, Virginia",0.0
+"Gallatin, Illinois",0.0
+"Gallatin, Kentucky",0.0
+"Gallia, Ohio",0.0
+"Garden, Nebraska",0.0
+"Garfield, Montana",0.0
+"Garfield, Nebraska",0.0
+"Garfield, Oklahoma",0.0
+"Garfield, Utah",0.0
+"Garfield, Washington",0.0
+"Garrard, Kentucky",0.0
+"Garza, Texas",0.0
+"Gates, North Carolina",0.0
+"Geary, Kansas",0.0
+"Geauga, Ohio",0.0
+"Gem, Idaho",0.0
+"Genesee, New York",0.0
+"Geneva, Alabama",0.0
+"Gentry, Missouri",0.0
+"George, Mississippi",0.0
+"Gibson, Indiana",0.0
+"Gibson, Tennessee",0.0
+"Gila, Arizona",0.0
+"Gilchrist, Florida",0.0
+"Giles, Tennessee",0.0
+"Giles, Virginia",0.0
+"Gillespie, Texas",0.0
+"Gilliam, Oregon",0.0
+"Gilmer, Georgia",0.0
+"Gilmer, West Virginia",0.0
+"Glades, Florida",0.0
+"Gladwin, Michigan",0.0
+"Glascock, Georgia",0.0
+"Glasscock, Texas",0.0
+"Glenn, California",0.0
+"Gloucester, Virginia",0.0
+"Glynn, Georgia",0.0
+"Gogebic, Michigan",0.0
+"Golden Valley, Montana",0.0
+"Golden Valley, North Dakota",0.0
+"Goliad, Texas",0.0
+"Gonzales, Texas",0.0
+"Goochland, Virginia",0.0
+"Gooding, Idaho",0.0
+"Gordon, Georgia",0.0
+"Goshen, Wyoming",0.0
+"Gosper, Nebraska",0.0
+"Gove, Kansas",0.0
+"Grady, Georgia",0.0
+"Grady, Oklahoma",0.0
+"Graham, Arizona",0.0
+"Graham, Kansas",0.0
+"Graham, North Carolina",0.0
+"Grainger, Tennessee",0.0
+"Granite, Montana",0.0
+"Grant, Arkansas",0.0
+"Grant, Indiana",0.0
+"Grant, Kansas",0.0
+"Grant, Kentucky",0.0
+"Grant, Minnesota",0.0
+"Grant, North Dakota",0.0
+"Grant, Nebraska",0.0
+"Grant, New Mexico",0.0
+"Grant, Oklahoma",0.0
+"Grant, South Dakota",0.0
+"Grant Parish, Louisiana",0.0
+"Granville, North Carolina",0.0
+"Gratiot, Michigan",0.0
+"Graves, Kentucky",0.0
+"Gray, Kansas",0.0
+"Gray, Texas",0.0
+"Grayson, Kentucky",0.0
+"Grayson, Virginia",0.0
+"Greeley, Kansas",0.0
+"Greeley, Nebraska",0.0
+"Green, Kentucky",0.0
+"Green, Wisconsin",0.0
+"Greene, Alabama",0.0
+"Greene, Arkansas",0.0
+"Greene, Georgia",0.0
+"Greene, Iowa",0.0
+"Greene, Illinois",0.0
+"Greene, Indiana",0.0
+"Greene, Mississippi",0.0
+"Greene, North Carolina",0.0
+"Greene, Tennessee",0.0
+"Green Lake, Wisconsin",0.0
+"Greenlee, Arizona",0.0
+"Greensville, Virginia",0.0
+"Greenwood, Kansas",0.0
+"Greenwood, South Carolina",0.0
+"Greer, Oklahoma",0.0
+"Gregory, South Dakota",0.0
+"Grenada, Mississippi",0.0
+"Griggs, North Dakota",0.0
+"Grimes, Texas",0.0
+"Grundy, Iowa",0.0
+"Grundy, Illinois",0.0
+"Grundy, Missouri",0.0
+"Grundy, Tennessee",0.0
+"Guadalupe, New Mexico",0.0
+"Guadalupe, Texas",0.0
+"Gulf, Florida",0.0
+"Guthrie, Iowa",0.0
+"Haakon, South Dakota",0.0
+"Habersham, Georgia",0.0
+"Haines Borough, Alaska",0.0
+"Hale, Alabama",0.0
+"Hale, Texas",0.0
+"Halifax, North Carolina",0.0
+"Halifax, Virginia",0.0
+"Hall, Nebraska",0.0
+"Hall, Texas",0.0
+"Hamblen, Tennessee",0.0
+"Hamilton, Florida",0.0
+"Hamilton, Iowa",0.0
+"Hamilton, Illinois",0.0
+"Hamilton, Kansas",0.0
+"Hamilton, Nebraska",0.0
+"Hamilton, New York",0.0
+"Hamilton, Texas",0.0
+"Hamlin, South Dakota",0.0
+"Hancock, Georgia",0.0
+"Hancock, Iowa",0.0
+"Hancock, Illinois",0.0
+"Hancock, Indiana",0.0
+"Hancock, Kentucky",0.0
+"Hancock, Maine",0.0
+"Hancock, Mississippi",0.0
+"Hancock, Ohio",0.0
+"Hancock, Tennessee",0.0
+"Hancock, West Virginia",0.0
+"Hand, South Dakota",0.0
+"Hansford, Texas",0.0
+"Hanson, South Dakota",0.0
+"Haralson, Georgia",0.0
+"Hardee, Florida",0.0
+"Hardeman, Tennessee",0.0
+"Hardeman, Texas",0.0
+"Hardin, Iowa",0.0
+"Hardin, Illinois",0.0
+"Hardin, Kentucky",0.0
+"Hardin, Ohio",0.0
+"Hardin, Tennessee",0.0
+"Hardin, Texas",0.0
+"Harding, New Mexico",0.0
+"Harding, South Dakota",0.0
+"Harlan, Kentucky",0.0
+"Harlan, Nebraska",0.0
+"Harmon, Oklahoma",0.0
+"Harnett, North Carolina",0.0
+"Harper, Kansas",0.0
+"Harper, Oklahoma",0.0
+"Harris, Georgia",0.0
+"Harrison, Iowa",0.0
+"Harrison, Indiana",0.0
+"Harrison, Kentucky",0.0
+"Harrison, Missouri",0.0
+"Harrison, Ohio",0.0
+"Hart, Georgia",0.0
+"Hart, Kentucky",0.0
+"Hartley, Texas",0.0
+"Haskell, Kansas",0.0
+"Haskell, Oklahoma",0.0
+"Haskell, Texas",0.0
+"Hayes, Nebraska",0.0
+"Haywood, North Carolina",0.0
+"Haywood, Tennessee",0.0
+"Heard, Georgia",0.0
+"Hemphill, Texas",0.0
+"Henderson, Tennessee",0.0
+"Henderson, Texas",0.0
+"Hendry, Florida",0.0
+"Henry, Alabama",0.0
+"Henry, Indiana",0.0
+"Henry, Kentucky",0.0
+"Henry, Missouri",0.0
+"Henry, Ohio",0.0
+"Henry, Tennessee",0.0
+"Henry, Virginia",0.0
+"Hertford, North Carolina",0.0
+"Hettinger, North Dakota",0.0
+"Hickman, Kentucky",0.0
+"Hickman, Tennessee",0.0
+"Hickory, Missouri",0.0
+"Highland, Ohio",0.0
+"Highland, Virginia",0.0
+"Hill, Texas",0.0
+"Hillsdale, Michigan",0.0
+"Hinsdale, Colorado",0.0
+"Hitchcock, Nebraska",0.0
+"Hocking, Ohio",0.0
+"Hockley, Texas",0.0
+"Hodgeman, Kansas",0.0
+"Hoke, North Carolina",0.0
+"Holmes, Florida",0.0
+"Holmes, Mississippi",0.0
+"Holmes, Ohio",0.0
+"Holt, Missouri",0.0
+"Holt, Nebraska",0.0
+"Hood, Texas",0.0
+"Hooker, Nebraska",0.0
+"Hoonah-Angoon Census Area, Alaska",0.0
+"Hopkins, Kentucky",0.0
+"Hopkins, Texas",0.0
+"Hot Springs, Wyoming",0.0
+"Houghton, Michigan",0.0
+"Houston, Alabama",0.0
+"Houston, Tennessee",0.0
+"Houston, Texas",0.0
+"Howard, Arkansas",0.0
+"Howard, Iowa",0.0
+"Howard, Indiana",0.0
+"Howard, Missouri",0.0
+"Howard, Nebraska",0.0
+"Howard, Texas",0.0
+"Howell, Missouri",0.0
+"Hubbard, Minnesota",0.0
+"Hudspeth, Texas",0.0
+"Huerfano, Colorado",0.0
+"Hughes, Oklahoma",0.0
+"Hughes, South Dakota",0.0
+"Humboldt, Iowa",0.0
+"Humphreys, Mississippi",0.0
+"Humphreys, Tennessee",0.0
+"Hunt, Texas",0.0
+"Huntington, Indiana",0.0
+"Huron, Michigan",0.0
+"Huron, Ohio",0.0
+"Hutchinson, South Dakota",0.0
+"Hutchinson, Texas",0.0
+"Hyde, South Dakota",0.0
+"Iberville Parish, Louisiana",0.0
+"Ida, Iowa",0.0
+"Idaho, Idaho",0.0
+"Independence, Arkansas",0.0
+"Indian River, Florida",0.0
+"Ionia, Michigan",0.0
+"Iosco, Michigan",0.0
+"Iowa, Iowa",0.0
+"Iowa, Wisconsin",0.0
+"Irion, Texas",0.0
+"Iron, Michigan",0.0
+"Iron, Utah",0.0
+"Iron, Wisconsin",0.0
+"Irwin, Georgia",0.0
+"Isabella, Michigan",0.0
+"Isanti, Minnesota",0.0
+"Issaquena, Mississippi",0.0
+"Itasca, Minnesota",0.0
+"Itawamba, Mississippi",0.0
+"Izard, Arkansas",0.0
+"Jack, Texas",0.0
+"Jackson, Alabama",0.0
+"Jackson, Arkansas",0.0
+"Jackson, Colorado",0.0
+"Jackson, Florida",0.0
+"Jackson, Georgia",0.0
+"Jackson, Iowa",0.0
+"Jackson, Indiana",0.0
+"Jackson, Kansas",0.0
+"Jackson, Kentucky",0.0
+"Jackson, Minnesota",0.0
+"Jackson, North Carolina",0.0
+"Jackson, Ohio",0.0
+"Jackson, Oklahoma",0.0
+"Jackson, South Dakota",0.0
+"Jackson, Tennessee",0.0
+"Jackson, Texas",0.0
+"Jackson, Wisconsin",0.0
+"Jackson, West Virginia",0.0
+"Jackson Parish, Louisiana",0.0
+"Jasper, Georgia",0.0
+"Jasper, Iowa",0.0
+"Jasper, Illinois",0.0
+"Jasper, Mississippi",0.0
+"Jasper, South Carolina",0.0
+"Jasper, Texas",0.0
+"Jay, Indiana",0.0
+"Jeff Davis, Georgia",0.0
+"Jeff Davis, Texas",0.0
+"Jefferson, Arkansas",0.0
+"Jefferson, Florida",0.0
+"Jefferson, Georgia",0.0
+"Jefferson, Iowa",0.0
+"Jefferson, Idaho",0.0
+"Jefferson, Illinois",0.0
+"Jefferson, Indiana",0.0
+"Jefferson, Kansas",0.0
+"Jefferson, Mississippi",0.0
+"Jefferson, Montana",0.0
+"Jefferson, Nebraska",0.0
+"Jefferson, New York",0.0
+"Jefferson, Oklahoma",0.0
+"Jefferson, Tennessee",0.0
+"Jefferson, Wisconsin",0.0
+"Jefferson Davis, Mississippi",0.0
+"Jefferson Davis Parish, Louisiana",0.0
+"Jenkins, Georgia",0.0
+"Jennings, Indiana",0.0
+"Jerauld, South Dakota",0.0
+"Jerome, Idaho",0.0
+"Jersey, Illinois",0.0
+"Jewell, Kansas",0.0
+"Jim Hogg, Texas",0.0
+"Jim Wells, Texas",0.0
+"Johnson, Arkansas",0.0
+"Johnson, Georgia",0.0
+"Johnson, Illinois",0.0
+"Johnson, Kentucky",0.0
+"Johnson, Nebraska",0.0
+"Johnson, Tennessee",0.0
+"Johnson, Wyoming",0.0
+"Johnston, Oklahoma",0.0
+"Jones, Iowa",0.0
+"Jones, North Carolina",0.0
+"Jones, South Dakota",0.0
+"Jones, Texas",0.0
+"Judith Basin, Montana",0.0
+"Juneau, Wisconsin",0.0
+"Juniata, Pennsylvania",0.0
+"Kalawao, Hawaii",0.0
+"Kalkaska, Michigan",0.0
+"Kanabec, Minnesota",0.0
+"Kandiyohi, Minnesota",0.0
+"Kane, Utah",0.0
+"Karnes, Texas",0.0
+"Kauai, Hawaii",0.0
+"Kay, Oklahoma",0.0
+"Kearney, Nebraska",0.0
+"Kearny, Kansas",0.0
+"Keith, Nebraska",0.0
+"Kemper, Mississippi",0.0
+"Kenai Peninsula Borough, Alaska",0.0
+"Kendall, Texas",0.0
+"Kenedy, Texas",0.0
+"Kent, Texas",0.0
+"Keokuk, Iowa",0.0
+"Kerr, Texas",0.0
+"Kewaunee, Wisconsin",0.0
+"Keweenaw, Michigan",0.0
+"Keya Paha, Nebraska",0.0
+"Kidder, North Dakota",0.0
+"Kimball, Nebraska",0.0
+"Kimble, Texas",0.0
+"King and Queen, Virginia",0.0
+"King, Texas",0.0
+"Kingfisher, Oklahoma",0.0
+"King George, Virginia",0.0
+"Kingman, Kansas",0.0
+"Kingsbury, South Dakota",0.0
+"King William, Virginia",0.0
+"Kinney, Texas",0.0
+"Kiowa, Colorado",0.0
+"Kiowa, Kansas",0.0
+"Kiowa, Oklahoma",0.0
+"Kit Carson, Colorado",0.0
+"Kittson, Minnesota",0.0
+"Kleberg, Texas",0.0
+"Knott, Kentucky",0.0
+"Knox, Indiana",0.0
+"Knox, Kentucky",0.0
+"Knox, Maine",0.0
+"Knox, Missouri",0.0
+"Knox, Nebraska",0.0
+"Knox, Ohio",0.0
+"Knox, Texas",0.0
+"Kodiak Island Borough, Alaska",0.0
+"Koochiching, Minnesota",0.0
+"Kosciusko, Indiana",0.0
+"Kossuth, Iowa",0.0
+"Kusilvak Census Area, Alaska",0.0
+"Labette, Kansas",0.0
+"Laclede, Missouri",0.0
+"Lac qui Parle, Minnesota",0.0
+"Lafayette, Arkansas",0.0
+"Lafayette, Florida",0.0
+"Lafayette, Missouri",0.0
+"Lafayette, Mississippi",0.0
+"Lafayette, Wisconsin",0.0
+"LaGrange, Indiana",0.0
+"Lake and Peninsula Borough, Alaska",0.0
+"Lake, Michigan",0.0
+"Lake, Minnesota",0.0
+"Lake, Montana",0.0
+"Lake, Oregon",0.0
+"Lake, South Dakota",0.0
+"Lake, Tennessee",0.0
+"Lake of the Woods, Minnesota",0.0
+"Lamar, Alabama",0.0
+"Lamar, Georgia",0.0
+"Lamar, Texas",0.0
+"Lamb, Texas",0.0
+"LaMoure, North Dakota",0.0
+"Lampasas, Texas",0.0
+"Lancaster, South Carolina",0.0
+"Lancaster, Virginia",0.0
+"Lander, Nevada",0.0
+"Lane, Kansas",0.0
+"Langlade, Wisconsin",0.0
+"Lanier, Georgia",0.0
+"La Plata, Colorado",0.0
+"Larue, Kentucky",0.0
+"La Salle, Texas",0.0
+"LaSalle Parish, Louisiana",0.0
+"Latah, Idaho",0.0
+"Latimer, Oklahoma",0.0
+"Lauderdale, Alabama",0.0
+"Lauderdale, Tennessee",0.0
+"Laurel, Kentucky",0.0
+"Laurens, Georgia",0.0
+"Laurens, South Carolina",0.0
+"Lavaca, Texas",0.0
+"Lawrence, Alabama",0.0
+"Lawrence, Illinois",0.0
+"Lawrence, Indiana",0.0
+"Lawrence, Kentucky",0.0
+"Lawrence, Missouri",0.0
+"Lawrence, Mississippi",0.0
+"Lawrence, South Dakota",0.0
+"Lawrence, Tennessee",0.0
+"Lea, New Mexico",0.0
+"Leake, Mississippi",0.0
+"Leavenworth, Kansas",0.0
+"Lee, Alabama",0.0
+"Lee, Arkansas",0.0
+"Lee, Illinois",0.0
+"Lee, Kentucky",0.0
+"Lee, Mississippi",0.0
+"Lee, North Carolina",0.0
+"Lee, South Carolina",0.0
+"Lee, Virginia",0.0
+"Lemhi, Idaho",0.0
+"Lenawee, Michigan",0.0
+"Lenoir, North Carolina",0.0
+"Leon, Texas",0.0
+"Leslie, Kentucky",0.0
+"Le Sueur, Minnesota",0.0
+"Letcher, Kentucky",0.0
+"Levy, Florida",0.0
+"Lewis and Clark, Montana",0.0
+"Lewis, Idaho",0.0
+"Lewis, Kentucky",0.0
+"Lewis, Missouri",0.0
+"Lewis, New York",0.0
+"Lewis, Tennessee",0.0
+"Lewis, West Virginia",0.0
+"Liberty, Florida",0.0
+"Liberty, Georgia",0.0
+"Liberty, Montana",0.0
+"Limestone, Alabama",0.0
+"Limestone, Texas",0.0
+"Lincoln, Arkansas",0.0
+"Lincoln, Colorado",0.0
+"Lincoln, Georgia",0.0
+"Lincoln, Idaho",0.0
+"Lincoln, Kansas",0.0
+"Lincoln, Kentucky",0.0
+"Lincoln, Maine",0.0
+"Lincoln, Minnesota",0.0
+"Lincoln, Missouri",0.0
