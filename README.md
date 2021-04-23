@@ -64,7 +64,11 @@ We present descriptive statistics of the variables in our regression analysis. E
 
 ## Regression Results
 
-|                        | (1)            | (2)            | (3)            | (4)       | (4)            | (5)            |
+
+Normalized OLS Regression results.
+
+
+|                        | (1)            | (2)            | (3)            | (4)       | (5)            | (6)            |
 |------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
 | VARIABLES              | CVD (March 27) | CVD (April 07) | **CVD (April 19)** | **FVD 2019**       | CVD (April 19) | CVD (April 19) |
 |                        |                |                |                |           |                |                |
