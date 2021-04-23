@@ -3,4 +3,10 @@
 .ipynb_checkpoints/
 Data/
 RegResult/
+Workplace/
+RaceVaccineBackup/
+Part2/
+
+__pycache__/*
+*.pyc 
 
