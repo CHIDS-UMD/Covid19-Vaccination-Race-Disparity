@@ -1,6 +1,6 @@
 # Socioeconomic Privilege and Political Ideology are Associated with Racial Disparity in COVID-19 Vaccination: Methods and Materials
 
-This public repository contains the materials for reproducing the methods described in Agarwal et al. (2021) _Socioeconomic Privilege and Political Ideology Are Associated with Racial Disparity in COVID-19 Vaccination_ and additional supplementary analyses. 
+This public repository contains the materials for reproducing the results described in Agarwal et al. (2021) _Socioeconomic Privilege and Political Ideology Are Associated with Racial Disparity in COVID-19 Vaccination_ and additional supplementary analyses. 
 
 Materials for reproducibility include:
 
@@ -40,7 +40,7 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 | Wisconsin      | 72            | 28                  | https://www.dhs.wisconsin.gov/covid-19/vaccine-data.htm#day                                                                                                   |
 | Sum            | 1199          | 759                 |                                                                                                                                                               |
 
-_Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in our sample construction figure. 
+_Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
 ## Missingness in Predictor Variable Data
 
@@ -86,7 +86,7 @@ We present descriptive statistics of the variables in our regression analysis.
 | Above Age 75 Disparity            | Elderly population (>=75) disparity between white and black people in county i.                                                                                                                                       | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                              | 759   | 3.638  | 2.310  | -4.910  | 2.215  | 3.515  | 5.074  | 12.933  |
 
 
-### Scatter Matrix
+### Scatter Matrices
 
 ![](_img/scatter.png)
 
