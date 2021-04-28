@@ -61,8 +61,6 @@ The filtering of the data collected for all counties on April 19, 2021.
 
 We present descriptive statistics of the variables in our regression analysis. 	
 
-**Note maybe add new column called 'data field' that maps how we refer to the variables in our paper to the names of the variables in the data files**
-
 | Variable                        | Description                                                                                            | Source                                                                                                                                                                                                                                            | Data Field             | count | mean   | std    | min     | 25%  | 50%  | 75%  | max     |
 |---------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------|--------|--------|---------|--------|--------|--------|---------|
 | CVD                             | Covid vaccination disparity between White and Black populations in county i.                           | Department of Health in each state                                                                                                                                                                                                                | Vax_DisparityY         | 759   | 9.021  | 10.435 | -18.168 | 1.502  | 6.756  | 15.192 | 48.640  |
