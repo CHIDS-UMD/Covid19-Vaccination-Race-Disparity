@@ -16,7 +16,7 @@ Materials for reproducibility include:
 
 3. Python code for [cleaning the data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/2.DataClean.ipynb). 
 
-4. [Code](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/3.StataCode.ipynb) to reproduce our main regression analyses (reported in main text) and robustness checks (reported in SI Appendix) as well as  additional supplementary analyses reported here. 
+4. [Clean data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/tree/main/StataReg) and [code](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/3.StataCode.ipynb) to reproduce our main regression analyses (reported in main text) and robustness checks (reported in SI Appendix) as well as  additional supplementary analyses reported here. 
 
 Below, we also provide additional summary statistics, exploratory data analysis, and full results for the robustness checks described in the SI appendix. 
 
@@ -44,10 +44,10 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
-## Missingness in Predictor Variable Data
+## Missingness
 
 ![](_img/missing.png)
-
+**Figure S1.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
 
 ## Sample Construction
 
@@ -89,6 +89,8 @@ We present descriptive statistics of the variables in our regression analysis.
 ### Scatter Matrices
 
 ![](_img/scatter.png)
+
+**Figure S2.** Scatter matrices illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
 **Note to update scatter matrix to be comprehensive (e.g., missing median income, some covariates)**
 
