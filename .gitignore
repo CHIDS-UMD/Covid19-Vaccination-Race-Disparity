@@ -4,7 +4,7 @@
 Data/
 RegResult/
 Workplace/
-RaceVaccineBackup/
+# RaceVaccineBackup/
 Part2/
 
 __pycache__/*
