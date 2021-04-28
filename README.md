@@ -53,6 +53,7 @@ The filtering of the data collected for all counties on April 19, 2021.
 ![](_img/process.png)
 
 **Note, please change capitalization of black to Black, and also change independent variables to predictor variables**
+
 XXalso keep capitalization consistent XX
 
 
