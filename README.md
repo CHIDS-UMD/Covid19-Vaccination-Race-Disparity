@@ -60,7 +60,7 @@ The filtering of the data collected for all counties on April 19, 2021.
 
 ## Summary Statistics
 
-We present descriptive statistics of the variables in our regression analysis. 	
+We present descriptive statistics of the variables in our regression analysis in their original units (non-standardized). 	
 
 | Variable                        | Description                                                                                            | Source                                                                                                                                                                                                                                            | Data Field             | count | mean   | std    | min     | 25%  | 50%  | 75%  | max     |
 |---------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------|--------|--------|---------|--------|--------|--------|---------|
