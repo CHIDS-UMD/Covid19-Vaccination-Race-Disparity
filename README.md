@@ -97,7 +97,7 @@ We present descriptive statistics of the variables in our regression analysis.
 
 ### Regression Results
 
-OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4) with all continuous variables standardized for ease of interpretation. **Note:** * _p_ < .05, ** _p_ < .01. 
+OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4, also in bold font) with all continuous variables standardized for ease of interpretation. **Note:** * _p_ < .05, ** _p_ < .01. 
 
 |                                 | (1)            | (2)            |<b> (3) </b>           | <b>(4)</b>       | (5)            | (6)            |
 |---------------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
