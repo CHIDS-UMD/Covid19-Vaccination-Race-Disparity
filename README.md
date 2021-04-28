@@ -96,14 +96,14 @@ We present descriptive statistics of the variables in our regression analysis.
 
 ### Regression Results
 
-OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4) with all continuous variables standardized for ease of interpretation. 
+OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4) with all continuous variables standardized for ease of interpretation. _Note. _* _p_ < .05, ** _p_ < .01. 
 
 |                                 | (1)            | (2)            | (3)            | (4)       | (5)            | (6)            |
 |---------------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
 | VARIABLES                       | CVD (March 27) | CVD (April 07) | CVD (April 19) | FVD       | CVD (April 19) | CVD (April 19) |
 |                                 |                |                |                |           |                |                |
 | **Economic Stability**            |                |                |                |           |                |                |
-| Median Income                   | -1.937*       | -2.320*       | -2.434*       | 1.145    | -3.217**      | -2.240*       |
+| Median Income                   | -1.937*       | -2.320*       | -2.434*     | 1.145    | -3.217**      | -2.240*       |
 |                                 | (0.866)        | (0.995)        | (1.084)        | (0.589)   | (1.054)        | (0.929)        |
 | Median Income Disparity         | 0.703*        | 0.776         | 0.984         | 0.843*   | 0.625          | 1.109*        |
 |                                 | (0.287)        | (0.394)        | (0.489)        | (0.312)   | (0.486)        | (0.497)        |
