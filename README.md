@@ -86,9 +86,9 @@ We present descriptive statistics of the variables in our regression analysis.
 | Above Age 75 Disparity          | Elderly population (>=75) disparity between white and black people in county i.                        | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | Above75_Disparity      | 759   | 3.638  | 2.310  | -4.910  | 2.215  | 3.515  | 5.074  | 12.933  |
 
 
-### Scatter Matrices
+### Correlation Matrix Heatmap
 
-![](_img/scatter.png)
+![](_img/correlation.png)
 
 **Figure S2.** Scatter matrices illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
