@@ -48,11 +48,12 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 ## Sample Construction
 
-The filtering of the data collected for all counties on April 19.
+The filtering of the data collected for all counties on April 19, 2021.
 
 ![](_img/process.png)
 
 **Note, please change capitalization of black to Black, and also change independent variables to predictor variables**
+XXalso keep capitalization consistent XX
 
 
 ## Summary Statistics
