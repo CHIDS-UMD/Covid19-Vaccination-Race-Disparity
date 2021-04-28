@@ -102,7 +102,7 @@ OLS regression results for robustness checks (Models 1, 2, 5, and 6) are present
 
 |                                 | (1)            | (2)            | (3)            | (4)       | (5)            | (6)            |
 |---------------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
-| VARIABLES                       | CVD (March 27, 2021) | CVD (April 07) | CVD (April 19) | FVD       | CVD (April 19) | CVD (April 19) |
+| VARIABLES                       | CVD (March 27, 2021) | CVD (April 07, 2021) | CVD (April 19, 2021) | FVD       | CVD (April 19, 2021) | CVD (April 19, 2021) |
 |                                 |                |                |                |           |                |                |
 | **Economic Stability**            |                |                |                |           |                |                |
 | Median Income                   | -1.937*       | -2.320*       | -2.434*     | 1.145    | -3.217**      | -2.240*       |
