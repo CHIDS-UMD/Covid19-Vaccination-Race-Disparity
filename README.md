@@ -56,6 +56,7 @@ The filtering of the data collected for all counties on April 19, 2021.
 ![](_img/dataprocessing.png)
 
 
+**Figure S2.** Flowchart depicting sample construction.
 
 ## Summary Statistics
 
@@ -90,9 +91,7 @@ We present descriptive statistics of the variables in our regression analysis.
 
 ![](_img/correlation.png)
 
-**Figure S2.** Scatter matrices illustrate bivariate relationships among all variables in our main regression results and robustness checks.
-
-**Note to update scatter matrix to be comprehensive (e.g., missing median income, some covariates)**
+**Figure S3.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
 ## Detailed Regression Results and Robustness Checks
 
