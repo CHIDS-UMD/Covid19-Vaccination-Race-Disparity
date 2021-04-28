@@ -5,10 +5,12 @@ This public repository contains the materials for reproducing the results descri
 Materials for reproducibility include:
 
 1. [COVID-19 vaccination rate data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/tree/main/CountyVaccine) and Python code to reproduce the data collection, including:<br>
-    a) Explain purpose of first Python notebook and link to it ("Autonomy") <br>
-    b) Explain purpose of second Python notebook and link to it ("Manual") <br>
-    c) Explain purpose of third Python notebook and link to it ("Per County") <br>
-    d) Explain purpose of fourth Python notebook and link to it ("Tableau") <br>
+
+    a) The notebook [1.CountyVaccine_Automation](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Automation.ipynb) is developed to collect the county-level racial vaccination information from the States whose vaccination information is well oragnized in a downlable table. In this notebook, the Python code can automatically scrape the data. The States include： Illinois, Texas, Pennsylvania, Indiana, and Virginia. <br>
+    
+    b) The notebook [1.CountyVaccine_Tableau](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Tableau.ipynb) is designed to collect the county-level racial vaccination information from the States whose vaccination information is present in the Tableau Dashboard format. In this notebook, the Python code can also automatically scrape the data. The States include：New York, Wisconsin, Ohio, South Carolina, and Oregon.<br>
+    
+    c) The notebook [1.CountyVaccine_Manual](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Manual.ipynb) is developed to collect the county-level racial vaccination information from the States whose vaccination information need to be collected manually before running the code. These States include: California, Tennessee, North Carolina, West Virginia, Maine, and New Jersey. The instructions on manual collections are documented [here](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/tree/main/CountyVaccine/Documents/Part1).<br> 
     
 2. [Data](https://github.com/mdugasumd/Covid19-Vaccination-Race-Disparity/tree/main/DataMerge) and [Python code](https://github.com/mdugasumd/Covid19-Vaccination-Race-Disparity/blob/main/2.DataMerge.ipynb) to merge information from the various sources cited in our Supplementary Information (SI) Appendix.
 
