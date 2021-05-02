@@ -44,10 +44,14 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
+![](_img/Map.png)
+
+**Figure S1.** Map represents COVID-19 vaccination disparities across 1,199 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 759 counties, the range of vaccination disparity is between -18.2% and 48.6%. 
+
 ## Missingness
 
 ![](_img/missing.png)
-**Figure S1.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
+**Figure S2.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
 
 ## Sample Construction
 
@@ -56,7 +60,7 @@ The filtering of the data collected for all counties on April 19, 2021.
 ![](_img/dataprocessing.png)
 
 
-**Figure S2.** Flowchart depicting sample construction.
+**Figure S3.** Flowchart depicting sample construction.
 
 ## Summary Statistics
 
@@ -91,7 +95,7 @@ We present descriptive statistics of the variables in our regression analysis in
 
 ![](_img/correlation.png)
 
-**Figure S3.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
+**Figure S4.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
 ## Detailed Regression Results and Robustness Checks
 
