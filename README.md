@@ -8,7 +8,7 @@ Materials for reproducibility include:
 
     a) The notebook [1.CountyVaccine_Automation](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Automation.ipynb) includes the code to collect the county-level vaccination information by race from the States whose vaccination data is oragnized in a downlable table. In this notebook, the Python code can automatically scrape the data. The States include： Illinois, Texas, Pennsylvania, Indiana, and Virginia. <br>
     
-    b) The notebook [1.CountyVaccine_Tableau](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Tableau.ipynb) is designed to collect the county-level racial vaccination information from the States whose vaccination information is present in a Tableau Dashboard format. In this notebook, the Python code can also automatically scrape the data. The States include：New York, Wisconsin, Ohio, South Carolina, and Oregon.<br>
+    b) The notebook [1.CountyVaccine_Tableau](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Tableau.ipynb) is designed to collect the county-level vaccination information by race from the States whose vaccination information is present in a Tableau Dashboard format. In this notebook, the Python code can also automatically scrape the data. The States include：New York, Wisconsin, Ohio, South Carolina, and Oregon.<br>
     
     c) The notebook [1.CountyVaccine_Manual](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/1.CountyVaccine_Manual.ipynb) is developed to collect the county-level racial vaccination information from the States whose vaccination information needs to be collected manually before running the code. These States include: California, Tennessee, North Carolina, West Virginia, Maine, and New Jersey. The instructions on manual collections are documented [here](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/tree/main/CountyVaccine/Documents/Part1).<br> 
     
@@ -44,10 +44,14 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
+![](_img/Map.png)
+
+**Figure S1.** Map represents COVID-19 vaccination disparities across 1,199 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 759 counties, the range of vaccination disparity is between -18.2% and 48.6%. 
+
 ## Missingness
 
 ![](_img/missing.png)
-**Figure S1.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
+**Figure S2.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
 
 ## Sample Construction
 
@@ -56,7 +60,7 @@ The filtering of the data collected for all counties on April 19, 2021.
 ![](_img/dataprocessing.png)
 
 
-**Figure S2.** Flowchart depicting sample construction.
+**Figure S3.** Flowchart depicting sample construction.
 
 ## Summary Statistics
 
@@ -91,7 +95,7 @@ We present descriptive statistics of the variables in our regression analysis in
 
 ![](_img/correlation.png)
 
-**Figure S3.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
+**Figure S4.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
 ## Detailed Regression Results and Robustness Checks
 
