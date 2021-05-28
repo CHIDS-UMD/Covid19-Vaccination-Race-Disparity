@@ -57,7 +57,7 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 The filtering of the data collected for all counties on April 19, 2021.
 
-![](_img/dataprocessing.png)
+![](_img/Workflow.png)
 
 
 **Figure S3.** Flowchart depicting sample construction.
