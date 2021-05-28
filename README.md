@@ -25,8 +25,8 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 | State          | # of Counties | # of Valid Counties | Data Source                                                                                                                                                       |
 |----------------|---------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | California     | 54            | 43                  | https://covid19.ca.gov/vaccines/#California-vaccines-dashboard                                                                                                |
-| Illinois       | 102           | 41                  | https://www.dph.illinois.gov/covid19/vaccinedata?county=Illinois                                                                                              |
-| Indiana        | 89            | 37                  | https://www.coronavirus.in.gov/vaccine/2680.htm                                                                                                               |
+| Illinois       | 100           | 41                  | https://www.dph.illinois.gov/covid19/vaccinedata?county=Illinois                                                                                              |
+| Indiana        | 88            | 37                  | https://www.coronavirus.in.gov/vaccine/2680.htm                                                                                                               |
 | Maine          | 16            | 8                   | https://www.maine.gov/covid19/vaccines/dashboard                                                                                                              |
 | New Jersey     | 21            | 21                  | https://www.nj.gov/health/cd/topics/covid2019_dashboard.shtml                                                                                                 |
 | New York       | 62            | 48                  | https://covid19vaccine.health.ny.gov/covid-19-vaccine-tracker                                                                                                 |
@@ -36,17 +36,17 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 | Pennsylvania   | 60            | 40                  | https://www.health.pa.gov/topics/disease/coronavirus/Vaccine/Pages/Vaccine.aspx                                                                               |
 | South Carolina | 46            | 46                  | https://scdhec.gov/covid19/covid-19-vaccination-dashboard                                                                                                     |
 | Tennessee      | 90            | 62                  | https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html                                                                                          |
-| Texas          | 245           | 137                 | https://tabexternal.dshs.texas.gov/t/THD/views/COVID-19VaccineinTexasDashboard/Summary?%3Aorigin=card_share_link&%3Aembed=y&%3AisGuestRedirectFromVizportal=y |
-| Virginia       | 133           | 111                 | https://www.vdh.virginia.gov/coronavirus/covid-19-vaccine-demographics/                                                                                       |
+| Texas          | 236           | 137                 | https://tabexternal.dshs.texas.gov/t/THD/views/COVID-19VaccineinTexasDashboard/Summary?%3Aorigin=card_share_link&%3Aembed=y&%3AisGuestRedirectFromVizportal=y |
+| Virginia       | 132           | 111                 | https://www.vdh.virginia.gov/coronavirus/covid-19-vaccine-demographics/                                                                                       |
 | West Virginia  | 55            | 23                  | https://dhhr.wv.gov/COVID-19/Pages/default.aspx                                                                                                               |
 | Wisconsin      | 72            | 28                  | https://www.dhs.wisconsin.gov/covid-19/vaccine-data.htm#day                                                                                                   |
-| Sum            | 1199          | 756                 |                                                                                                                                                               |
+| Sum            | 1186          | 756                 |                                                                                                                                                               |
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
 ![](_img/Map.png)
 
-**Figure S1.** Map represents COVID-19 vaccination disparities across 1,199 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 759 counties, the range of vaccination disparity is between -18.2% and 48.6%. 
+**Figure S1.** Map represents COVID-19 vaccination disparities across 1,186 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 756 counties, the range of vaccination disparity is between -52.0% and 66.2%. 
 
 ## Missingness
 
