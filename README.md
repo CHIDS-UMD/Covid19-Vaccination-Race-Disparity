@@ -40,7 +40,7 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 | Virginia       | 133           | 111                 | https://www.vdh.virginia.gov/coronavirus/covid-19-vaccine-demographics/                                                                                       |
 | West Virginia  | 55            | 23                  | https://dhhr.wv.gov/COVID-19/Pages/default.aspx                                                                                                               |
 | Wisconsin      | 72            | 28                  | https://www.dhs.wisconsin.gov/covid-19/vaccine-data.htm#day                                                                                                   |
-| Sum            | 1199          | 759                 |                                                                                                                                                               |
+| Sum            | 1199          | 756                 |                                                                                                                                                               |
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
