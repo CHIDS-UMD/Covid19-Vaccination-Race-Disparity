@@ -2,6 +2,32 @@
 
 This public repository contains the materials for reproducing the results described in Agarwal et al. (2021) _Socioeconomic Privilege and Political Ideology Are Associated with Racial Disparity in COVID-19 Vaccination_ and additional supplementary analyses. 
 
+
+## Table of Contents
+[Content Description](#materials)
+
+[Data Sources for COVID-19 Racial Vaccination by States](#covid_race_data_by_state)
+
+[Definition of Vaccination Rate Disparity](#vax_rate_disparity)
+
+[Missingness](#missing)
+
+[Summary Statistics](#summary_statistics)
+
+[Correlation Matrix Heatmap for Final Data](#correlation_map)
+
+[Main Regression Result](#main_reg)
+
+
+[Detailed Regression Results and Robustness Checks](#robustness_checks)
+
+
+
+
+
+<a name="materials"/>
+
+## Content Description
 Materials for reproducibility include:
 
 1. [COVID-19 vaccination rate data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/tree/main/CountyVaccine) and Python code to reproduce the data collection, including:<br>
@@ -20,7 +46,11 @@ Materials for reproducibility include:
 
 Below, we also provide additional summary statistics, exploratory data analysis, and full results for the robustness checks described in the SI appendix. 
 
-## Sources for COVID-19 Vaccination Data by Race
+
+
+<a name="covid_race_data_by_state"/>
+
+## Data Sources for COVID-19 Racial Vaccination by States
 
 | State          | # of Counties | Whole Population | # of Valid Counties | Population in Analysis | Data Source                                                                                                                                                   |
 |----------------|---------------|------------------|---------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -48,19 +78,37 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 **Figure S1.** Map represents COVID-19 vaccination disparities across 1,186 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 756 counties, the range of vaccination disparity is between -52.0% and 66.2%. 
 
+
+<a name="vax_rate_disparity"/>
+
+## Definition of Vaccination Rate Disparity
+
+
+
+
+
+<a name="missing"/>
+
 ## Missingness
 
 ![](_img/missing.png)
 **Figure S2.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
 
+
+
+<a name="sample_construction"/>
+
 ## Sample Construction
 
-The filtering of the data collected for all counties on April 19, 2021.
+The filtering of the data collected for all counties on April 19, 2021. The same method is also applied to the data on March 27 2021, April 07 2021, May 20 2021.
 
 ![](_img/Workflow.png)
 
 
 **Figure S3.** Flowchart depicting sample construction.
+
+
+<a name="summary_statistics"/>
 
 ## Summary Statistics
 
@@ -93,15 +141,23 @@ We present descriptive statistics of the variables in our regression analysis in
 | Age 15 <= Age <= 74 Disparity            | 15 <= age <= 74 population disparity between white and black people in county i.                       | County Population by Characteristics: 2010-2019 (https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html)                                                                                                           | A15T74_Disparity       | 756   | -0.433 | 4.311  | -20.894 | -1.974 | 0.064  | 1.996  | 17.110  |
 | Test Positivity                          | Rate of Nucleic Acid Amplification Tests (NAATs) positivity in county i.                                | CDC COVID-19 Integrated County View (https://covid.cdc.gov/covid-data-tracker/#county-view)                                                                                                                                                       | Positivity             | 756   | 6.334  | 3.765  | 0.000   | 3.828  | 5.760  | 8.433  | 26.080  |
 
-### Correlation Matrix Heatmap
+
+<a name="correlation_map"/>
+
+## Correlation Matrix Heatmap for Final Data
 
 ![](_img/correlation.png)
 
 **Figure S4.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
-## Detailed Regression Results and Robustness Checks
+<a name="main_reg"/>
 
-### Regression Results
+## Main Regression Result
+
+
+<a name="robustness_checks"/>
+
+## Detailed Regression Results and Robustness Checks
 
 OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4, also in bold font) with all continuous variables standardized for ease of interpretation. **Note:** * _p_ < .05, ** _p_ < .01. 
 
