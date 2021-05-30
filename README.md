@@ -4,22 +4,35 @@ This public repository contains the materials for reproducing the results descri
 
 
 ## Table of Contents
-[Content Description](#materials)
 
-[Data Sources for COVID-19 Racial Vaccination by States](#covid_race_data_by_state)
+- [Content Description](#materials)
 
-[Definition of Vaccination Rate Disparity](#vax_rate_disparity)
+- [Data Sources for COVID-19 Racial Vaccination by States](#covid_race_data_by_state)
 
-[Missingness](#missing)
+    * [COVID-19 Vaccination Disparity Map](#covid_map)
 
-[Summary Statistics](#summary_statistics)
+- [Definition of Vaccination Rate Disparity](#vax_rate_disparity)
 
-[Correlation Matrix Heatmap for Final Data](#correlation_map)
+- [Missingness](#missing)
 
-[Main Regression Result](#main_reg)
+- [Summary Statistics for Final Data](#summary_statistics)
+
+    * [Correlation Matrix Heatmap for Final Data](#correlation_map)
+
+- [Main Regression Result](#main_reg)
+
+    * [Base Model Regression Table](#base_model)
+
+    * [Coefficient Plot for COVID-19 and Flu Vaccination Disparity Analysis](#coef_plot)
 
 
-[Detailed Regression Results and Robustness Checks](#robustness_checks)
+- [Robustness Checks](#robustness_checks)
+
+    * [Age Group Controls](#age_control)
+    
+    * [Different Disparity Measurements](#disparity_measure)
+    
+    * [Different Dates and Different Vaccination Rate Types](#date_ratetype)
 
 
 
@@ -74,7 +87,12 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
 
+<a name="covid_map"/>
+
+### COVID-19 Vaccination Disparity Map
+
 ![](_img/map.png)
+
 
 **Figure S1.** Map represents COVID-19 vaccination disparities across 1,186 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 756 counties, the range of vaccination disparity is between -52.0% and 66.2%. 
 
@@ -84,12 +102,10 @@ _Note_. Valid counties are those that were included in our main regression analy
 ## Definition of Vaccination Rate Disparity
 
 
-
-
-
 <a name="missing"/>
 
 ## Missingness
+
 
 ![](_img/missing.png)
 **Figure S2.** Patterns of missingness in predictor and outcome variables where white lines indicate values are missing.
@@ -110,7 +126,7 @@ The filtering of the data collected for all counties on April 19, 2021. The same
 
 <a name="summary_statistics"/>
 
-## Summary Statistics
+## Summary Statistics for Final Data
 
 We present descriptive statistics of the variables in our regression analysis in non-standardized units. The table below presents rate and proportion data as percentages for ease of interpretation.  	
 
@@ -144,7 +160,7 @@ We present descriptive statistics of the variables in our regression analysis in
 
 <a name="correlation_map"/>
 
-## Correlation Matrix Heatmap for Final Data
+### Correlation Matrix Heatmap for Final Data
 
 ![](_img/correlation.png)
 
@@ -155,68 +171,43 @@ We present descriptive statistics of the variables in our regression analysis in
 ## Main Regression Result
 
 
+
+<a name='base_model'>
+### Base Model Regression Table
+
+
+ 
+<a name='coef_plot'>
+### Coefficient Plot for COVID-19 and Flu Vaccination Disparity Analysis
+    
+![](_img/coef.png)
+
+
+
 <a name="robustness_checks"/>
 
 ## Detailed Regression Results and Robustness Checks
 
-OLS regression results for robustness checks (Models 1, 2, 5, and 6) are presented below along with results from the main text (Models 3 and 4, also in bold font) with all continuous variables standardized for ease of interpretation. **Note:** * _p_ < .05, ** _p_ < .01. 
+    
+    
+ 
+<a name="age_control"/>
+    
+ ### Different Age Group Control
+    
 
-|                                 | (1)            | (2)            |<b> (3) </b>           | <b>(4)</b>       | (5)            | (6)            |
-|---------------------------------|----------------|----------------|----------------|-----------|----------------|----------------|
-| VARIABLES                       | CVD (March 27, 2021) | CVD (April 07, 2021) | <b> CVD (April 19, 2021)</b> |  <b> FVD</b>       | CVD (April 19, 2021) | CVD (April 19, 2021) |
-|                                 |                |                |                |           |                |                |
-| **Economic Stability**            |                |                |                |           |                |                |
-| Median Income                   | -1.937*       | -2.320*       |<b> -2.434* </b>     | <b>1.145</b>    | -3.217**      | -2.240*       |
-|                                 | (0.866)        | (0.995)        | <b>(1.084) </b>       | <b>(0.589) </b>  | (1.054)        | (0.929)        |
-| Median Income Disparity         | 0.703*        | 0.776         | <b>0.984</b>         | <b>0.843*</b>   | 0.625          | 1.109*        |
-|                                 | (0.287)        | (0.394)        | <b>(0.489)</b>        | <b>(0.312)</b>   | (0.486)        | (0.497)        |
-|**Education Access and Quality**                                |                |                |                |           |                |                |
-| High School Graduation Rate     | 2.177**       | 2.639**       | <b>2.790**</b>       | <b>-0.243</b>    | 2.891**       | 3.024**       |
-|                                 | (0.510)        | (0.637)        | <b>(0.729)</b>        | <b>(0.336)</b>   | (0.638)        | (0.481)        |
-| High School Disparity           | 2.043**       | 2.562**       | <b>2.993**</b>       | <b>-0.116</b>    | 2.861**       | 1.981**       |
-|                                 | (0.420)        | (0.435)        | <b>(0.474)</b>        | <b>(0.469)</b>   | (0.458)        | (0.515)        |
-|**Healthcare Access and Quality**                                 |                |                |                |           |                |                |
-| Health Facilities Per Capita    | 1.012         | 1.147          | <b>1.451</b>         | <b>-0.282</b>    | 1.354*        | 1.304*        |
-|                                 | (0.498)        | (0.655)        | <b>(0.760)</b>        | <b>(0.350)</b>   | (0.621)        | (0.581)        |
-| COVID-19 Cases Per Capita       | 0.379          | 0.488          | <b>0.318</b>         | <b>0.219</b>     | 0.496          | 0.632*        |
-|                                 | (0.405)        | (0.444)        | <b>(0.488)</b>        | <b>(0.330)</b>   | (0.310)        | (0.240)        |
-|**Neighborhood and Built Environment**                                 |                |                |                |           |                |                |
-| Home IT Rate                    | 1.148**       | 1.266*        | <b>1.576**</b>       | <b>0.113</b>     | 1.610*        | 0.705          |
-|                                 | (0.370)        | (0.441)        | <b>(0.472)</b>        | <b>(0.382)</b>   | (0.558)        | (0.584)        |
-| Home IT Disparity               | -0.00401       | 0.118          | <b>0.216</b>          | <b>0.0783</b>    | 0.0242         | 0.633          |
-|                                 | (0.539)        | (0.609)        | <b>(0.756)</b>        | <b>(0.380)</b>   | (0.700)        | (0.684)        |
-| Urban                           | -0.591         | -0.285         |<b>0.168</b>          | <b>0.182</b>     | -0.280         | -0.445         |
-|                                 | (0.482)        | (0.625)        | <b>(0.789)</b>        | <b>(0.651)</b>   | (0.730)        | (0.598)        |
-|Rate of Vehicle Ownership          | 2.358*        | 2.962**       | <b>3.012*</b>        | <b>-0.119</b>    | 2.551*        | 1.443          |
-|                                 | (0.836)        | (0.967)        | <b>(1.227)<b>        | <b>(0.654)</b>   | (1.101)        | (1.084)        |
-|**Social and Community Context**                                 |                |                |                |           |                |                |
-| Political Ideology              | -2.053**      | -2.601**      | <b>-3.095**</b>      | <b>-1.764**</b> | -2.678**      | -2.216**      |
-|                                 | (0.597)        | (0.658)        | <b>(0.722)</b>        | <b>(0.410)</b>   | (0.538)        | (0.478)        |
-| Segregation                     | 0.264          | 0.531          |<b>0.599</b>          | <b>0.813**</b>  | 0.370          | 0.521          |
-|                                 | (0.511)        | (0.594)        | <b>(0.715)</b>        | <b>(0.257)</b>   | (0.682)        | (0.751)        |
-| Racial Bias                     | 1.169*        | 1.145         | <b>1.144</b>          | <b>0.331</b>     | 0.980         | 0.429          |
-|                                 | (0.509)        | (0.606)        | <b>(0.705)</b>        | <b>(0.390)</b>   | (0.524)        | (0.401)        |
-|**Covariates**                                 |                |                |                |           |                |                |
-| Vaccine Hesitancy               | 1.231          | 1.290          | <b>1.335</b>          | <b>-0.388</b>    | 1.754          | 0.790          |
-|                                 | (1.380)        | (1.630)        | <b>(1.776)</b>        | <b>(0.679)</b>   | (1.599)        | (1.358)        |
-| Proportion of Black Pop.        | -1.672         | -1.798         | <b>-2.072</b>         | <b>0.0393</b>    | -1.820         | -1.338         |
-|                                 | (1.043)        | (1.226)        | <b>(1.290)</b>        | <b>(0.551)</b>   | (1.092)        | (0.909)        |
-| Flu Vaccination Rate            |                |                |                |           | 1.686*        | 0.839          |
-|                                 |                |                |                |           | (0.621)        | (0.513)        |
-| Flu Vaccination Disparity       |                |                |                |           | 1.351**       | 0.944         |
-|                                 |                |                |                |           | (0.443)        | (0.485)        |
-| Proportion of Pop. Above Age 75 |                |                |                |           |                | -1.751*       |
-|                                 |                |                |                |           |                | (0.674)        |
-| Above Age 75 Disparity          |                |                |                |           |                | 3.281**       |
-|                                 |                |                |                |           |                | (0.493)        |
-| Constant                        | 7.764**       | 7.475**       | <b>8.025**</b>       | <b>12.95**</b>  | 9.218**       | 9.849**       |
-|                                 | (1.685)        | (1.022)        | <b>(1.125)</b>        | <b>(0.803)</b>   | (0.957)        | (0.912)        |
-|                                 |                |                |                |           |                |                |
-| Observations                    | 759            | 759            | <b>759</b>            | <b>759</b>       | 759            | 759            |
-| Covered Population (million)    | 171.99         | 171.99         | <b>171.99</b>         | <b>171.99</b>    | 171.99         | 171.99         |
-| Covered Population (proportion) | 0.524          | 0.524          | <b>0.524</b>          | <b>0.524</b>     | 0.524          | 0.524          |
-| R-squared                       | 0.813          | 0.818          |<b>0.823</b>          | <b>0.453 </b>    | 0.839          | 0.863          |
-| State Dummies                   | True           | True           | <b>True</b>           | <b>True</b>      | True           | True           |
-| Robust Standard Error           | True           | True           | <b>True</b>           | <b>True</b>      | True           | True           |
-| Clustered at State Level        | True           | True           | <b>True</b>           | <b>True</b>      | True           | True           |
-| Weighted with County Population | True           | True           | <b>True</b>           | <b>True</b>      | True           | True           |
+    
+ 
+<a name="disparity_measure"/>
+    
+ ### Different Disparity Measurements
+   
+    
+    
+ 
+<a name="date_ratetype"/>
+    
+### Different Dates and Different Vaccination Rate Types
+
+    
+    
