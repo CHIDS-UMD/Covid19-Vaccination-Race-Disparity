@@ -66,17 +66,15 @@ def get_US_COUNTY_POPULATION(path_cc, path_acs):
     CCALLDATA = CCALLDATA.reset_index(drop = True)
 
 
-
     CCALLDATA['GEOID'] = CCALLDATA['STATE'].apply(get_state_id) + CCALLDATA['COUNTY'].apply(get_county_id)
     # POPULATION
 
     PrefixCols = ['GEOID', 'TOT_POP'] 
-    RaceCols = ['WA', 'BA', 'IA', 'AA',  'WAC', 'BAC', 'IAC', 'AAC']
+    RaceCols = ['WA', 'BA', 'NHWA', 'NHBA']
 
     for i in RaceCols:
 
         CCALLDATA[i] = CCALLDATA[i + '_MALE'] + CCALLDATA[i +'_FEMALE']
-
 
 
     CCALLDATA = CCALLDATA[PrefixCols + RaceCols]
