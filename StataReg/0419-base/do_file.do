@@ -1,6 +1,6 @@
 clear all
 set more off
-use "/Users/floydluo/Desktop/Covid19-Vaccination-Race-Disparity/StataReg/RegResult/2021-05-29_14-21-47/DataNorm.dta"
+use "/Users/floydluo/Desktop/Covid19-Vaccination-Race-Disparity/StataReg/RegResult/2021-05-29_23-59-53/DataNorm.dta"
 
 
 
@@ -36,25 +36,25 @@ winsor2 A15T74_Disparity, replace cuts (5,95)
 
 reg CvdVax_DisparityY MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop state_dummy1-state_dummy16  [pweight=org_WholeNum] , r cluster(State)
 
-outreg2 using StataReg/RegResult/2021-05-29_14-21-47/RegResult.doc, replace ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
+outreg2 using StataReg/RegResult/2021-05-29_23-59-53/RegResult.doc, replace ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
 
 
 reg FluVax_DisparityY MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop state_dummy1-state_dummy16  [pweight=org_WholeNum] , r cluster(State)
 
-outreg2 using StataReg/RegResult/2021-05-29_14-21-47/RegResult.doc, append ctitle(FluVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
+outreg2 using StataReg/RegResult/2021-05-29_23-59-53/RegResult.doc, append ctitle(FluVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
 
 
 reg CvdVax_DisparityY MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity state_dummy1-state_dummy16  [pweight=org_WholeNum] , r cluster(State)
 
-outreg2 using StataReg/RegResult/2021-05-29_14-21-47/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
+outreg2 using StataReg/RegResult/2021-05-29_23-59-53/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
 
 
 reg CvdVax_DisparityY MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity state_dummy1-state_dummy16  [pweight=org_WholeNum] , r cluster(State)
 
-outreg2 using StataReg/RegResult/2021-05-29_14-21-47/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
+outreg2 using StataReg/RegResult/2021-05-29_23-59-53/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
 
 
 reg CvdVax_DisparityY MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity A15T74_WholeRate A15T74_Disparity state_dummy1-state_dummy16  [pweight=org_WholeNum] , r cluster(State)
 
-outreg2 using StataReg/RegResult/2021-05-29_14-21-47/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity A15T74_WholeRate A15T74_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
+outreg2 using StataReg/RegResult/2021-05-29_23-59-53/RegResult.doc, append ctitle(CvdVax_D) addtext(SD, True, R, True, C, True, W, True)  keep (MedianInc_WholeAvg MedianInc_Disparity HighSchool_WholeRate HighSchool_Disparity FacNumRate CaseRate IT_WholeRate IT_Disparity urban vehicle republican_rate Segregation racial_weighted_bias hesitancy Black_Prop FluVax_WholeRate FluVax_Disparity Above75_WholeRate Above75_Disparity A15T74_WholeRate A15T74_Disparity) excel alpha(0.001, 0.01, 0.05, 0.10) symbol(***, **, *, +)
 
