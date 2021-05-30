@@ -1,0 +1,64 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx3024\clbrdrt\brdrs\cellx4320\clbrdrt\brdrs\cellx5760\clbrdrt\brdrs\cellx7056\clbrdrt\brdrs\cellx8352\clbrdrt\brdrs\cellx9648
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4320\cellx5760\cellx7056\cellx8352\cellx9648
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4320\clbrdrb\brdrs\cellx5760\clbrdrb\brdrs\cellx7056\clbrdrb\brdrs\cellx8352\clbrdrb\brdrs\cellx9648
+\ql VARIABLES\cell\qc CvdVax_D\cell\qc FluVax_D\cell\qc CvdVax_D\cell\qc CvdVax_D\cell\qc CvdVax_D\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx3024\cellx4320\cellx5760\cellx7056\cellx8352\cellx9648
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql MedianInc_WholeAvg\cell\qc -2.196*\cell\qc 1.135+\cell\qc -2.819**\cell\qc -1.795**\cell\qc -1.126*\cell\row
+\ql \cell\qc (0.987)\cell\qc (0.611)\cell\qc (0.817)\cell\qc (0.561)\cell\qc (0.506)\cell\row
+\ql MedianInc_Disparity\cell\qc 0.888+\cell\qc 0.884+\cell\qc 0.542\cell\qc 0.988*\cell\qc 0.875+\cell\row
+\ql \cell\qc (0.439)\cell\qc (0.431)\cell\qc (0.503)\cell\qc (0.457)\cell\qc (0.436)\cell\row
+\ql HighSchool_WholeRate\cell\qc 1.219\cell\qc 0.0298\cell\qc 1.115\cell\qc 1.353\cell\qc 1.431\cell\row
+\ql \cell\qc (1.191)\cell\qc (0.284)\cell\qc (1.089)\cell\qc (1.147)\cell\qc (1.156)\cell\row
+\ql HighSchool_Disparity\cell\qc 2.013***\cell\qc 0.190\cell\qc 1.905***\cell\qc 1.699**\cell\qc 1.859**\cell\row
+\ql \cell\qc (0.408)\cell\qc (0.338)\cell\qc (0.378)\cell\qc (0.519)\cell\qc (0.490)\cell\row
+\ql FacNumRate\cell\qc 0.782\cell\qc -0.297\cell\qc 0.812\cell\qc 0.862\cell\qc 0.650\cell\row
+\ql \cell\qc (0.762)\cell\qc (0.382)\cell\qc (0.698)\cell\qc (0.746)\cell\qc (0.730)\cell\row
+\ql CaseRate\cell\qc -0.0764\cell\qc 0.352\cell\qc -0.110\cell\qc -0.346\cell\qc -0.389\cell\row
+\ql \cell\qc (0.751)\cell\qc (0.260)\cell\qc (0.669)\cell\qc (0.641)\cell\qc (0.556)\cell\row
+\ql IT_WholeRate\cell\qc 0.514\cell\qc 0.418\cell\qc 0.424\cell\qc 0.119\cell\qc -0.370\cell\row
+\ql \cell\qc (0.772)\cell\qc (0.431)\cell\qc (0.833)\cell\qc (0.974)\cell\qc (0.886)\cell\row
+\ql IT_Disparity\cell\qc 0.199\cell\qc 0.247\cell\qc 0.0151\cell\qc 0.459\cell\qc -0.130\cell\row
+\ql \cell\qc (0.989)\cell\qc (0.438)\cell\qc (0.901)\cell\qc (0.705)\cell\qc (0.589)\cell\row
+\ql urban\cell\qc 0.185\cell\qc 0.00119\cell\qc 0.0214\cell\qc -0.147\cell\qc -0.980\cell\row
+\ql \cell\qc (1.226)\cell\qc (0.695)\cell\qc (1.150)\cell\qc (0.837)\cell\qc (0.798)\cell\row
+\ql vehicle\cell\qc 2.069\cell\qc -0.178\cell\qc 1.934\cell\qc 0.814\cell\qc 1.233\cell\row
+\ql \cell\qc (1.284)\cell\qc (0.665)\cell\qc (1.152)\cell\qc (1.226)\cell\qc (1.217)\cell\row
+\ql republican_rate\cell\qc -6.451**\cell\qc -1.523***\cell\qc -5.959**\cell\qc -5.262*\cell\qc -5.163**\cell\row
+\ql \cell\qc (1.728)\cell\qc (0.373)\cell\qc (1.663)\cell\qc (1.788)\cell\qc (1.730)\cell\row
+\ql Segregation\cell\qc 1.426+\cell\qc 0.595+\cell\qc 1.219+\cell\qc 1.433\cell\qc 1.391+\cell\row
+\ql \cell\qc (0.692)\cell\qc (0.318)\cell\qc (0.673)\cell\qc (0.823)\cell\qc (0.792)\cell\row
+\ql racial_weighted_bias\cell\qc 1.431+\cell\qc 0.307\cell\qc 1.297*\cell\qc 0.806\cell\qc 0.551\cell\row
+\ql \cell\qc (0.733)\cell\qc (0.382)\cell\qc (0.580)\cell\qc (0.592)\cell\qc (0.485)\cell\row
+\ql hesitancy\cell\qc 1.905\cell\qc -0.248\cell\qc 2.109\cell\qc 1.720\cell\qc 1.574\cell\row
+\ql \cell\qc (1.764)\cell\qc (0.674)\cell\qc (1.619)\cell\qc (1.647)\cell\qc (1.605)\cell\row
+\ql Black_Prop\cell\qc -5.243*\cell\qc 0.293\cell\qc -5.245*\cell\qc -5.031*\cell\qc -4.873*\cell\row
+\ql \cell\qc (2.057)\cell\qc (0.549)\cell\qc (1.995)\cell\qc (1.968)\cell\qc (1.927)\cell\row
+\ql FluVax_WholeRate\cell\qc \cell\qc \cell\qc 0.774\cell\qc 0.0901\cell\qc -0.136\cell\row
+\ql \cell\qc \cell\qc \cell\qc (0.595)\cell\qc (0.657)\cell\qc (0.687)\cell\row
+\ql FluVax_Disparity\cell\qc \cell\qc \cell\qc 2.088***\cell\qc 1.665**\cell\qc 1.582*\cell\row
+\ql \cell\qc \cell\qc \cell\qc (0.456)\cell\qc (0.547)\cell\qc (0.544)\cell\row
+\ql Above75_WholeRate\cell\qc \cell\qc \cell\qc \cell\qc -1.025\cell\qc -0.763\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc (1.045)\cell\qc (0.884)\cell\row
+\ql Above75_Disparity\cell\qc \cell\qc \cell\qc \cell\qc 2.325*\cell\qc 2.742*\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc (0.995)\cell\qc (1.026)\cell\row
+\ql A15T74_WholeRate\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.389\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (0.588)\cell\row
+\ql A15T74_Disparity\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc 2.319***\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (0.250)\cell\row
+\ql Constant\cell\qc 8.286***\cell\qc 13.46***\cell\qc 9.183***\cell\qc 9.963***\cell\qc 11.84***\cell\row
+\ql \cell\qc (1.437)\cell\qc (0.916)\cell\qc (1.391)\cell\qc (1.327)\cell\qc (1.213)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 756\cell\qc 756\cell\qc 756\cell\qc 756\cell\qc 756\cell\row
+\ql R-squared\cell\qc 0.673\cell\qc 0.463\cell\qc 0.692\cell\qc 0.711\cell\qc 0.728\cell\row
+\ql SD\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\row
+\ql R\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\row
+\ql C\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx3024\clbrdrb\brdrs\cellx4320\clbrdrb\brdrs\cellx5760\clbrdrb\brdrs\cellx7056\clbrdrb\brdrs\cellx8352\clbrdrb\brdrs\cellx9648
+\ql W\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\qc True\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.001, ** p<0.01, * p<0.05, + p<0.10\par
+}
