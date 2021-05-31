@@ -174,8 +174,57 @@ We present descriptive statistics of the variables in our regression analysis in
 
 
 <a name='base_model'>
-### Base Model Regression Table
+## Base Model Regression Table
 
+   |                                    | CVD (April 19, 2021)         |  FVD 2019    |
+|------------------------------------|------------------------------|--------------|
+| Economic Stability                 |                              |              |
+| Median Income                      | -2.196*                      | 1.135+       |
+|                                    | (0.987)                      | -0.611       |
+| Median Income Disparity            | 0.888+                       | 0.884+       |
+|                                    | (0.439)                      | -0.431       |
+| Education Access and Quality       |                              |              |
+| High School Graduation Rate        | 1.219                        | 1.115        |
+|                                    | (1.191)                      | -1.089       |
+| High School Disparity              | 2.013***                     | 1.905***     |
+|                                    | (0.408)                      | -0.378       |
+| Healthcare Access and Quality      |                              |              |
+| Health Facilities Per Capita       | 0.782                        | 0.812        |
+|                                    | (0.762)                      | -0.698       |
+| COVID-19 Cases Per Capita          | -0.0764                      | -0.11        |
+|                                    | (0.751)                      | -0.669       |
+| Neighborhood and Built Environment |                              |              |
+| Home IT Rate                       | 0.514                        | 0.424        |
+|                                    | (0.772)                      | -0.833       |
+| Home IT Disparity                  | 0.199                        | 0.0151       |
+|                                    | (0.989)                      | -0.901       |
+| Urban                              | 0.185                        | 0.0214       |
+|                                    | (1.226)                      | -1.15        |
+| Rate of Vehicle Ownership          | 2.069                        | 1.934        |
+|                                    | (1.284)                      | -1.152       |
+| Social and Community Context       |                              |              |
+| Political Ideology                 | -6.451**                     | -5.959**     |
+|                                    | (1.728)                      | -1.663       |
+| Segregation                        | 1.426+                       | 1.219+       |
+|                                    | (0.692)                      | -0.673       |
+| Racial Bias                        | 1.431+                       | 1.297*       |
+|                                    | (0.733)                      | -0.58        |
+| Covariates                         |                              |              |
+| Vaccine Hesitancy                  | 1.905                        | 2.109        |
+|                                    | (1.764)                      | -1.619       |
+| Proportion of Black Pop.           | -5.243*                      | -5.245*      |
+|                                    | (2.057)                      | -1.995       |
+| Constant                           | 8.286***                     | 13.46***     |
+|                                    | (1.437)                      | (0.916)      |
+|                                    |                              |              |
+| Observations                       | 756                          | 756          |
+| Covered Population (million)       | 170.65                       | 170.65       |
+| Covered Population (proportion)    | 0.5148589531                 | 0.5148589531 |
+| R-squared                          | 0.673                        | 0.463        |
+| State Dummies                      | TRUE                         | TRUE         |
+| Robust Standard Error              | TRUE                         | TRUE         |
+| Clustered at State Level           | TRUE                         | TRUE         |
+| Weighted with County Population    | TRUE                         | TRUE         |
 
  
 <a name='coef_plot'>
