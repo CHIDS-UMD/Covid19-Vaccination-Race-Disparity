@@ -245,7 +245,67 @@ We present descriptive statistics of the variables in our regression analysis in
     
  ### Different Age Group Control
     
-
+|                                    | CVD (April 19, 2021)         |                                    | CVD (April 19, 2021)         |
+|------------------------------------|------------------------------|------------------------------------|------------------------------|
+| Economic Stability                 |                              | Economic Stability                 |                              |
+| Median Income                      | -1.126*                      | Median Income                      | -0.924                       |
+|                                    | (0.506)                      |                                    | (0.543)                      |
+| Median Income Disparity            | 0.875+                       | Median Income Disparity            | 0.888                        |
+|                                    | (0.436)                      |                                    | (0.436)                      |
+| Education Access and Quality       |                              | Education Access and Quality       |                              |
+| High School Graduation Rate        | 1.431                        | High School Graduation Rate        | 1.334                        |
+|                                    | (1.156)                      |                                    | (1.115)                      |
+| High School Disparity              | 1.859**                      | High School Disparity              | 1.991***                     |
+|                                    | (0.490)                      |                                    | (0.481)                      |
+| Healthcare Access and Quality      |                              | Healthcare Access and Quality      |                              |
+| Health Facilities Per Capita       | 0.650                        | Health Facilities Per Capita       | 0.633                        |
+|                                    | (0.730)                      |                                    | (0.728)                      |
+| COVID-19 Cases Per Capita          | -0.389                       | COVID-19 Cases Per Capita          | -0.307                       |
+|                                    | (0.556)                      |                                    | (0.591)                      |
+| Neighborhood and Built Environment |                              | Neighborhood and Built Environment |                              |
+| Home IT Rate                       | -0.370                       | Home IT Rate                       | -0.317                       |
+|                                    | (0.886)                      |                                    | (0.807)                      |
+| Home IT Disparity                  | -0.130                       | Home IT Disparity                  | -0.252                       |
+|                                    | (0.589)                      |                                    | (0.602)                      |
+| Urban                              | -0.980                       | Urban                              | -0.812                       |
+|                                    | (0.798)                      |                                    | (0.875)                      |
+| Rate of Vehicle Ownership          | 1.233                        | Rate of Vehicle Ownership          | 1.151                        |
+|                                    | (1.217)                      |                                    | (1.205)                      |
+| Social and Community Context       |                              | Social and Community Context       |                              |
+| Political Ideology                 | -5.163**                     | Political Ideology                 | -5.133*                      |
+|                                    | (1.730)                      |                                    | (1.761)                      |
+| Segregation                        | 1.391+                       | Segregation                        | 1.332                        |
+|                                    | (0.792)                      |                                    | (0.815)                      |
+| Racial Bias                        | 0.551                        | Racial Bias                        | 0.632                        |
+|                                    | (0.485)                      |                                    | (0.427)                      |
+| Covariates                         |                              | Covariates                         |                              |
+| Vaccine Hesitancy                  | 1.574                        | Vaccine Hesitancy                  | 1.718                        |
+|                                    | (1.605)                      |                                    | (1.591)                      |
+| Proportion of Black Pop.           | -4.873*                      | Proportion of Black Pop.           | -4.770*                      |
+|                                    | (1.927)                      |                                    | (1.874)                      |
+| FluVax_WholeRate                   | -0.136                       | FluVax_WholeRate                   | -0.124                       |
+|                                    | (0.687)                      |                                    | (0.711)                      |
+| FluVax_Disparity                   | 1.582*                       | FluVax_Disparity                   | 1.664**                      |
+|                                    | (0.544)                      |                                    | (0.543)                      |
+| Proportion of Pop. Above Age 75    | -0.763                       | Proportion of Pop. Above Age 75    | -0.606                       |
+|                                    | (0.884)                      |                                    | (0.917)                      |
+| Above Age 75 Disparity             | 2.742*                       | Above Age 75 Disparity             | 2.539*                       |
+|                                    | (1.026)                      |                                    | (1.050)                      |
+| A15T74_WholeRate                   | -0.389                       | A20T74_WholeRate                   | -0.281                       |
+|                                    | (0.588)                      |                                    | (0.608)                      |
+| A15T74_Disparity                   | 2.319***                     | A20T74_Disparity                   | 2.472***                     |
+|                                    | (0.250)                      |                                    | (0.360)                      |
+| Constant                           | 11.84***                     | Constant                           | 11.97***                     |
+|                                    | (1.213)                      |                                    | (1.276)                      |
+|                                    |                              |                                    |                              |
+| Observations                       | 756                          | Observations                       | 756                          |
+| Covered Population (million)       | 170.65                       | Covered Population (million)       | 170.65                       |
+| Covered Population (proportion)    | 0.5148589531                 | Covered Population (proportion)    | 0.5148589531                 |
+| R-squared                          | 0.728                        | R-squared                          | 0.730                        |
+| State Dummies                      | TRUE                         | State Dummies                      | TRUE                         |
+| Robust Standard Error              | TRUE                         | Robust Standard Error              | TRUE                         |
+| Clustered at State Level           | TRUE                         | Clustered at State Level           | TRUE                         |
+| Weighted with County Population    | TRUE                         | Weighted with County Population    | TRUE                         |
     
  
 <a name="disparity_measure"/>
