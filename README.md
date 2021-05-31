@@ -219,7 +219,7 @@ We present descriptive statistics of the variables in our regression analysis in
 |                                    |                              |              |
 | Observations                       | 756                          | 756          |
 | Covered Population (million)       | 170.65                       | 170.65       |
-| Covered Population (proportion)    | 0.5148589531                 | 0.5148589531 |
+| Covered Population (proportion)    | 0.515                 | 0.515 |
 | R-squared                          | 0.673                        | 0.463        |
 | State Dummies                      | TRUE                         | TRUE         |
 | Robust Standard Error              | TRUE                         | TRUE         |
@@ -300,7 +300,7 @@ We present descriptive statistics of the variables in our regression analysis in
 |                                    |                              |                                    |                              |
 | Observations                       | 756                          | Observations                       | 756                          |
 | Covered Population (million)       | 170.65                       | Covered Population (million)       | 170.65                       |
-| Covered Population (proportion)    | 0.5148589531                 | Covered Population (proportion)    | 0.5148589531                 |
+| Covered Population (proportion)    | 0.515                 | Covered Population (proportion)    | 0.515                 |
 | R-squared                          | 0.728                        | R-squared                          | 0.730                        |
 | State Dummies                      | TRUE                         | State Dummies                      | TRUE                         |
 | Robust Standard Error              | TRUE                         | Robust Standard Error              | TRUE                         |
@@ -522,7 +522,7 @@ We present descriptive statistics of the variables in our regression analysis in
 |                                    |                              |
 | Observations                       | 756                          |
 | Covered Population (million)       | 170.65                       |
-| Covered Population (proportion)    | 0.5148589531                 |
+| Covered Population (proportion)    | 0.515                 |
 | R-squared                          | 0.674                        |
 | State Dummies                      | TRUE                         |
 | Robust Standard Error              | TRUE                         |
