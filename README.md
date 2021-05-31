@@ -217,14 +217,7 @@ We present descriptive statistics of the variables in our regression analysis in
    
 ### Exodus
    
-   
-   
- 
-<a name="positivity"/>
-   
-### Recent Positive Rate per COVID-19 Test
-
-   |                                    | CVD (April 19, 2021)         |
+|                                    | CVD (April 19, 2021)         |
 |------------------------------------|------------------------------|
 | Economic Stability                |                              |
 | Median Income                      | -2.584*                      |
@@ -273,4 +266,12 @@ We present descriptive statistics of the variables in our regression analysis in
 | Robust Standard Error              | True                         |
 | Clustered at State Level           | True                         |
 | Weighted with County Population    | True                         |
+   
+   
+ 
+<a name="positivity"/>
+   
+### Recent Positive Rate per COVID-19 Test
+
+
    
