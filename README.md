@@ -222,6 +222,6 @@ We present descriptive statistics of the variables in our regression analysis in
  
 <a name="positivity"/>
    
-### Recent Positive Rate per COVID-19 Test]
+### Recent Positive Rate per COVID-19 Test
 
    
