@@ -202,7 +202,55 @@ We present descriptive statistics of the variables in our regression analysis in
 <a name="disparity_measure"/>
     
  ### Different Disparity Measurements
-   
+|                                    | Ratio Disparity | Log Ratio Disparity | Scaled Absolute Disparity |
+|------------------------------------|-----------------|---------------------|---------------------------|
+| Economic Stability                 |                 |                     |                           |
+| Median Income                      | -0.224*         | -0.249*             | -0.260*                   |
+|                                    | (0.0786)        | (0.112)             | (0.113)                   |
+| Median Income Disparity            | 0.0635          | 0.0525              | 0.0829                    |
+|                                    | (0.0698)        | (0.0461)            | (0.0584)                  |
+| Education Access and Quality       |                 |                     |                           |
+| High School Graduation Rate        | 0.0108          | 0.0433              | 0.0467                    |
+|                                    | (0.0907)        | (0.123)             | (0.152)                   |
+| High School Disparity              | 0.258***        | 0.256***            | 0.197***                  |
+|                                    | (0.0463)        | (0.0464)            | (0.0430)                  |
+| Healthcare Access and Quality      |                 |                     |                           |
+| Health Facilities Per Capita       | 0.0140          | 0.0321              | 0.0173                    |
+|                                    | (0.0792)        | (0.0938)            | (0.0952)                  |
+| COVID-19 Cases Per Capita          | 0.0146          | 0.0343              | 0.0223                    |
+|                                    | (0.0666)        | (0.0766)            | (0.0620)                  |
+| Neighborhood and Built Environment |                 |                     |                           |
+| Home IT Rate                       | 0.0325          | 0.0676              | 0.105                     |
+|                                    | (0.0564)        | (0.0796)            | (0.101)                   |
+| Home IT Disparity                  | -0.181          | -0.0636             | 0.00680                   |
+|                                    | (0.150)         | (0.103)             | (0.0793)                  |
+| Urban                              | 0.00423         | -0.00179            | -0.00382                  |
+|                                    | (0.152)         | (0.178)             | (0.167)                   |
+| Rate of Vehicle Ownership          | 0.130           | 0.211               | 0.262+                    |
+|                                    | (0.147)         | (0.164)             | (0.148)                   |
+| Social and Community Context       |                 |                     |                           |
+| Political Ideology                 | -0.387*         | -0.493**            | -0.537**                  |
+|                                    | (0.131)         | (0.152)             | (0.167)                   |
+| Segregation                        | 0.188**         | 0.241**             | 0.256**                   |
+|                                    | (0.0521)        | (0.0638)            | (0.0713)                  |
+| Racial Bias                        | 0.0536          | 0.0793              | 0.106                     |
+|                                    | (0.0849)        | (0.0919)            | (0.0840)                  |
+| Covariates                         |                 |                     |                           |
+| Vaccine Hesitancy                  | 0.120           | 0.173               | 0.202                     |
+|                                    | (0.163)         | (0.195)             | (0.209)                   |
+| Proportion of Black Pop.           | -0.348*         | -0.414*             | -0.353                    |
+|                                    | (0.159)         | (0.188)             | (0.206)                   |
+| Constant                           | -0.482**        | -0.484**            | -0.374*                   |
+|                                    | (0.147)         | (0.163)             | (0.149)                   |
+|                                    |                 |                     |                           |
+| Observations                       | 756             | 756                 | 756                       |
+| Covered Population (million)       | 170.65          | 170.65              | 170.65                    |
+| Covered Population (proportion)    | 0.515           | 0.515               | 0.515                     |
+| R-squared                          | 0.552           | 0.551               | 0.563                     |
+| State Dummies                      | True            | True                | True                      |
+| Robust Standard Error              | True            | True                | True                      |
+| Clustered at State Level           | True            | True                | True                      |
+| Weighted with County Population    | True            | True                | True                      |   
     
     
  
