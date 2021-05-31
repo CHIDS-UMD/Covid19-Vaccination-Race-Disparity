@@ -224,4 +224,53 @@ We present descriptive statistics of the variables in our regression analysis in
    
 ### Recent Positive Rate per COVID-19 Test
 
+   |                                    | CVD (April 19, 2021)         |
+|------------------------------------|------------------------------|
+| Economic Stability                |                              |
+| Median Income                      | -2.584*                      |
+|                                    | (0.996)                      |
+| Median Income Disparity            | 1.074                        |
+|                                    | (0.724)                      |
+| Education Access and Quality       |                              |
+| High School Graduation Rate        | -0.583                       |
+|                                    | (0.754)                      |
+| High School Disparity              | 1.463***                     |
+|                                    | (0.282)                      |
+| Healthcare Access and Quality      |                              |
+| Health Facilities Per Capita       | 0.283                        |
+|                                    | (0.642)                      |
+| COVID-19 Cases Per Capita          | 0.469                        |
+|                                    | (0.419)                      |
+| Neighborhood and Built Environment |                              |
+| Home IT Rate                       | 1.446+                       |
+|                                    | (0.777)                      |
+| Home IT Disparity                  | -0.515                       |
+|                                    | (0.770)                      |
+| Urban                              | -0.372                       |
+|                                    | (0.487)                      |
+| Rate of Vehicle Ownership          | 0.721                        |
+|                                    | (1.399)                      |
+| Social and Community Context       |                              |
+| Political Ideology                 | -6.399***                    |
+|                                    | (0.977)                      |
+| Segregation                        | 1.438*                       |
+|                                    | (0.550)                      |
+| Racial Bias                        | 0.152                        |
+|                                    | (0.543)                      |
+| Covariates                         |                              |
+| Vaccine Hesitancy                  | 0.172                        |
+|                                    | (1.398)                      |
+| Proportion of Black Pop.           | -4.625*                      |
+|                                    | (1.700)                      |
+| Constant                           | 9.265***                     |
+|                                    | (1.309)                      |
+|                                    |                              |
+| Observations                       | 744                          |
+| Covered Population (million)       | 146.00                       |
+| Covered Population (proportion)    | 0.440                        |
+| R-squared                          | 0.750                        |
+| State Dummies                      | True                         |
+| Robust Standard Error              | True                         |
+| Clustered at State Level           | True                         |
+| Weighted with County Population    | True                         |
    
