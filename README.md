@@ -33,9 +33,10 @@ This public repository contains the materials for reproducing the results descri
     * [Different Disparity Measurements](#disparity_measure)
     
     * [Different Dates and Different Vaccination Rate Types](#date_ratetype)
-
-
-
+    
+    * [Exodus](#exodus_test)
+    
+    * [Recent Positive Rate per COVID-19 Test](#positivity)
 
 
 <a name="materials"/>
@@ -211,3 +212,16 @@ We present descriptive statistics of the variables in our regression analysis in
 
     
     
+
+<a name="exodus_test"/>
+   
+### Exodus
+   
+   
+   
+ 
+<a name="positivity"/>
+   
+### Recent Positive Rate per COVID-19 Test]
+
+   
