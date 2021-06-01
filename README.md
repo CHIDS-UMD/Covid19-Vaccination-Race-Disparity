@@ -23,18 +23,16 @@ This public repository contains the materials for reproducing the results descri
 
     * [Base Model Regression Table](#base_model)
 
-    * [Coefficient Plot for COVID-19 and Flu Vaccination Disparity Analysis](#coef_plot)
-
-
+ 
 - [Robustness Checks](#robustness_checks)
 
     * [Age Group Controls](#age_control)
     
-    * [Different Disparity Measurements](#disparity_measure)
+    * [Different Disparity Operationalizations](#disparity_measure)
     
     * [Different Dates and Different Vaccination Rate Types](#date_ratetype)
     
-    * [Exodus](#exodus_test)
+    * [Residential Mobility](#exodus_test)
     
     * [Recent Positive Rate per COVID-19 Test](#positivity)
 
@@ -174,6 +172,8 @@ We present descriptive statistics of the variables in our regression analysis in
    
 ### Base Model Regression Table
 
+Below, we provide the regression table presented in Agarwal et al. (2021) for comparison to the robustness checks. 
+
    |                                    | CVD (April 19, 2021)         |  FVD 2019    |
 |------------------------------------|------------------------------|--------------|
 | Economic Stability                 |                              |              |
@@ -224,14 +224,6 @@ We present descriptive statistics of the variables in our regression analysis in
 | Clustered at State Level           | TRUE                         | TRUE         |
 | Weighted with County Population    | TRUE                         | TRUE         |
 
- 
-<a name='coef_plot'>
-   
-### Coefficient Plot for COVID-19 and Flu Vaccination Disparity Analysis
-    
-![](_img/coef.png)
-
-
 
 <a name="robustness_checks"/>
 
@@ -242,7 +234,9 @@ We present descriptive statistics of the variables in our regression analysis in
  
 <a name="age_control"/>
     
- ### Different Age Group Control
+ ### Different Age Group Controls
+  
+Below, we report regression tables controlling for proportion of population above age 75 and disparities in the proportion of population above age 75 for the White and Black population. We add this variable as a control to account for the fact that older adults were prioritized early on in the vaccine rollout. In addition, we add additional control variables to account for the population that was eligible for the vaccines. Based on available demographic data, we approximate the vaccine eligible population by controlling for the proportion of population ages 15-74 in one set of analyses and the proportion of population ages 20-74 in a second set of analyses.
     
 |                                    | CVD (April 19, 2021)         |                                    | CVD (April 19, 2021)         |
 |------------------------------------|------------------------------|------------------------------------|------------------------------|
@@ -309,7 +303,11 @@ We present descriptive statistics of the variables in our regression analysis in
  
 <a name="disparity_measure"/>
     
- ### Different Disparity Measurements
+ ### Different Disparity Operationalizations
+ 
+  As additional robustness checks, we also model alternative operationlizations of disparity. Specifically, we model a ratio-based definition (White Vaccination Rate/Black Vaccination Rate), the log of that ratio, and an outcome that scales the absolute disparity by the overall vaccination rate of the White and Black populations in a given county.
+ 
+   
 |                                    | Ratio Disparity | Log Ratio Disparity | Scaled Absolute Disparity |
 |------------------------------------|-----------------|---------------------|---------------------------|
 | Economic Stability                 |                 |                     |                           |
@@ -364,7 +362,9 @@ We present descriptive statistics of the variables in our regression analysis in
  
 <a name="date_ratetype"/>
     
-### Different Dates and Different Vaccination Rate Types
+### Different Dates and Different Full Vaccination Rate Types
+   
+  
 |                                    | CVD (March 27, 2021)         | CVD (April 07, 2021)         | CVD (May 20, 2021) | CVD - Full Dose (May 20, 2021) |
 |------------------------------------|------------------------------|------------------------------|--------------------|--------------------------------|
 | Economic Stability                 |                              |                              |                    |                                |
@@ -419,7 +419,7 @@ We present descriptive statistics of the variables in our regression analysis in
 
 <a name="exodus_test"/>
    
-### Exodus
+### Residential Mobility
    
 |                                    | CVD (April 19, 2021)         |
 |------------------------------------|------------------------------|
