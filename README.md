@@ -11,7 +11,6 @@ This public repository contains the materials for reproducing the results descri
 
     * [COVID-19 Vaccination Disparity Map](#covid_map)
 
-- [Definition of Vaccination Rate Disparity](#vax_rate_disparity)
 
 - [Missingness](#missing)
 
@@ -95,8 +94,6 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 **Figure S1.** Map represents COVID-19 vaccination disparities across 1,186 counties with data by race as of April 19, 2021. Red indicates higher vaccination rates among Whites, and blue indicates higher vaccination rates among Blacks. The vaccination rate in some counties with small numbers of Blacks or Whites exceeded 100%. We exclude those counties in Figure 1. In the regression using data from 756 counties, the range of vaccination disparity is between -52.0% and 66.2%. 
 
-
-<a name="vax_rate_disparity"/>
 
 
 <a name="missing"/>
@@ -238,7 +235,6 @@ Below, we provide the regression table presented in Agarwal et al. (2021) for co
   
 Below, we report regression tables controlling for proportion of population above age 75 and disparities in the proportion of population above age 75 for the White and Black population. We add this variable as a control to account for the fact that older adults were prioritized early on in the vaccine rollout. In addition, we add additional control variables to account for the population that was eligible for the vaccines. Based on available demographic data, we approximate the vaccine eligible population by controlling for the proportion of population ages 15-74 in one set of analyses and the proportion of population ages 20-74 in a second set of analyses.
  
-   
 |                                    | (A1)        | (A2)        | (A3)        | (A4) age 15~74 | (A5) age 20~74 | (B1)        | (B2)        | (B3)        | (B4) age 15~74 | (B5) age 20~74 | (C1)        | (C2)        | (C3)        | (C4) age 15~74 | (C5) age 20~74 |
 | ---------------------------------- | ----------- | ----------- | ----------- | -------------- | -------------- | ----------- | ----------- | ----------- | -------------- | -------------- | ----------- | ----------- | ----------- | -------------- | -------------- |
 | VARIABLES                          | CVD         | CVD         | CVD         | CVD            | CVD            | CVD 15+     | CVD 15+     | CVD 15+     | CVD 15+        | CVD 15+        | CVD 20+     | CVD 20+     | CVD 20+     | CVD 20+        | CVD 20+        |
@@ -296,14 +292,13 @@ Below, we report regression tables controlling for proportion of population abov
 |                                    | (1.437)     | (1.391)     | (1.327)     | (1.213)        | (1.276)        | (1.658)     | (1.666)     | (1.539)     | (1.433)        | (1.512)        | (1.799)     | (1.837)     | (1.678)     | (1.586)        | (1.655)        |
 |                                    |             |             |             |                |                |             |             |             |                |                |             |             |             |                |                |
 | Observations                       | 756         | 756         | 756         | 756            | 756            | 756         | 756         | 756         | 756            | 756            | 756         | 756         | 756         | 756            | 756            |
-| Covered Population (million)       | 0.673       | 0.692       | 0.711       | 0.728          | 0.730          | 0.668       | 0.685       | 0.703       | 0.711          | 0.713          | 0.667       | 0.684       | 0.702       | 0.709          | 0.708          |
-| Covered Population (proportion)    | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         |
-| R-squared                          | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         |
+| Covered Population (million)       | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         | 170.65      | 170.65      | 170.65      | 170.65         | 170.65         |
+| Covered Population (proportion)    | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         | 0.5149      | 0.5149      | 0.5149      | 0.5149         | 0.5149         |
+| R-squared                          | 0.673       | 0.692       | 0.711       | 0.728          | 0.730          | 0.668       | 0.685       | 0.703       | 0.711          | 0.713          | 0.667       | 0.684       | 0.702       | 0.709          | 0.708          |
 | State Dummies                      | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
 | Robust Standard Error              | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
 | Clustered at State Level           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
 | Weighted with County Population    | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
- 
    
 <a name="disparity_measure"/>
     
@@ -538,7 +533,7 @@ Below, we report regression tables controlling for proportion of population abov
 | Proportion of Black Pop.           | \-5.243\*   | \-5.249\*   | \-5.239\*   | \-5.027\*   | \-4.856\*   |
 |                                    | (2.057)     | (2.030)     | (1.962)     | (1.933)     | (1.907)     |
 | Robustness Check                   |             |             |             |             |             |
-| newcase\_rate                      |             | 0.713+      | 0.842\*     | 0.886\*     | 0.671\*     |
+| **Recent\_Positivity**                     |             | 0.713+      | 0.842\*     | 0.886\*     | 0.671\*     |
 |                                    |             | (0.385)     | (0.334)     | (0.311)     | (0.313)     |
 | FluVax\_WholeRate                  |             |             | 0.874       | 0.194       | \-0.0549    |
 |                                    |             |             | (0.596)     | (0.666)     | (0.693)     |
