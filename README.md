@@ -30,7 +30,7 @@ This public repository contains the materials for reproducing the results descri
     
     * [Different Disparity Operationalizations](#disparity_measure)
     
-    * [Different Dates and Different Vaccination Rate Types](#date_ratetype)
+    * [Different Dates and Full Vaccination Rate](#date_ratetype)
     
     * [Residential Mobility](#exodus_test)
     
@@ -362,7 +362,8 @@ Below, we report regression tables controlling for proportion of population abov
  
 <a name="date_ratetype"/>
     
-### Different Dates and Different Full Vaccination Rate Types
+### Different Dates and Full Vaccination Rate Types
+ 
    
   
 |                                    | CVD (March 27, 2021)         | CVD (April 07, 2021)         | CVD (May 20, 2021) | CVD - Full Dose (May 20, 2021) |
@@ -418,6 +419,8 @@ Below, we report regression tables controlling for proportion of population abov
     
 
 <a name="exodus_test"/>
+
+   
    
 ### Residential Mobility
    
