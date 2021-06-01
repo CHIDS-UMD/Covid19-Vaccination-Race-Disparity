@@ -100,8 +100,6 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 <a name="vax_rate_disparity"/>
 
-## Definition of Vaccination Rate Disparity
-
 
 <a name="missing"/>
 
@@ -172,9 +170,9 @@ We present descriptive statistics of the variables in our regression analysis in
 ## Main Regression Result
 
 
-
 <a name='base_model'>
-## Base Model Regression Table
+   
+### Base Model Regression Table
 
    |                                    | CVD (April 19, 2021)         |  FVD 2019    |
 |------------------------------------|------------------------------|--------------|
@@ -228,6 +226,7 @@ We present descriptive statistics of the variables in our regression analysis in
 
  
 <a name='coef_plot'>
+   
 ### Coefficient Plot for COVID-19 and Flu Vaccination Disparity Analysis
     
 ![](_img/coef.png)
