@@ -10,6 +10,9 @@ This public repository contains the materials for reproducing the results descri
 - [Data Sources for COVID-19 Racial Vaccination by States](#covid_race_data_by_state)
 
     * [COVID-19 Vaccination Disparity Map](#covid_map)
+    
+    * [Hispanic White Porportion for Each State](#hispanic-white-rate)
+
 
 
 - [Missingness](#missing)
@@ -88,6 +91,34 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 | Sum            | 1186          | 180.92               | 756                 | 170.65                           |                                                                                                                                                               |
 
 _Note_. Valid counties are those that were included in our main regression analyses, following the exclusion criteria outlined below in the sample construction figure. 
+
+
+<a name="hispanic-white-rate"/>
+
+## Hispanic White Porportion for Each State
+
+|                                            | 756 counties in the main analysis |                |                     | 744 counties excluding the high mobility counties |                |                     |
+| ------------------------------------------ | --------------------------------- | -------------- | ------------------- | ------------------------------------------------- | -------------- | ------------------- |
+| State                                      | Total White                       | Hispanic White | Hispanic White Rate | Total White                                       | Hispanic White | Hispanic White Rate |
+| States Reporting Non-Hispanic White Vaccination Rate |                                   |                |                     |                                                   |                |                     |
+| California                                 | 28368445                          | 13994237       | 0.4933              | 18971980                                          | 8669768        | 0.4570              |
+| Illinois                                   | 9551335                           | 2019602        | 0.2114              | 9551335                                           | 2019602        | 0.2114              |
+| New Jersey                                 | 6388804                           | 1537809        | 0.2407              | 5953609                                           | 1297376        | 0.2179              |
+| Oregon                                     | 3506031                           | 466847         | 0.1332              | 3506031                                           | 466847         | 0.1332              |
+| Texas                                      | 21507737                          | 9654049        | 0.4489              | 21031458                                          | 9520356        | 0.4527              |
+| Virginia                                   | 5917616                           | 694680         | 0.1174              | 5905834                                           | 688349         | 0.1166              |
+|                                            |                                   |                |                     |                                                   |                |                     |
+| States Reporting Whole White Vaccination Rate        |                                   |                |                     |                                                   |                |                     |
+| Indiana                                    | 5602889                           | 429126         | 0.0766              | 5602889                                           | 429126         | 0.0766              |
+| Maine                                      | 1269326                           | 19729          | 0.0155              | 1269326                                           | 19729          | 0.0155              |
+| New York                                   | 13546776                          | 2791356        | 0.2061              | 9153734                                           | 1080290        | 0.1180              |
+| North Carolina                             | 5918976                           | 741346         | 0.1252              | 5918976                                           | 741346         | 0.1252              |
+| Ohio                                       | 9552736                           | 383644         | 0.0402              | 9552736                                           | 383644         | 0.0402              |
+| Pennsylvania                               | 10329505                          | 752025         | 0.0728              | 10329505                                          | 752025         | 0.0728              |
+| South Carolina                             | 3532048                           | 254506         | 0.0721              | 3132671                                           | 210947         | 0.0673              |
+| Tennessee                                  | 5297436                           | 333856         | 0.0630              | 5297436                                           | 333856         | 0.0630              |
+| West Virginia                              | 1675122                           | 26610          | 0.0159              | 1675122                                           | 26610          | 0.0159              |
+| Wisconsin                                  | 5067781                           | 358716         | 0.0708              | 5067781                                           | 358716         | 0.0708              |
 
 <a name="covid_map"/>
 
