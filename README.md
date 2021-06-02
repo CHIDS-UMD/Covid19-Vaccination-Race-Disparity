@@ -7,9 +7,9 @@ This public repository contains the materials for reproducing the results descri
 
 - [Content Description](#materials)
 
-- [Data Sources for COVID-19 Racial Vaccination by States](#covid_race_data_by_state)
+- [Data Sources for COVID-19 Racial Vaccination by States](#covid-race-data-by-state)
 
-    * [COVID-19 Vaccination Disparity Map](#covid_map)
+    * [COVID-19 Vaccination Disparity Map](#covid-map)
     
     * [Hispanic White Porportion for Each State](#hispanic-white-rate)
 
@@ -17,29 +17,35 @@ This public repository contains the materials for reproducing the results descri
 
 - [Missingness](#missing)
 
-- [Summary Statistics for Final Data](#summary_statistics)
+- [Summary Statistics for Final Data](#summary-statistics)
 
-    * [Correlation Matrix Heatmap for Final Data](#correlation_map)
+    * [Correlation Matrix Heatmap for Final Data](#correlation-map)
+    
 
-- [Main Regression Result](#main_reg)
+- [Main Regression Result](#main-reg)
 
-    * [Base Model Regression Table](#base_model)
+    * [Base Model Regression Table](#base-model)
 
  
-- [Robustness Checks](#robustness_checks)
+- [Robustness Checks](#robustness-checks)
 
-    * [Age Group Controls](#age_control)
+    * [Age Group Controls](#age-control)
     
-    * [Different Disparity Operationalizations](#disparity_measure)
+    * [Different Disparity Operationalizations](#disparity-measure)
     
-    * [Different Dates and Full Vaccination Rate](#date_ratetype)
+    * [Different Dates and Full Vaccination Rate](#date-ratetype)
     
-    * [Residential Mobility](#exodus_test)
+    * [Residential Mobility](#exodus-test)
     
     * [Recent Positive Rate per COVID-19 Test](#positivity)
+    
     * [Avoid Collinearity by Droping `Hesitancy` Variable](#drop-hesitancy)
+
     * [Subsample Analysis (6 States and 10 States)](#610states)
    
+   * [Vaccination Rate on Whole White Population](#rate-on-white)
+
+  
 
    
 
@@ -67,7 +73,7 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 
 
-<a name="covid_race_data_by_state"/>
+<a name="covid-race-data-by-state"/>
 
 ## Data Sources for COVID-19 Racial Vaccination by States
 
@@ -121,7 +127,7 @@ _Note_. Valid counties are those that were included in our main regression analy
 | West Virginia                              | 1675122                           | 26610          | 0.0159              | 1675122                                           | 26610          | 0.0159              |
 | Wisconsin                                  | 5067781                           | 358716         | 0.0708              | 5067781                                           | 358716         | 0.0708              |
 
-<a name="covid_map"/>
+<a name="covid-map"/>
 
 ### COVID-19 Vaccination Disparity Map
 
@@ -142,7 +148,7 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 
 
-<a name="sample_construction"/>
+<a name="sample-construction"/>
 
 ## Sample Construction
 
@@ -154,7 +160,7 @@ The filtering of the data collected for all counties on April 19, 2021. The same
 **Figure S3.** Flowchart depicting sample construction.
 
 
-<a name="summary_statistics"/>
+<a name="summary-statistics"/>
 
 ## Summary Statistics for Final Data
 
@@ -188,7 +194,7 @@ We present descriptive statistics of the variables in our regression analysis in
 | Test Positivity                          | Rate of Nucleic Acid Amplification Tests (NAATs) positivity in county i.                                | CDC COVID-19 Integrated County View (https://covid.cdc.gov/covid-data-tracker/#county-view)                                                                                                                                                       | Positivity             | 756   | 6.334  | 3.765  | 0.000   | 3.828  | 5.760  | 8.433  | 26.080  |
 
 
-<a name="correlation_map"/>
+<a name="correlation-map"/>
 
 ### Correlation Matrix Heatmap for Final Data
 
@@ -196,12 +202,12 @@ We present descriptive statistics of the variables in our regression analysis in
 
 **Figure S4.** A correlation matrix heatmap illustrate bivariate relationships among all variables in our main regression results and robustness checks.
 
-<a name="main_reg"/>
+<a name="main-reg"/>
 
 ## Main Regression Result
 
 
-<a name='base_model'>
+<a name='base-model'>
    
 ### Base Model Regression Table
 
@@ -261,14 +267,14 @@ Below, we provide the regression table presented in Agarwal et al. (2021) for co
 | Weighted with County Population    | True                        | True                        | True                    | True                    |
 
 
-<a name="robustness_checks"/>
+<a name="robustness-checks"/>
 
 ## Detailed Regression Results and Robustness Checks
 
     
     
  
-<a name="age_control"/>
+<a name="age-control"/>
     
  ### Different Age Group Controls
   
@@ -339,7 +345,7 @@ Below, we report regression tables controlling for proportion of population abov
 | Clustered at State Level           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
 | Weighted with County Population    | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           | True        | True        | True        | True           | True           |
    
-<a name="disparity_measure"/>
+<a name="disparity-measure"/>
     
  ### Different Disparity Operationalizations
  
@@ -399,7 +405,7 @@ Below, we report regression tables controlling for proportion of population abov
 | Weighted with County Population    | True               | True            | True                | True                      |
     
  
-<a name="date_ratetype"/>
+<a name="date-ratetype"/>
     
 ### Different Dates and Full Vaccination Rate Types
    
@@ -458,7 +464,7 @@ Below, we report regression tables controlling for proportion of population abov
 | Weighted with County Population    | True                 | True                 | True                 | True               | True                           | True       |
     
 
-<a name="exodus_test"/>
+<a name="exodus-test"/>
 
    
    
@@ -609,7 +615,7 @@ Some regions saw large rates of residential mobility (people moving in or out) d
    
 <a name="drop-hesitancy"/>
 
-## Avoid Collinearity by Droping `Hesitancy` Variable
+### Avoid Collinearity by Droping `Hesitancy` Variable
 
    We reviewed the Variable Inflation Rate (VIF) for our main regression model, finding that vaccine hesitancy had a VIF that exceeds the suggested cut-off value of 10. To assess how much the multicollinearity may have an impact on our findings, we try models excluding vaccine hesitancy, and report those below. 
    
@@ -679,7 +685,7 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 
 <a name="610states"/>
 
-## Subsample Analysis (6 States and 10 States)
+### Subsample Analysis (6 States and 10 States)
 
 |                                    | (A1)           | (A2)           | (A3)           | (A4)           | (B1)            | (B2)            | (B3)            | (B4)            |
 |------------------------------------|----------------|----------------|----------------|----------------|-----------------|-----------------|-----------------|-----------------|
@@ -743,3 +749,77 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 | Robust Standard Error              | True           | True           | True           | True           | True            | True            | True            | True            |
 | Clustered at State Level           | True           | True           | True           | True           | True            | True            | True            | True            |
 | Weighted with County Population    | True           | True           | True           | True           | True            | True            | True            | True            |
+   
+   
+   
+<a name="rate-on-white"/>
+   
+ ### Vaccination Rate on Whole White Population
+  
+ In this robustness check, we treat all the State in the same way in terms of calculate the COVID-19 White Vaccination Rate: Reported-CvdVax-White / Total-White-Population. Then we ran the models with different covariates. The results are consistent to the main regression.
+   
+   
+ |                                    | (1)               | (2)               | (3)               | (4)               |
+|------------------------------------|-------------------|-------------------|-------------------|-------------------|
+| VARIABLES                          | CVD (Whole White) | CVD (Whole White) | CVD (Whole White) | CVD (Whole White) |
+|                                    |                   |                   |                   |                   |
+| Economic Stability                 |                   |                   |                   |                   |
+| Median Income                      | -2.016+           | -2.684**          | -0.797            | -0.0535           |
+|                                    | (1.030)           | (0.753)           | (1.100)           | (1.057)           |
+| Median Income Disparity            | -0.0930           | -0.453            | 0.401             | 0.338             |
+|                                    | (0.548)           | (0.448)           | (0.475)           | (0.463)           |
+| Education Access and Quality       |                   |                   |                   |                   |
+| High School Graduation Rate        | -0.736            | -0.855            | -0.789            | -0.847            |
+|                                    | (0.680)           | (0.687)           | (0.681)           | (0.705)           |
+| High School Disparity              | 2.012***          | 1.896***          | 1.481***          | 1.704***          |
+|                                    | (0.334)           | (0.337)           | (0.341)           | (0.361)           |
+| Healthcare Access and Quality      |                   |                   |                   |                   |
+| Health Facilities Per Capita       | 1.422             | 1.443             | 1.290             | 1.109             |
+|                                    | (1.051)           | (0.982)           | (0.994)           | (0.980)           |
+| COVID-19 Cases Per Capita          | -0.0752           | -0.0984           | -0.361            | -0.315            |
+|                                    | (1.076)           | (0.969)           | (0.825)           | (0.799)           |
+| Neighborhood and Built Environment |                   |                   |                   |                   |
+| Home IT Rate                       | 1.626+            | 1.541             | 1.590*            | 1.146+            |
+|                                    | (0.859)           | (0.935)           | (0.651)           | (0.585)           |
+| Home IT Disparity                  | -0.0985           | -0.299            | 0.359             | -0.262            |
+|                                    | (1.215)           | (1.095)           | (0.851)           | (0.798)           |
+| Urban                              | 0.474             | 0.285             | 0.474             | -0.00278          |
+|                                    | (1.166)           | (1.076)           | (0.867)           | (0.806)           |
+| Rate of Vehicle Ownership          | 2.073             | 1.909             | 0.0661            | 0.387             |
+|                                    | (1.386)           | (1.174)           | (1.122)           | (1.086)           |
+| Social and Community Context       |                   |                   |                   |                   |
+| Political Ideology                 | -6.491***         | -5.993***         | -5.320**          | -5.126**          |
+|                                    | (1.414)           | (1.366)           | (1.510)           | (1.479)           |
+| Segregation                        | 0.810             | 0.599             | 0.608             | 0.495             |
+|                                    | (0.662)           | (0.668)           | (0.719)           | (0.703)           |
+| Racial Bias                        | 0.987             | 0.846+            | 0.0132            | -0.0837           |
+|                                    | (0.623)           | (0.450)           | (0.319)           | (0.242)           |
+| Covariates                         |                   |                   |                   |                   |
+| Vaccine Hesitancy                  | 0.225             | 0.449             | 0.337             | 0.370             |
+|                                    | (1.007)           | (0.862)           | (0.816)           | (0.782)           |
+| Proportion of Black Pop.           | -3.135            | -3.124            | -2.558            | -2.308            |
+|                                    | (1.877)           | (1.880)           | (1.687)           | (1.701)           |
+| Robustness Check                   |                   |                   |                   |                   |
+| FluVax_WholeRate                   |                   | 0.895             | -0.361            | -0.529            |
+|                                    |                   | (0.668)           | (0.616)           | (0.675)           |
+| FluVax_Disparity                   |                   | 2.116***          | 1.338*            | 1.324**           |
+|                                    |                   | (0.491)           | (0.482)           | (0.445)           |
+| Above75_WholeRate                  |                   |                   | -0.343            | -0.0553           |
+|                                    |                   |                   | (1.150)           | (1.063)           |
+| Above75_Disparity                  |                   |                   | 3.824***          | 4.104***          |
+|                                    |                   |                   | (0.597)           | (0.556)           |
+| A15T74_WholeRate                   |                   |                   |                   | 0.0635            |
+|                                    |                   |                   |                   | (0.407)           |
+| A15T74_Disparity                   |                   |                   |                   | 2.046***          |
+|                                    |                   |                   |                   | (0.429)           |
+| Constant                           | 10.15***          | 11.11***          | 12.22***          | 13.74***          |
+|                                    | (1.725)           | (1.592)           | (1.459)           | (1.439)           |
+|                                    |                   |                   |                   |                   |
+| Observations                       | 756               | 756               | 756               | 756               |
+| Covered Population (million)       | 170.65            | 170.65            | 170.65            | 170.65            |
+| Covered Population (proportion)    | 0.5149            | 0.5149            | 0.5149            | 0.5149            |
+| R-squared                          | 0.693             | 0.712             | 0.758             | 0.770             |
+| State Dummies                      | True              | True              | True              | True              |
+| Robust Standard Error              | True              | True              | True              | True              |
+| Clustered at State Level           | True              | True              | True              | True              |
+| Weighted with County Population    | True              | True              | True              | True              |
