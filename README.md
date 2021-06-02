@@ -519,8 +519,8 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 |                                    | (1.309)       | (1.293)       | (1.399)       | (1.498)       |
 |                                    |               |               |               |               |
 | Observations                       | 744           | 744           | 744           | 744           |
-| Covered Population (million)       | 146.00        | 146.01        | 146.02        | 146.03        |
-| Covered Population (proportion)    | 0.440         | 0.441         | 0.442         | 0.443         |
+| Covered Population (million)       | 146.00        | 146.00        | 146.00        | 146.00        |
+| Covered Population (proportion)    | 0.440         | 0.440         | 0.440         | 0.440         |
 | R-squared                          | 0.750         | 0.764         | 0.783         | 0.791         |
 | State Dummies                      | True          | True          | True          | True          |
 | Robust Standard Error              | True          | True          | True          | True          |
