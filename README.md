@@ -210,40 +210,40 @@ Below, we provide the regression table presented in Agarwal et al. (2021) for co
 |------------------------------------|------------------------------|--------------|
 | Economic Stability                 |                              |              |
 | Median Income                      | -2.196*                      | 1.135+       |
-|                                    | (0.987)                      | -0.611       |
+|                                    | (0.987)                      | (0.611)       |
 | Median Income Disparity            | 0.888+                       | 0.884+       |
-|                                    | (0.439)                      | -0.431       |
+|                                    | (0.439)                      | (0.431)       |
 | Education Access and Quality       |                              |              |
 | High School Graduation Rate        | 1.219                        | 1.115        |
-|                                    | (1.191)                      | -1.089       |
+|                                    | (1.191)                      | (1.089)       |
 | High School Disparity              | 2.013***                     | 1.905***     |
-|                                    | (0.408)                      | -0.378       |
+|                                    | (0.408)                      | (0.378)       |
 | Healthcare Access and Quality      |                              |              |
 | Health Facilities Per Capita       | 0.782                        | 0.812        |
-|                                    | (0.762)                      | -0.698       |
+|                                    | (0.762)                      | (0.698)       |
 | COVID-19 Cases Per Capita          | -0.0764                      | -0.11        |
-|                                    | (0.751)                      | -0.669       |
+|                                    | (0.751)                      | (0.669)       |
 | Neighborhood and Built Environment |                              |              |
 | Home IT Rate                       | 0.514                        | 0.424        |
-|                                    | (0.772)                      | -0.833       |
+|                                    | (0.772)                      | (0.833)       |
 | Home IT Disparity                  | 0.199                        | 0.0151       |
-|                                    | (0.989)                      | -0.901       |
+|                                    | (0.989)                      | (0.901)       |
 | Urban                              | 0.185                        | 0.0214       |
-|                                    | (1.226)                      | -1.15        |
+|                                    | (1.226)                      | (1.15)        |
 | Rate of Vehicle Ownership          | 2.069                        | 1.934        |
-|                                    | (1.284)                      | -1.152       |
+|                                    | (1.284)                      | (1.152)       |
 | Social and Community Context       |                              |              |
 | Political Ideology                 | -6.451**                     | -5.959**     |
-|                                    | (1.728)                      | -1.663       |
+|                                    | (1.728)                      | (1.663)       |
 | Segregation                        | 1.426+                       | 1.219+       |
-|                                    | (0.692)                      | -0.673       |
+|                                    | (0.692)                      | (0.673)       |
 | Racial Bias                        | 1.431+                       | 1.297*       |
-|                                    | (0.733)                      | -0.58        |
+|                                    | (0.733)                      | (0.58)        |
 | Covariates                         |                              |              |
 | Vaccine Hesitancy                  | 1.905                        | 2.109        |
-|                                    | (1.764)                      | -1.619       |
+|                                    | (1.764)                      | (1.619)       |
 | Proportion of Black Pop.           | -5.243*                      | -5.245*      |
-|                                    | (2.057)                      | -1.995       |
+|                                    | (2.057)                      | (1.995)       |
 | Constant                           | 8.286***                     | 13.46***     |
 |                                    | (1.437)                      | (0.916)      |
 |                                    |                              |              |
@@ -251,10 +251,10 @@ Below, we provide the regression table presented in Agarwal et al. (2021) for co
 | Covered Population (million)       | 170.65                       | 170.65       |
 | Covered Population (proportion)    | 0.515                 | 0.515 |
 | R-squared                          | 0.673                        | 0.463        |
-| State Dummies                      | TRUE                         | TRUE         |
-| Robust Standard Error              | TRUE                         | TRUE         |
-| Clustered at State Level           | TRUE                         | TRUE         |
-| Weighted with County Population    | TRUE                         | TRUE         |
+| State Dummies                      | True                         | True         |
+| Robust Standard Error              | True                         | True         |
+| Clustered at State Level           | True                         | True         |
+| Weighted with County Population    | True                         | True         |
 
 
 <a name="robustness_checks"/>
@@ -399,56 +399,56 @@ Below, we report regression tables controlling for proportion of population abov
     
 ### Different Dates and Full Vaccination Rate Types
  
- |                                    | CVD (March 27, 2021) | CVD (April 07, 2021) | CVD (April 19, 2021) | CVD (May 20, 2021) | CVD - Full Dose (May 20, 2021) | FVD 2019    |
-| ---------------------------------- | -------------------- | -------------------- | -------------------- | ------------------ | ------------------------------ | ----------- |
-|                                    |                      |                      |                      |                    |                                |             |
-| Economic Stability                 |                      |                      |                      |                    |                                |             |
-| Median Income                      | \-1.862\*            | \-2.209\*            | \-2.196\*            | \-1.519\*          | \-2.797\*\*                    | 1.135+      |
-|                                    | \-0.698              | \-0.902              | (0.987)              | (0.683)            | (0.742)                        | \-0.611     |
-| Median Income Disparity            | 0.135                | 0.509                | 0.888+               | 1.422\*            | 1.240\*                        | 0.884+      |
-|                                    | \-0.378              | \-0.381              | (0.439)              | (0.577)            | (0.478)                        | \-0.431     |
-| Education Access and Quality       |                      |                      |                      |                    |                                |             |
-| High School Graduation Rate        | 1.43                 | 1.358                | 1.219                | 0.623              | \-0.472                        | 1.115       |
-|                                    | \-1.144              | \-1.181              | (1.191)              | (1.305)            | (0.808)                        | \-1.089     |
-| High School Disparity              | 1.707\*\*            | 1.868\*\*\*          | 2.013\*\*\*          | 1.935\*\*          | 1.057+                         | 1.905\*\*\* |
-|                                    | \-0.468              | \-0.386              | (0.408)              | (0.611)            | (0.478)                        | \-0.378     |
-| Healthcare Access and Quality      |                      |                      |                      |                    |                                |             |
-| Health Facilities Per Capita       | 0.14                 | 0.569                | 0.782                | 0.351              | \-0.967                        | 0.812       |
-|                                    | \-0.421              | \-0.626              | (0.762)              | (0.862)            | (0.772)                        | \-0.698     |
-| COVID-19 Cases Per Capita          | 0.536                | 0.0487               | \-0.0764             | 0.727+             | 0.981                          | \-0.11      |
-|                                    | \-0.388              | \-0.759              | (0.751)              | (0.408)            | (0.679)                        | \-0.669     |
-| Neighborhood and Built Environment |                      |                      |                      |                    |                                |             |
-| Home IT Rate                       | \-0.383              | \-0.322              | 0.514                | 0.279              | 1.649\*\*\*                    | 0.424       |
-|                                    | \-0.528              | \-0.577              | (0.772)              | (0.729)            | (0.326)                        | \-0.833     |
-| Home IT Disparity                  | 0.269                | 0.0619               | 0.199                | 0.721              | \-0.395                        | 0.0151      |
-|                                    | \-0.666              | \-0.855              | (0.989)              | (0.939)            | (0.547)                        | \-0.901     |
-| Urban                              | \-1.142\*            | 0.0583               | 0.185                | \-0.529            | \-0.356                        | 0.0214      |
-|                                    | \-0.457              | \-1.088              | (1.226)              | (0.833)            | (0.329)                        | \-1.15      |
-| Rate of Vehicle Ownership          | 1.514+               | 2.705\*              | 2.069                | 1.246              | 0.183                          | 1.934       |
-|                                    | \-0.845              | \-1.027              | (1.284)              | (1.632)            | (1.601)                        | \-1.152     |
-| Social and Community Context       |                      |                      |                      |                    |                                |             |
-| Political Ideology                 | \-4.694\*\*\*        | \-5.529\*\*          | \-6.451\*\*          | \-7.413\*\*\*      | \-4.060\*\*\*                  | \-5.959\*\* |
-|                                    | \-1.07               | \-1.374              | (1.728)              | (1.353)            | (0.644)                        | \-1.663     |
-| Segregation                        | 1.157\*              | 1.496\*              | 1.426+               | 1.459+             | 0.503                          | 1.219+      |
-|                                    | \-0.523              | \-0.59               | (0.692)              | (0.751)            | (0.760)                        | \-0.673     |
-| Racial Bias                        | 1.031+               | 1.416\*              | 1.431+               | 1.681\*            | \-0.118                        | 1.297\*     |
-|                                    | \-0.49               | \-0.631              | (0.733)              | (0.733)            | (0.476)                        | \-0.58      |
-| Covariates                         |                      |                      |                      |                    |                                |             |
-| Vaccine Hesitancy                  | 0.734                | 1.487                | 1.905                | 2.207              | \-1.081                        | 2.109       |
-|                                    | \-1.249              | \-1.599              | (1.764)              | (1.548)            | (0.649)                        | \-1.619     |
-| Proportion of Black Pop.           | \-4.211\*            | \-4.603\*            | \-5.243\*            | \-7.212\*\*        | \-3.263+                       | \-5.245\*   |
-|                                    | \-1.453              | \-1.776              | (2.057)              | (2.089)            | (1.747)                        | \-1.995     |
-| Constant                           | 4.937\*\*            | 6.126\*              | 8.286\*\*\*          | \-1.078            | 5.825\*\*                      | 13.46\*\*\* |
-|                                    | (1.411)              | (2.155)              | (1.437)              | (2.606)            | (1.614)                        | (0.916)     |
-|                                    |                      |                      |                      |                    |                                |             |
-| Observations                       | 734                  | 758                  | 756                  | 738                | 534                            | 756         |
-| Covered Population (million)       | 156.46               | 171.71               | 170.65               | 156.06             | 84.96                          | 170.65      |
-| Covered Population (proportion)    | 0.472                | 0.518                | 0.515                | 0.471              | 0.256                          | 0.515       |
-| R-squared                          | 0.822                | 0.655                | 0.673                | 0.748              | 0.706                          | 0.463       |
-| State Dummies                      | TRUE                 | TRUE                 | TRUE                 | True               | True                           | TRUE        |
-| Robust Standard Error              | TRUE                 | TRUE                 | TRUE                 | True               | True                           | TRUE        |
-| Clustered at State Level           | TRUE                 | TRUE                 | TRUE                 | True               | True                           | TRUE        |
-| Weighted with County Population    | TRUE                 | TRUE                 | TRUE                 | True               | True                           | TRUE        |
+|                                    | CVD (March 27, 2021) | CVD (April 07, 2021) | CVD (April 19, 2021) | CVD (May 20, 2021) | CVD - Full Dose (May 20, 2021) | FVD 2019 |
+|------------------------------------|----------------------|----------------------|----------------------|--------------------|--------------------------------|----------|
+|                                    |                      |                      |                      |                    |                                |          |
+| Economic Stability                 |                      |                      |                      |                    |                                |          |
+| Median Income                      | -1.862*              | -2.209*              | -2.196*              | -1.519*            | -2.797**                       | 1.135+   |
+|                                    | (0.698)              | (0.902)              | (0.987)              | (0.683)            | (0.742)                        | (0.611)  |
+| Median Income Disparity            | 0.135                | 0.509                | 0.888+               | 1.422*             | 1.240*                         | 0.884+   |
+|                                    | (0.378)              | (0.381)              | (0.439)              | (0.577)            | (0.478)                        | (0.431)  |
+| Education Access and Quality       |                      |                      |                      |                    |                                |          |
+| High School Graduation Rate        | 1.43                 | 1.358                | 1.219                | 0.623              | -0.472                         | 1.115    |
+|                                    | (1.144)              | (1.181)              | (1.191)              | (1.305)            | (0.808)                        | (1.089)  |
+| High School Disparity              | 1.707**              | 1.868***             | 2.013***             | 1.935**            | 1.057+                         | 1.905*** |
+|                                    | (0.468)              | (0.386)              | (0.408)              | (0.611)            | (0.478)                        | (0.378)  |
+| Healthcare Access and Quality      |                      |                      |                      |                    |                                |          |
+| Health Facilities Per Capita       | 0.14                 | 0.569                | 0.782                | 0.351              | -0.967                         | 0.812    |
+|                                    | (0.421)              | (0.626)              | (0.762)              | (0.862)            | (0.772)                        | (0.698)  |
+| COVID-19 Cases Per Capita          | 0.536                | 0.0487               | -0.0764              | 0.727+             | 0.981                          | -0.11    |
+|                                    | (0.388)              | (0.759)              | (0.751)              | (0.408)            | (0.679)                        | (0.669)  |
+| Neighborhood and Built Environment |                      |                      |                      |                    |                                |          |
+| Home IT Rate                       | -0.383               | -0.322               | 0.514                | 0.279              | 1.649***                       | 0.424    |
+|                                    | (0.528)              | (0.577)              | (0.772)              | (0.729)            | (0.326)                        | (0.833)  |
+| Home IT Disparity                  | 0.269                | 0.0619               | 0.199                | 0.721              | -0.395                         | 0.0151   |
+|                                    | (0.666)              | (0.855)              | (0.989)              | (0.939)            | (0.547)                        | (0.901)  |
+| Urban                              | -1.142*              | 0.0583               | 0.185                | -0.529             | -0.356                         | 0.0214   |
+|                                    | (0.457)              | (1.088)              | (1.226)              | (0.833)            | (0.329)                        | (1.15)   |
+| Rate of Vehicle Ownership          | 1.514+               | 2.705*               | 2.069                | 1.246              | 0.183                          | 1.934    |
+|                                    | (0.845)              | (1.027)              | (1.284)              | (1.632)            | (1.601)                        | (1.152)  |
+| Social and Community Context       |                      |                      |                      |                    |                                |          |
+| Political Ideology                 | -4.694***            | -5.529**             | -6.451**             | -7.413***          | -4.060***                      | -5.959** |
+|                                    | (1.07)               | (1.374)              | (1.728)              | (1.353)            | (0.644)                        | (1.663)  |
+| Segregation                        | 1.157*               | 1.496*               | 1.426+               | 1.459+             | 0.503                          | 1.219+   |
+|                                    | (0.523)              | (0.59)               | (0.692)              | (0.751)            | (0.760)                        | (0.673)  |
+| Racial Bias                        | 1.031+               | 1.416*               | 1.431+               | 1.681*             | -0.118                         | 1.297*   |
+|                                    | (0.49)               | (0.631)              | (0.733)              | (0.733)            | (0.476)                        | (0.58)   |
+| Covariates                         |                      |                      |                      |                    |                                |          |
+| Vaccine Hesitancy                  | 0.734                | 1.487                | 1.905                | 2.207              | -1.081                         | 2.109    |
+|                                    | (1.249)              | (1.599)              | (1.764)              | (1.548)            | (0.649)                        | (1.619)  |
+| Proportion of Black Pop.           | -4.211*              | -4.603*              | -5.243*              | -7.212**           | -3.263+                        | -5.245*  |
+|                                    | (1.453)              | (1.776)              | (2.057)              | (2.089)            | (1.747)                        | (1.995)  |
+| Constant                           | 4.937**              | 6.126*               | 8.286***             | -1.078             | 5.825**                        | 13.46*** |
+|                                    | (1.411)              | (2.155)              | (1.437)              | (2.606)            | (1.614)                        | (0.916)  |
+|                                    |                      |                      |                      |                    |                                |          |
+| Observations                       | 734                  | 758                  | 756                  | 738                | 534                            | 756      |
+| Covered Population (million)       | 156.46               | 171.71               | 170.65               | 156.06             | 84.96                          | 170.65   |
+| Covered Population (proportion)    | 0.472                | 0.518                | 0.515                | 0.471              | 0.256                          | 0.515    |
+| R-squared                          | 0.822                | 0.655                | 0.673                | 0.748              | 0.706                          | 0.463    |
+| State Dummies                      | True                 | True                 | True                 | True               | True                           | True     |
+| Robust Standard Error              | True                 | True                 | True                 | True               | True                           | True     |
+| Clustered at State Level           | True                 | True                 | True                 | True               | True                           | True     |
+| Weighted with County Population    | True                 | True                 | True                 | True               | True                           | True     |
     
 
 <a name="exodus_test"/>
