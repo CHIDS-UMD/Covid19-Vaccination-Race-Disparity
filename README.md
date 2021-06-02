@@ -456,6 +456,7 @@ Below, we report regression tables controlling for proportion of population abov
    
    
 ### Residential Mobility
+Some regions saw large rates of residential mobility (people moving in or out) during the course of the pandemic. To account for this, we collected data on areas that saw the greatest movement during the pandemic based on data from 75,000 moves (HireAHelper Migration Report, 2021). The list includes 10 cities with the greatest net increase in movement and the 10 cities with the greatest net decrease in movement, some of which are not represented in the counties included in our analysis. We exclude the 12 relevant counties represented in our data, and run additional robustness checks reported below.
    
 |                                    | (1)           | (2)           | (3)           | (4)           |
 | ---------------------------------- | ------------- | ------------- | ------------- | ------------- |
@@ -527,6 +528,8 @@ Below, we report regression tables controlling for proportion of population abov
 <a name="positivity"/>
    
 ### Recent Positive Rate per COVID-19 Test
+ We include a variable measuring recent positivity rate (April 12-April 19). 
+   
    |                                    | (1)         | (2)         | (3)         | (4)         | (5)         |
 | ---------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | VARIABLES                          | CVD         | CVD         | CVD         | CVD         | CVD         |
@@ -600,6 +603,8 @@ Below, we report regression tables controlling for proportion of population abov
 <a name="drop-hesitancy"/>
 
 ## Avoid Collinearity by Droping `Hesitancy` Variable
+
+   We reviewed the Variable Inflation Rate (VIF) for our main regression model, finding that vaccine hesitancy had a VIF that exceeds the suggested cut-off value of 10. To assess how much the multicollinearity may have an impact on our findings, we try models excluding vaccine hesitancy, and report those below. 
    
    
 |                                    | (1)           | (2)           | (3)           | (4)           | (5)         |
