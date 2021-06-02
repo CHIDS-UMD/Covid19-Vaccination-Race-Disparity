@@ -401,6 +401,8 @@ Below, we report regression tables controlling for proportion of population abov
 <a name="date_ratetype"/>
     
 ### Different Dates and Full Vaccination Rate Types
+   
+ We compiled data from multiple time points (March 27, April 07, and May 20, 2021) to compare against our main findings based on data from April 19, 2021. In addition, we run the same model using full vaccination data from May 20, 2021 to explore whether our pattern of findings still hold.
  
 |                                    | (A)                  | (B)                  | (C)                  | (D)                | (E)                            | (F)        |
 |------------------------------------|----------------------|----------------------|----------------------|--------------------|--------------------------------|------------|
