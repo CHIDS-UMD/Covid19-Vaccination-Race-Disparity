@@ -687,6 +687,8 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 
 ### Subsample Analysis (6 States and 10 States)
 
+   We split our sample into two subgroups, those that provide estimates for non-Hispanic White vaccination rates specifically (six states) and those that do not (ten states).
+
 |                                    | (A1)           | (A2)           | (A3)           | (A4)           | (B1)            | (B2)            | (B3)            | (B4)            |
 |------------------------------------|----------------|----------------|----------------|----------------|-----------------|-----------------|-----------------|-----------------|
 | VARIABLES                          | CVD (6 States) | CVD (6 States) | CVD (6 States) | CVD (6 States) | CVD (10 States) | CVD (10 States) | CVD (10 States) | CVD (10 States) |
