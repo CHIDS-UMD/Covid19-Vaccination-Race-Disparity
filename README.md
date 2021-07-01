@@ -77,6 +77,8 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 ## Data Sources for COVID-19 Racial Vaccination by States
 
+The data is in `DataInfo/State-VaxData-Source.csv`
+
 | State          | # of Counties | Population (million) | # of Valid Counties | Population in Analysis (million) | Data Source                                                                                                                                                   |
 |----------------|---------------|----------------------|---------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | California     | 54            | 39.45                | 43                  | 39.09                            | https://covid19.ca.gov/vaccines/#California-vaccines-dashboard                                                                                                |
@@ -103,6 +105,8 @@ _Note_. Valid counties are those that were included in our main regression analy
 <a name="hispanic-white-rate"/>
 
 ## Hispanic White Porportion for Each State
+
+The data is in `DataInfo/6NHWhiteStatesVS10WhiteStates.csv`
 
 |                                            | 756 counties in the main analysis |                |                     | 744 counties excluding the high mobility counties |                |                     |
 | ------------------------------------------ | --------------------------------- | -------------- | ------------------- | ------------------------------------------------- | -------------- | ------------------- |
@@ -165,6 +169,10 @@ The filtering of the data collected for all counties on April 19, 2021. The same
 ## Summary Statistics for Final Data
 
 We present descriptive statistics of the variables in our regression analysis in non-standardized units. The table below presents rate and proportion data as percentages for ease of interpretation.  	
+
+
+The data is in `DataInfo/IndependentVarSource.csv`
+
 
 | Variable                                 | Description                                                                                            | Source                                                                                                                                                                                                                                            | Data Field             | count | mean   | std    | min     | 0.250  | 0.500  | 0.750  | max     |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------|--------|--------|---------|--------|--------|--------|---------|
