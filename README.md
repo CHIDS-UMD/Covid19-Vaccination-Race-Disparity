@@ -77,7 +77,7 @@ Below, we also provide additional summary statistics, exploratory data analysis,
 
 ## Data Sources for COVID-19 Racial Vaccination by States
 
-The data is in `DataInfo/State-VaxData-Source.csv`
+The data is in `DataInfo/State-VaxData-Source.csv` [data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/DataInfo/State-VaxData-Source.csv). 
 
 | State          | # of Counties | Population (million) | # of Valid Counties | Population in Analysis (million) | Data Source                                                                                                                                                   |
 |----------------|---------------|----------------------|---------------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ _Note_. Valid counties are those that were included in our main regression analy
 
 ## Hispanic White Porportion for Each State
 
-The data is in `DataInfo/6NHWhiteStatesVS10WhiteStates.csv`
+The data is in `DataInfo/6NHWhiteStatesVS10WhiteStates.csv` [data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/DataInfo/6NHWhiteStatesVS10WhiteStates.csv). 
 
 |                                            | 756 counties in the main analysis |                |                     | 744 counties excluding the high mobility counties |                |                     |
 | ------------------------------------------ | --------------------------------- | -------------- | ------------------- | ------------------------------------------------- | -------------- | ------------------- |
@@ -171,7 +171,8 @@ The filtering of the data collected for all counties on April 19, 2021. The same
 We present descriptive statistics of the variables in our regression analysis in non-standardized units. The table below presents rate and proportion data as percentages for ease of interpretation.  	
 
 
-The data is in `DataInfo/IndependentVarSource.csv`
+The data is in `DataInfo/IndependentVarSource.csv` [data](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/DataInfo/IndependentVarSource.csv). 
+
 
 
 | Variable                                 | Description                                                                                            | Source                                                                                                                                                                                                                                            | Data Field             | count | mean   | std    | min     | 0.250  | 0.500  | 0.750  | max     |
@@ -226,7 +227,8 @@ You can get the stata code to do this regression by:
    python statacode.py --task main_regression 
    python statacode.py --task main_regression_originalX
    ```
-   or directly check the data and stata code in the folder `StataCode/main_regression` and `StataCode/main_regression_originalX`
+   or directly check the data and stata code in the folder `StataCode/main_regression` [code](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/StataCode/main_regression) 
+ and `StataCode/main_regression_originalX` [code](https://github.com/CHIDS-UMD/Covid19-Vaccination-Race-Disparity/blob/main/StataCode/main_regression_originalX).
 
   |                                    | (A1) standardized-predictor | (A2) standardized-predictor | (B1) original-predictor | (B2) original-predictor |
 |------------------------------------|-----------------------------|-----------------------------|-------------------------|-------------------------|
