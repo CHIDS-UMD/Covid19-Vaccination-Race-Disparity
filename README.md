@@ -212,6 +212,13 @@ We present descriptive statistics of the variables in our regression analysis in
 ### Base Model Regression Table
 
 Below, we provide the regression table presented in Agarwal et al. (2021) for comparison to the robustness checks. 
+   
+You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task main_regression 
+   python statacode.py --task main_regression_originalX
+   ```
+   or directly check the data and stata code in the folder `StataCode/main_regression` and `StataCode/main_regression_originalX`
 
   |                                    | (A1) standardized-predictor | (A2) standardized-predictor | (B1) original-predictor | (B2) original-predictor |
 |------------------------------------|-----------------------------|-----------------------------|-------------------------|-------------------------|
@@ -280,6 +287,15 @@ Below, we provide the regression table presented in Agarwal et al. (2021) for co
   
 Below, we report regression tables controlling for proportion of population above age 75 and disparities in the proportion of population above age 75 for the White and Black population. We add this variable as a control to account for the fact that older adults were prioritized early on in the vaccine rollout. In addition, we add additional control variables to account for the population that was eligible for the vaccines. Based on available demographic data, we approximate the vaccine eligible population by controlling for the proportion of population ages 15-74 in one set of analyses and the proportion of population ages 20-74 in a second set of analyses.
  
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task check_age_all 
+   python statacode.py --task check_age_above15 
+   python statacode.py --task check_age_above20 
+   ```
+   or directly check the data and stata code in the folder `StataCode/check_age_all`, `StataCode/check_age_above15`, and `StataCode/check_age_above20`.
+   
+   
 |                                    | (A1)        | (A2)        | (A3)        | (A4) age 15~74 | (A5) age 20~74 | (B1)        | (B2)        | (B3)        | (B4) age 15~74 | (B5) age 20~74 | (C1)        | (C2)        | (C3)        | (C4) age 15~74 | (C5) age 20~74 |
 | ---------------------------------- | ----------- | ----------- | ----------- | -------------- | -------------- | ----------- | ----------- | ----------- | -------------- | -------------- | ----------- | ----------- | ----------- | -------------- | -------------- |
 | VARIABLES                          | CVD         | CVD         | CVD         | CVD            | CVD            | CVD 15+     | CVD 15+     | CVD 15+     | CVD 15+        | CVD 15+        | CVD 20+     | CVD 20+     | CVD 20+     | CVD 20+        | CVD 20+        |
@@ -351,6 +367,13 @@ Below, we report regression tables controlling for proportion of population abov
  
   As additional robustness checks, we also model alternative operationlizations of disparity. Specifically, we model a ratio-based definition (White Vaccination Rate/Black Vaccination Rate), the log of that ratio, and an outcome that scales the absolute disparity by the overall vaccination rate of the White and Black populations in a given county.
  
+    
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task check_disparity_types 
+   ```
+   or directly check the data and stata code in the folder `StataCode/check_disparity_types`.
+   
    
 |                                    | (1)                | (2)             | (3)                 | (4)                       |
 | ---------------------------------- | ------------------ | --------------- | ------------------- | ------------------------- |
@@ -408,6 +431,15 @@ Below, we report regression tables controlling for proportion of population abov
 <a name="date-ratetype"/>
     
 ### Different Dates and Full Vaccination Rate Types
+   
+   
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task diff_dates 
+   ```
+   or directly check the data and stata code in the folder `StataCode/diff_dates`.
+   
+   
    
  We compiled data from multiple time points (March 27, April 07, and May 20, 2021) to compare against our main findings based on data from April 19, 2021. In addition, we run the same model using full vaccination data from May 20, 2021 to explore whether our pattern of findings still hold.
  
@@ -470,6 +502,14 @@ Below, we report regression tables controlling for proportion of population abov
    
 ### Residential Mobility
 Some regions saw large rates of residential mobility (people moving in or out) during the course of the pandemic. To account for this, we collected data on areas that saw the greatest movement during the pandemic based on data from 75,000 moves (HireAHelper Migration Report, 2021). The list includes 10 cities with the greatest net increase in movement and the 10 cities with the greatest net decrease in movement, some of which are not represented in the counties included in our analysis. We exclude the 12 relevant counties represented in our data, and run additional robustness checks reported below.
+   
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task residential_mobility 
+   ```
+   or directly check the data and stata code in the folder `StataCode/residential_mobility`.
+   
+   
    
 |                                    | (1)           | (2)           | (3)           | (4)           |
 | ---------------------------------- | ------------- | ------------- | ------------- | ------------- |
@@ -542,6 +582,16 @@ Some regions saw large rates of residential mobility (people moving in or out) d
    
 ### Recent Positive Rate per COVID-19 Test
  We include a variable measuring recent positivity rate (April 12-April 19). 
+   
+   
+   
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task recent_positive_rate 
+   ```
+   or directly check the data and stata code in the folder `StataCode/recent_positive_rate`.
+   
+   
    
    |                                    | (1)         | (2)         | (3)         | (4)         | (5)         |
 | ---------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -619,6 +669,13 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 
    We reviewed the Variable Inflation Rate (VIF) for our main regression model, finding that vaccine hesitancy had a VIF that exceeds the suggested cut-off value of 10. To assess how much the multicollinearity may have an impact on our findings, we try models excluding vaccine hesitancy, and report those below. 
    
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task avoid_collinearity 
+   ```
+   or directly check the data and stata code in the folder `StataCode/avoid_collinearity`.
+   
+   
    
 |                                    | (1)       | (2)       | (3)       | (4)      |
 |------------------------------------|-----------|-----------|-----------|----------|
@@ -688,6 +745,16 @@ Some regions saw large rates of residential mobility (people moving in or out) d
 ### Subsample Analysis (6 States and 10 States)
 
    We split our sample into two subgroups, those that provide estimates for non-Hispanic White vaccination rates specifically (six states) and those that do not (ten states).
+   
+   
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task subsample_analysis_6_and_10_states 
+   ```
+   or directly check the data and stata code in the folder `StataCode/subsample_analysis_6_and_10_states`.
+   
+   
+   
 
 |                                    | (A1)           | (A2)           | (A3)           | (A4)           | (B1)            | (B2)            | (B3)            | (B4)            |
 |------------------------------------|----------------|----------------|----------------|----------------|-----------------|-----------------|-----------------|-----------------|
@@ -759,6 +826,13 @@ Some regions saw large rates of residential mobility (people moving in or out) d
  ### Vaccination Rate on Whole White Population
   
  In this robustness check, we treat all the State in the same way in terms of calculate the COVID-19 White Vaccination Rate: Reported-CvdVax-White / Total-White-Population. Then we ran the models with different covariates. The results are consistent to the main regression.
+   
+   You can get the stata code to do this regression by:
+   ```shell
+   python statacode.py --task vax_rate_on_all_white 
+   ```
+   or directly check the data and stata code in the folder `StataCode/vax_rate_on_all_white`.
+   
    
    
  |                                    | (1)               | (2)               | (3)               | (4)               |
